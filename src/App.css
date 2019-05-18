@@ -2,14 +2,24 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.pulse {
+  animation: pulse infinite 7s linear;
+}
+/* keeps text on top of animations */
+p {z-index: 2;}
+
+.spin {
+  animation: spin infinite 10s linear;
 }
 
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+
 .App-header {
-  background-color: #282c34;
+  background-image: radial-gradient(gold, firebrick, black);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,7 +33,13 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+
+@keyframes pulse {
+  50% {
+    transform: scale(1.4);
+  }
+}
+@keyframes spin {
   from {
     transform: rotate(0deg);
   }
