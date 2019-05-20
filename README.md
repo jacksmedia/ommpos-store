@@ -7,6 +7,34 @@ Top 100 Crypto currencies. Via the [nomics API](https://forums.nomics.com/).
 
 ## Alexander Jacks 2019, MIT License
 
+### Build Notes For Me:
+#### _Endpoints_
+- S3
+-- http://top-100-crypto-info.s3-website-us-west-2.amazonaws.com
+- A 
+-- 104.198.14.52
+- NS
+-- dns2.p04.nsone.net 
+-- dns1.p04.nsone.net 
+-- dns3.p04.nsone.net 
+-- dns4.p04.nsone.net
+- CNAME
+-- top100crypto.netlify.com
+
+#### _Features_
+- needs PWA offline lib! :checkbox:
+- " add to Homescreen Popup WORKS on HTTPS?
+- needs API return of top 100 from nomics :cancel:
+- " copy filter logic from CoC to this, using DropDown even! KISS :cancel:
+- design of 100 into tiles on bg. :cancel:
+-- 3 across on mobile (33rows + 1 atop)
+-- 4 (25r)
+-- 5 (20r)
+-- 6 (16r, 4 (2 atop, 2 below))
+-- 7 (14r, 2 (1 atop, 1 below!))
+-- clever responsive layout
+-- ETC
+-- use logic to ctrl assignment of remainder, bias to top-- don't build method for each case!
 
 
 
