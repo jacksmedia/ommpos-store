@@ -33,6 +33,13 @@ p {z-index: 2;}
   color: #61dafb;
 }
 
+ul {
+  list-style: none;
+}
+
+section {
+  background-image: linear-gradient(snow, firebrick, gold, firebrick, snow);
+}
 
 @keyframes pulse {
   50% {
