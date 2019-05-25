@@ -3,7 +3,7 @@
 }
 
 .pulse {
-  animation: pulse infinite 7s linear;
+  animation: pulse infinite 4s linear;
 }
 /* keeps text on top of animations */
 p {z-index: 2;}
@@ -19,7 +19,7 @@ p {z-index: 2;}
 
 
 .App-header {
-  background-image: radial-gradient(gold, firebrick, black);
+  background-image: radial-gradient(#4ea128, #3f9cf7, #12175a);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -30,7 +30,7 @@ p {z-index: 2;}
 }
 
 .App-link {
-  color: #61dafb;
+  color: red;
 }
 
 ul {
@@ -38,12 +38,12 @@ ul {
 }
 
 section {
-  background-image: linear-gradient(snow, firebrick, gold, firebrick, snow);
+  background-image: linear-gradient(#12175a, #3f9cf7, #4ea128, #3f9cf7, #12175a);
 }
 
 @keyframes pulse {
   50% {
-    transform: scale(1.4);
+    transform: scale(1.1);
   }
 }
 @keyframes spin {

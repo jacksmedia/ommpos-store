@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './svw_logo.png';
 import './App.css';
 
 export default class App extends React.Component {
@@ -16,7 +16,7 @@ export default class App extends React.Component {
         <header className="App-header">
           <img src={logo} className="App-logo pulse" alt="logo" />
           <p>
-            Gotta look out for myselves first.
+            Your Guide to Pelican Town
           </p>
           <a
             className="App-link"
@@ -28,7 +28,7 @@ export default class App extends React.Component {
           </a>
         </header>
         <section>
-         <h1>Primates need their chiefs! Stay celerbritory!
+         <h1>How About Some Item, Person, Recipe, Bundle / Festival Data ? ? ?
          </h1>
         </section>
       </div>
