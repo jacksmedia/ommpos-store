@@ -15,9 +15,15 @@ export default class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo pulse" alt="logo" />
-          <p>
+          <h1>
+            StardewDex
+          </h1>
+          <h2>
             Your Guide to Pelican Town
-          </p>
+          </h2>
+          <h3>
+            Launching June 2019
+          </h3>
           <a
             className="App-link"
             href="https://www.alexanderjacks.info"
