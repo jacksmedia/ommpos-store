@@ -24,9 +24,6 @@ Add it your Home Screen and make your game easier. :heart:
 - NS
 -- 
 
-
-
-
 ## { Default CRA Readme }
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

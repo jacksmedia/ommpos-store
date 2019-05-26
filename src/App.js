@@ -3,13 +3,26 @@ import logo from './svw_logo.png';
 import './App.css';
 
 export default class App extends React.Component {
-  
+    constructor(props) {
+      super(props)
+      this.state = {
+        stuff: [
+          {id: 1, name:'Pumpkin', type:'Crop', subtype:'Vegetable', sellprice: 320},
+          {id: 2, name:'Pumpkin Seeds', type:'Item', subtype:'Seed', sellprice: 50},
+          {id: 3, name:'Crystal Path', type:'Item', subtype:'Decor', sellprice: 1},
+        ]
+      }
+    }
   
   componentDidMount() {      
     console.log("@ p p   m 0 u n t   $ u c c e $ $");
   }
 
   render(){
+
+    const items = this.state.stuff.map((item, key) =>
+        <li key={item.id}>{item.name}</li>
+    );
 
     return (
       <div className="App">
@@ -34,8 +47,9 @@ export default class App extends React.Component {
           </a>
         </header>
         <section>
-         <h1>How About Some Item, Person, Recipe, Bundle / Festival Data ? ? ?
-         </h1>
+         <ul>
+          {items}
+         </ul>
         </section>
       </div>
     );
