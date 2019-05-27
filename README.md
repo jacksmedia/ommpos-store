@@ -17,18 +17,18 @@ Add it your Home Screen and make your game easier. 💝
 
 ## 📋 _Milestones_
 
-- Data
--- router w subs for crops/ppl/recipes/etc ✅
--- header w links to sub pages ⛔️
--- all crops added ⛔️
--- all people added ⛔️
--- all recipes added ⛔️
--- all festivals + bundles added ⛔️
+### Data
+- router w subs for crops/ppl/recipes/etc ✅
+- header w links to sub pages ⛔️
+- all crops added ⛔️
+- all people added ⛔️
+- all recipes added ⛔️
+- all festivals + bundles added ⛔️
 
-- Design
--- custom logo + favicons ✅
--- service-worker offline loading ⛔️
--- footer w social media, fb profile, twitter acct ⛔️
+### Design
+- custom logo + favicons ✅
+- service-worker offline loading ⛔️
+- footer w social media, fb profile, twitter acct ⛔️
 
 
 ## { Default CRA Readme }
