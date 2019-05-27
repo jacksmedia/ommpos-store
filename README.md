@@ -18,7 +18,8 @@ Add it your Home Screen and make your game easier. 💝
 ## 📋 _Milestones_
 
 - Data
--- router w subs for crops/ppl/recipes/etc, links on header ⛔️
+-- router w subs for crops/ppl/recipes/etc ✅
+-- header w links to sub pages ⛔️
 -- all crops added ⛔️
 -- all people added ⛔️
 -- all recipes added ⛔️
