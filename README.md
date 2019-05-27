@@ -1,28 +1,43 @@
-# StardewDex :melon::star::card_index:
+# StardewDex 🍈🌟📇
 
 ## Available at
 # [stardewdex.com](https://stardewdex.com)
 
-StardewDex gives you Stardew Valley info easily. :chart_with_upwards_trend:
-Add it your Home Screen and make your game easier. :heart:
+StardewDex gives you Stardew Valley info easily. 📈
+Add it your Home Screen and make your game easier. 💝
 
 ## Alex Jacks Apps 2019, MIT License
 
-### _Features_
+## 💥 _Features_
 
 - WORKS OFFLINE b/c loads to your device like an app
 - quick and easy UI
 - up to date with latest Stardew Valley version
 - separate load like an app on phones, easy to find
 
+## 📋 _Milestones_
+
+- Data
+-- router w subs for crops/ppl/recipes/etc, links on header ⛔️
+-- all crops added ⛔️
+-- all people added ⛔️
+-- all recipes added ⛔️
+-- all festivals + bundles added ⛔️
+
+- Design
+-- custom logo + favicons ✅
+-- service-worker offline loading ⛔️
+-- footer w social media, fb profile, twitter acct ⛔️
+
+
 ### Build Notes For Me:
-#### _Endpoints_
+#### 📝 _Endpoints_
 - S3
--- http:/stardewdex.s3-website-us-west-2.amazonaws.com
+-- `http:/stardewdex.s3-website-us-west-2.amazonaws.com`
 - A 
--- 
+-- ``
 - NS
--- 
+-- ``
 
 ## { Default CRA Readme }
 
@@ -32,7 +47,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+##### `npm start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -40,12 +55,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
+##### `npm test`
 
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build && aws s3 sync build/ s3://top-100-crypto-info`
+##### `yarn build && aws s3 sync build/ s3://top-100-crypto-info`
 
 Builds app locally, copies production files to AWS (updates app).
 
