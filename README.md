@@ -30,15 +30,6 @@ Add it your Home Screen and make your game easier. 💝
 -- footer w social media, fb profile, twitter acct ⛔️
 
 
-### Build Notes For Me:
-#### 📝 _Endpoints_
-- S3
--- `http:/stardewdex.s3-website-us-west-2.amazonaws.com`
-- A 
--- ``
-- NS
--- ``
-
 ## { Default CRA Readme }
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -60,7 +51,7 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-##### `yarn build && aws s3 sync build/ s3://top-100-crypto-info`
+##### `yarn build && aws s3 sync build/ s3://stardew_dex`
 
 Builds app locally, copies production files to AWS (updates app).
 
