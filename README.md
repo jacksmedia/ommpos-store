@@ -58,7 +58,7 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-##### `yarn build && aws s3 sync build/ s3://stardew_dex`
+##### `yarn build && aws s3 sync build/ s3://stardewdex`
 
 Builds app locally, copies production files to AWS (updates app).
 
