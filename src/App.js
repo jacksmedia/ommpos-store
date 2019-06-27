@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import SimpleMenu from './SimpleMenu.js';
 import logo from './logo.png';
+import stuff from './stuff.json';
 import './App.css';
 
 class App extends Component {
@@ -10,12 +11,9 @@ class App extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      stuff: [
-        {id: 1, name:'Pumpkin', type:'Crop', subtype:'Vegetable', sellprice: 320},
-        {id: 2, name:'Pumpkin Seeds', type:'Item', subtype:'Seed', sellprice: 50},
-        {id: 3, name:'Crystal Path', type:'Item', subtype:'Decor', sellprice: 1},
-      ]
+      categoricals: stuff,
     }
+
   }
   
   componentDidMount() {      
@@ -24,8 +22,8 @@ class App extends Component {
 
   render(){
 
-    const items = this.state.stuff.map((item, key) =>
-        <li key={item.id}>{item.name}</li>
+    const items = this.state.categoricals.map((item, key) =>
+        <li key={item.Name}><h2>{item.Name}</h2>&nbsp;{item.SellPrice}</li>
     );
 
     return (
@@ -43,11 +41,11 @@ class App extends Component {
           </h3>
           <a
             className="App-link"
-            href="https://www.alexanderjacks.info"
+            href="https://docs.google.com/spreadsheets/d/1jkLAiVrR70-yla1GoG7snLOr5e2Lq6EMfVPYt1q1Ufo/edit#gid=869358655"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Built By AlexJacksApps
+            CSV Worksheet 
           </a>
         </header>
         <section>

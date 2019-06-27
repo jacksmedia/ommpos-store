@@ -39,7 +39,8 @@ ul {
 }
 
 section {
-  background-image: linear-gradient(#12175a, #3f9cf7, #4ea128, #3f9cf7, #12175a);
+  background-image: linear-gradient(to left, #4ea128, #3f9cf7, #fbebc1, #3f9cf7, #4ea128);
+  padding: 2rem 0 2rem 0;
 }
 
 @keyframes pulse {

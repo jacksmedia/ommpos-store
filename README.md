@@ -4,31 +4,37 @@
 # [stardewdex.com](https://stardewdex.com)
 
 StardewDex gives you Stardew Valley info easily. 📈
-Add it your Home Screen and make your game easier. 💝
+Add it to your Home Screen, make your game more fun. 💝
 
 ## Alex Jacks Apps 2019, MIT License
 
 ## 💥 _Features_
 
 - WORKS OFFLINE b/c loads to your device like an app
-- quick and easy UI
+- quick and fast UI
 - up to date with latest Stardew Valley version
-- separate load like an app on phones, easy to find
+- easy to find = separate load like an app on phones
 
 ## 📋 _Milestones_
 
-### Data
-- router w subs for crops/ppl/recipes/etc ✅
-- header w links to sub pages ⛔️
+### Engineering + Code
+- router w subs for category sub pages ✅
+- Select w links to sub pages ✅
+- most crops added ✅
 - all crops added ⛔️
+- all forage items added ⛔️
 - all people added ⛔️
-- all recipes added ⛔️
+- all cooking recipes added ⛔️
+- all furniture + decor + ? recipes added ⛔️
 - all festivals + bundles added ⛔️
+- service-worker = works even if offline ⛔️
 
-### Design
-- custom logo + favicons ✅
-- service-worker offline loading ⛔️
-- footer w social media, fb profile, twitter acct ⛔️
+### Design + Biz
+- slightly nicer custom logo + favicons ⛔️
+- create fb profile, twitter acct ⛔️
+- footer for fb profile, twitter acct, my profile ⛔️
+- Lighthouse PWA scoring ⛔️
+- Google listing ⛔️
 
 
 ## { Default CRA Readme }
@@ -58,5 +64,5 @@ Builds app locally, copies production files to AWS (updates app).
 
 Allows your machine to build the prod version of the app-- you can find these files in the ./build/ directory alongside this readme.
 
-Allows my MacBook Air to also copy these files to my AWS account, which is hosting/serving the app via S3/CloudFront in Serverless fashion. This step will fail on your machine. :smile_cat:
+Allows my MacBook Air to also copy these files to my AWS account, which is hosting/serving the app via S3 & CloudFront. This step will fail on your machine. :smile_cat:
 
