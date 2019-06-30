@@ -2,9 +2,13 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import SimpleMenu from './SimpleMenu.js';
-import logo from './logo.png';
 import stuff from './stuff.json';
 import './App.css';
+
+
+
+import logo from './img/logo.png';
+
 
 class App extends Component {
 
@@ -13,7 +17,6 @@ class App extends Component {
     this.state = {
       categoricals: stuff,
     }
-
   }
   
   componentDidMount() {      
@@ -22,8 +25,12 @@ class App extends Component {
 
   render(){
 
-    const items = this.state.categoricals.map((item, key) =>
-        <li key={item.Name}><h2>{item.Name}</h2>&nbsp;{item.SellPrice}</li>
+    const images = this.state.categoricals.map((item, key) => 
+      [{src: item.Name},]
+    );
+
+    const items = this.state.categoricals.map((item, key ) =>
+        <li key={item.Name}><img src={require('./img/'+item.ImageSrc+'.png')} className="categorical-icon" /><h2>{item.Name}</h2>&nbsp;{item.SellPrice}</li>
     );
 
     return (

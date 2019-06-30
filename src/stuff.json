@@ -2,6 +2,7 @@
   {
     "Type": "Vegetable",
     "Name": "Amaranth",
+    "ImageSrc": "Amaranth",
     "GetHow": "Farming",
     "Season": "Fall",
     "Restores": "50 22 70 30 90 39",
@@ -13,6 +14,7 @@
   {
     "Type": "Vegetable",
     "Name": "Artichoke",
+    "ImageSrc": "Artichoke",
     "GetHow": "Farming",
     "Season": "Fall",
     "Restores": "30 13 42 18 54 23",
@@ -24,6 +26,7 @@
   {
     "Type": "Vegetable",
     "Name": "Beet",
+    "ImageSrc": "Beet",
     "GetHow": "Farming",
     "Season": "Fall",
     "Restores": "30 13 42 18 54 23",
@@ -35,6 +38,7 @@
   {
     "Type": "Vegetable",
     "Name": "Bok Choy",
+    "ImageSrc": "Bok_Choy",
     "GetHow": "Farming",
     "Season": "Fall",
     "Restores": "25 11 35 15 45 19",
@@ -46,6 +50,7 @@
   {
     "Type": "Vegetable",
     "Name": "Cauliflower",
+    "ImageSrc": "Cauliflower",
     "GetHow": "Farming",
     "Season": "Spring",
     "Restores": "75 33 105 46 135 59",
@@ -57,6 +62,7 @@
   {
     "Type": "Vegetable",
     "Name": "Corn",
+    "ImageSrc": "Corn",
     "GetHow": "Farming",
     "Season": "Summer\n Fall",
     "Restores": "25 11 35 15 45 19",
@@ -68,6 +74,7 @@
   {
     "Type": "Vegetable",
     "Name": "Eggplant",
+    "ImageSrc": "Eggplant",
     "GetHow": "Farming",
     "Season": "Fall",
     "Restores": "20 9 28 12 36 16",
@@ -79,6 +86,7 @@
   {
     "Type": "Vegetable",
     "Name": "Fiddlehead Fern",
+    "ImageSrc": "Fiddlehead_Fern",
     "GetHow": "Foraging in the Secret Woods",
     "Season": "Summer",
     "Restores": "25 11 35 15 45 19 65 28",
@@ -90,6 +98,7 @@
   {
     "Type": "Vegetable",
     "Name": "Garlic",
+    "ImageSrc": "Garlic",
     "GetHow": "Farming",
     "Season": "Spring",
     "Restores": "20 9 28 12 36 16",
@@ -101,6 +110,7 @@
   {
     "Type": "Vegetable",
     "Name": "Green Bean",
+    "ImageSrc": "Green_Bean",
     "GetHow": "Farming",
     "Season": "Spring",
     "Restores": "25 11 35 15 45 19",
@@ -112,6 +122,7 @@
   {
     "Type": "Vegetable",
     "Name": "Hops",
+    "ImageSrc": "Hops",
     "GetHow": "Farming",
     "Season": "Summer",
     "Restores": "45 20 62 28 81 36",
@@ -123,6 +134,7 @@
   {
     "Type": "Vegetable",
     "Name": "Kale",
+    "ImageSrc": "Kale",
     "GetHow": "Farming",
     "Season": "Spring",
     "Restores": "50 22 70 30 90 39",
@@ -134,6 +146,7 @@
   {
     "Type": "Vegetable",
     "Name": "Parsnip",
+    "ImageSrc": "Parsnip",
     "GetHow": "Farming",
     "Season": "Spring",
     "Restores": "25 11 35 15 45 19",
@@ -145,6 +158,7 @@
   {
     "Type": "Vegetable",
     "Name": "Potato",
+    "ImageSrc": "Potato",
     "GetHow": "Farming",
     "Season": "Spring",
     "Restores": "25 11 35 15 45 19",
@@ -156,6 +170,7 @@
   {
     "Type": "Vegetable",
     "Name": "Pumpkin",
+    "ImageSrc": "Pumpkin",
     "GetHow": "Farming",
     "Season": "Fall",
     "Restores": "Inedible",
@@ -167,6 +182,7 @@
   {
     "Type": "Vegetable",
     "Name": "Radish",
+    "ImageSrc": "Radish",
     "GetHow": "Farming",
     "Season": "Summer",
     "Restores": "45 20 62 28 81 36",
@@ -178,6 +194,7 @@
   {
     "Type": "Vegetable",
     "Name": "Red Cabbage",
+    "ImageSrc": "Red_Cabbage",
     "GetHow": "Farming",
     "Season": "Summer",
     "Restores": "75 33 105 46 135 59",
@@ -189,6 +206,7 @@
   {
     "Type": "Vegetable",
     "Name": "Tomato",
+    "ImageSrc": "Tomato",
     "GetHow": "Farming",
     "Season": "Summer",
     "Restores": "20 9 28 12 36 16",
@@ -200,6 +218,7 @@
   {
     "Type": "Vegetable",
     "Name": "Wheat",
+    "ImageSrc": "Wheat",
     "GetHow": "Farming",
     "Season": "Summer\n Fall",
     "Restores": "Inedible",
@@ -211,6 +230,7 @@
   {
     "Type": "Vegetable",
     "Name": "Yam",
+    "ImageSrc": "Yam",
     "GetHow": "Farming",
     "Season": "Fall",
     "Restores": "45 20 62 28 81 36",
@@ -222,6 +242,7 @@
   {
     "Type": "Fruit",
     "Name": "Ancient Fruit",
+    "ImageSrc": "Ancient_Fruit",
     "GetHow": "Farming",
     "Season": "Spring\n Summer\n Fall",
     "Restores": "Inedible",
@@ -233,6 +254,7 @@
   {
     "Type": "Fruit",
     "Name": "Apple",
+    "ImageSrc": "Apple",
     "GetHow": "Fruit Trees",
     "Season": "Fall",
     "Restores": "38 17 53 23 68 30 98 44",
@@ -244,6 +266,7 @@
   {
     "Type": "Fruit",
     "Name": "Apricot",
+    "ImageSrc": "Apricot",
     "GetHow": "Fruit Trees",
     "Season": "Spring",
     "Restores": "38 17 53 23 68 30 98 44",
@@ -255,6 +278,7 @@
   {
     "Type": "Fruit",
     "Name": "Blackberry",
+    "ImageSrc": "Blackberry",
     "GetHow": "Foraging",
     "Season": "Fall",
     "Restores": "25 11 35 15 45 19 65 28",
@@ -266,6 +290,7 @@
   {
     "Type": "Fruit",
     "Name": "Blueberry",
+    "ImageSrc": "Blueberry",
     "GetHow": "Farming",
     "Season": "Summer",
     "Restores": "25 11 35 15 45 19",
@@ -277,6 +302,7 @@
   {
     "Type": "Fruit",
     "Name": "Cactus Fruit",
+    "ImageSrc": "Cactus_Fruit",
     "GetHow": "Foraging",
     "Season": "All Seasons",
     "Restores": "75 33 105 46 135 59 195 85",
@@ -288,6 +314,7 @@
   {
     "Type": "Fruit",
     "Name": "Cherry",
+    "ImageSrc": "Cherry",
     "GetHow": "Fruit Trees",
     "Season": "Spring",
     "Restores": "38 17 53 23 68 30 98 44",
@@ -299,6 +326,7 @@
   {
     "Type": "Fruit",
     "Name": "Coconut",
+    "ImageSrc": "Coconut",
     "GetHow": "Foraging",
     "Season": "All Seasons",
     "Restores": "Inedible",
@@ -310,6 +338,7 @@
   {
     "Type": "Fruit",
     "Name": "Cranberries",
+    "ImageSrc": "Cranberries",
     "GetHow": "Farming",
     "Season": "Fall",
     "Restores": "38 17 53 23 68 30",
@@ -321,6 +350,7 @@
   {
     "Type": "Fruit",
     "Name": "Crystal Fruit",
+    "ImageSrc": "Crystal_Fruit",
     "GetHow": "Foraging",
     "Season": "Winter",
     "Restores": "63 28 88 39 113 50 163 72",
@@ -332,6 +362,7 @@
   {
     "Type": "Fruit",
     "Name": "Grape",
+    "ImageSrc": "Grape",
     "GetHow": "Foraging\nFarming",
     "Season": "Summer\n Fall",
     "Restores": "38 17 53 23 68 30 98 44",
@@ -343,6 +374,7 @@
   {
     "Type": "Fruit",
     "Name": "Hot Pepper",
+    "ImageSrc": "Hot_Pepper",
     "GetHow": "Farming",
     "Season": "Summer",
     "Restores": "13 5 18 7 23 9",
@@ -354,6 +386,7 @@
   {
     "Type": "Fruit",
     "Name": "Melon",
+    "ImageSrc": "Melon",
     "GetHow": "Farming",
     "Season": "Summer",
     "Restores": "113 50 158 70 203 90",
@@ -365,6 +398,7 @@
   {
     "Type": "Fruit",
     "Name": "Orange",
+    "ImageSrc": "Orange",
     "GetHow": "Fruit Trees",
     "Season": "Summer",
     "Restores": "38 17 53 23 68 30 98 44",
@@ -376,6 +410,7 @@
   {
     "Type": "Fruit",
     "Name": "Peach",
+    "ImageSrc": "Peach",
     "GetHow": "Fruit Trees",
     "Season": "Summer",
     "Restores": "38 17 53 23 68 30 98 44",
@@ -387,6 +422,7 @@
   {
     "Type": "Fruit",
     "Name": "Pomegranate",
+    "ImageSrc": "Pomegranate",
     "GetHow": "Fruit Trees",
     "Season": "Fall",
     "Restores": "38 17 53 23 68 30 98 44",
@@ -398,6 +434,7 @@
   {
     "Type": "Fruit",
     "Name": "Rhubarb",
+    "ImageSrc": "Rhubarb",
     "GetHow": "Farming",
     "Season": "Spring",
     "Restores": "Inedible",
@@ -409,6 +446,7 @@
   {
     "Type": "Fruit",
     "Name": "Salmonberry",
+    "ImageSrc": "Salmonberry",
     "GetHow": "Foraging",
     "Season": "Spring",
     "Restores": "25 11 35 15 45 19 65 28",
@@ -420,6 +458,7 @@
   {
     "Type": "Fruit",
     "Name": "Spice Berry",
+    "ImageSrc": "Spice_Berry",
     "GetHow": "Foraging",
     "Season": "Summer",
     "Restores": "25 11 35 15 45 19 65 28",
@@ -431,6 +470,7 @@
   {
     "Type": "Fruit",
     "Name": "Starfruit",
+    "ImageSrc": "Starfruit",
     "GetHow": "Farming",
     "Season": "Summer",
     "Restores": "125 56 175 78 225 100",
@@ -442,6 +482,7 @@
   {
     "Type": "Fruit",
     "Name": "Strawberry",
+    "ImageSrc": "Strawberry",
     "GetHow": "Farming",
     "Season": "Spring",
     "Restores": "50 22 70 30 90 39",
@@ -453,6 +494,7 @@
   {
     "Type": "Fruit",
     "Name": "Wild Plum",
+    "ImageSrc": "Wild_Plum",
     "GetHow": "Foraging",
     "Season": "Fall",
     "Restores": "25 11 35 15 45 19 65 28",
@@ -463,6 +505,7 @@
   },
   {
     "Name": "Sap",
+    "ImageSrc": "Sap",
     "Description": "A fluid obtained from trees.",
     "When": "Anyday",
     "Found": "Wherever there are trees that can be chopped down",
@@ -472,6 +515,7 @@
   },
   {
     "Name": "Wild Horseradish",
+    "ImageSrc": "Wild_Horseradish",
     "Description": "A spicy root found in the spring.",
     "When": "Spring",
     "Found": "Above ground in Stardew Valley",
@@ -481,6 +525,7 @@
   },
   {
     "Name": "Daffodil",
+    "ImageSrc": "Daffodil",
     "Description": "A traditional spring flower that makes a nice gift.",
     "When": "Spring",
     "Found": "Above ground in Stardew Valley",
@@ -490,6 +535,7 @@
   },
   {
     "Name": "Leek",
+    "ImageSrc": "Leek",
     "Description": "A tasty relative of the onion.",
     "When": "Spring",
     "Found": "Above ground in Stardew Valley, may be more common in The Mountains",
@@ -499,6 +545,7 @@
   },
   {
     "Name": "Dandelion",
+    "ImageSrc": "Dandelion",
     "Description": "Not the prettiest flower, but the leaves make a good salad.",
     "When": "Spring",
     "Found": "Above ground in Stardew Valley",
@@ -508,6 +555,7 @@
   },
   {
     "Name": "Spring Onion",
+    "ImageSrc": "Spring_Onion",
     "Description": "These grow wild during the spring.",
     "When": "Spring",
     "Found": "Cindersap Forest",
@@ -517,6 +565,7 @@
   },
   {
     "Name": "Morel",
+    "ImageSrc": "Morel",
     "Description": "Sought after for its unique nutty flavor.",
     "When": "Spring",
     "Found": "Secret Woods",
@@ -526,6 +575,7 @@
   },
   {
     "Name": "Common Mushroom",
+    "ImageSrc": "Common_Mushroom",
     "Description": "Slightly nutty, with good texture.",
     "When": "Spring",
     "Found": "Secret Woods",
@@ -535,6 +585,7 @@
   },
   {
     "Name": "Salmonberry",
+    "ImageSrc": "Salmonberry",
     "Description": "A spring-time berry with the flavor of the forest.",
     "When": "Spring",
     "Found": "On bushes during Salmonberry Season (Spring 15 - 18).",
@@ -544,6 +595,7 @@
   },
   {
     "Name": "Spice Berry",
+    "ImageSrc": "Spice_Berry",
     "Description": "It fills the air with a pungent aroma.",
     "When": "Summer",
     "Found": "Above ground in Stardew Valley",
@@ -553,6 +605,7 @@
   },
   {
     "Name": "Grape",
+    "ImageSrc": "Grape",
     "Description": "A sweet cluster of fruit.",
     "When": "Summer",
     "Found": "Above ground in Stardew Valley",
@@ -562,6 +615,7 @@
   },
   {
     "Name": "Sweet Pea",
+    "ImageSrc": "Sweet_Pea",
     "Description": "A fragrant summer flower.",
     "When": "Summer",
     "Found": "Above ground in Stardew Valley",
@@ -571,6 +625,7 @@
   },
   {
     "Name": "Red Mushroom",
+    "ImageSrc": "Red_Mushroom",
     "Description": "A spotted mushroom sometimes found in caves.",
     "When": "Summer",
     "Found": "The Mines Secret Woods",
@@ -580,6 +635,7 @@
   },
   {
     "Name": "Fiddlehead Fern",
+    "ImageSrc": "Fiddlehead_Fern",
     "Description": "The young shoots are an edible specialty.",
     "When": "Summer",
     "Found": "Secret Woods",
@@ -589,6 +645,7 @@
   },
   {
     "Name": "Wild Plum",
+    "ImageSrc": "Wild_Plum",
     "Description": "Tart and juicy with a pungent aroma.",
     "When": "Fall",
     "Found": "Above ground in Stardew Valley",
@@ -598,6 +655,7 @@
   },
   {
     "Name": "Hazelnut",
+    "ImageSrc": "Hazelnut",
     "Description": "That's one big hazelnut!",
     "When": "Fall",
     "Found": "Above ground in Stardew Valley",
@@ -607,6 +665,7 @@
   },
   {
     "Name": "Blackberry",
+    "ImageSrc": "Blackberry",
     "Description": "An early-fall treat.",
     "When": "Fall",
     "Found": "Above ground in Stardew Valley On bushes during Blackberry Season (Fall 8 - 11)",
@@ -616,6 +675,7 @@
   },
   {
     "Name": "Chanterelle",
+    "ImageSrc": "Chanterelle",
     "Description": "A tasty mushroom with a fruity smell and slightly peppery flavor.",
     "When": "Fall",
     "Found": "Secret Woods",
@@ -625,15 +685,17 @@
   },
   {
     "Name": "Common Mushroom",
+    "ImageSrc": "Common_Mushroom",
     "Description": "Slightly nutty, with good texture.",
     "When": "Fall",
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "40g 50g 60g 80g",
     "Restores": "38 15 53 21 68 27 98 39",
-    "Used In": "Fall Seeds Fried Mushroom Tom Kha Soup Stir FryFall Foraging Bundle"
+    "Used In": "Fall Seeds\nFried Mushroom\nTom Kha Soup\nStir Fry\nFall Foraging Bundle"
   },
   {
     "Name": "Red Mushroom",
+    "ImageSrc": "Red_Mushroom",
     "Description": "A spotted mushroom sometimes found in caves.",
     "When": "Fall",
     "Found": "The Mines Secret Woods",
@@ -643,6 +705,7 @@
   },
   {
     "Name": "Winter Root",
+    "ImageSrc": "Winter_Root",
     "Description": "A starchy tuber.",
     "When": "Winter",
     "Found": "Tilling soil throughout Stardew Valley",
@@ -652,33 +715,37 @@
   },
   {
     "Name": "Crystal Fruit",
+    "ImageSrc": "Crystal_Fruit",
     "Description": "A delicate fruit that pops up from the snow.",
     "When": "Winter",
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "150g 187g 225g 300g",
     "Restores": "63 25 88 35 113 45 163 65",
-    "Used In": "Winter SeedsWinter Foraging Bundle\n Jelly Wine"
+    "Used In": "Winter Seeds\nWinter Foraging Bundle\nJelly\nWine"
   },
   {
     "Name": "Snow Yam",
+    "ImageSrc": "Snow_Yam",
     "Description": "This little yam was hiding beneath the snow.",
     "When": "Winter",
     "Found": "Tilling soil throughout Stardew Valley",
     "SellPrice": "100g 125g 150g 200g",
     "Restores": "30 12 42 16 54 21 78 31",
-    "Used In": "Winter SeedsWinter Foraging Bundle"
+    "Used In": "Winter Seeds\nWinter Foraging Bundle"
   },
   {
     "Name": "Crocus",
+    "ImageSrc": "Crocus",
     "Description": "A flower that can bloom in the winter.",
     "When": "Winter",
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "60g 75g 90g 120g",
     "Restores": "0 0 0 0 0 0 0 0",
-    "Used In": "Winter SeedsWinter Foraging Bundle\nSandy (loved gift)"
+    "Used In": "Winter Seeds\nWinter Foraging Bundle\nSandy (loved gift)"
   },
   {
     "Name": "Holly",
+    "ImageSrc": "Holly",
     "Description": "The leaves and bright red berries make a popular winter decoration.",
     "When": "Winter",
     "Found": "Above ground in Stardew Valley",
@@ -688,6 +755,7 @@
   },
   {
     "Name": "Nautilus Shell",
+    "ImageSrc": "Nautilus_Shell",
     "Description": "An ancient shell.",
     "When": "Beach",
     "Found": "Winter",
@@ -697,15 +765,17 @@
   },
   {
     "Name": "Coral",
+    "ImageSrc": "Coral",
     "Description": "A colony of tiny creatures that clump together to form beautiful structures.",
     "When": "Beach",
     "Found": "All",
     "SellPrice": "80g 100g 120g 160g",
     "Restores": "",
-    "Used In": "Deluxe Speed-Gro Warp Totem: Beach"
+    "Used In": "Deluxe Speed-Gro\nWarp Totem: Beach"
   },
   {
     "Name": "Sea Urchin",
+    "ImageSrc": "Sea_Urchin",
     "Description": "A slow-moving, spiny creature that some consider a delicacy.",
     "When": "Beach",
     "Found": "All",
@@ -715,24 +785,27 @@
   },
   {
     "Name": "Rainbow Shell",
+    "ImageSrc": "Rainbow_Shell",
     "Description": "It's a very beautiful shell.",
     "When": "Beach",
     "Found": "Summer",
     "SellPrice": "300g 375g 450g 600g",
     "Restores": "",
-    "Used In": "The Mysterious Qi\" Quest"
+    "Used In": "'The Mysterious Qi' Quest"
   },
   {
     "Name": "Clam",
+    "ImageSrc": "Clam",
     "Description": "Someone lived here once.",
     "When": "Beach",
     "Found": "All",
     "SellPrice": "50g 62g 75g 100g",
     "Restores": "",
-    "Used In": "Speed-Gro Chowder Crab Pot Bundle"
+    "Used In": "Speed-Gro\nChowder\nCrab Pot Bundle"
   },
   {
     "Name": "Cockle",
+    "ImageSrc": "Cockle",
     "Description": "A common saltwater clam.",
     "When": "Beach",
     "Found": "All",
@@ -742,15 +815,17 @@
   },
   {
     "Name": "Mussel",
+    "ImageSrc": "Mussel",
     "Description": "A common bivalve that often lives in clusters.",
     "When": "Beach",
     "Found": "All",
     "SellPrice": "30g 37g 45g 60g",
     "Restores": "",
-    "Used In": "Fish StewCrab Pot Bundle"
+    "Used In": "Fish Stew\nCrab Pot Bundle"
   },
   {
     "Name": "Oyster",
+    "ImageSrc": "Oyster",
     "Description": "Constantly filters water to find food. In the process, it removes dangerous toxins from the environment.",
     "When": "Beach",
     "Found": "All",
@@ -760,6 +835,7 @@
   },
   {
     "Name": "Red Mushroom",
+    "ImageSrc": "Red_Mushroom",
     "Description": "A spotted mushroom sometimes found in caves.",
     "When": "Mines",
     "Found": "Anytime",
@@ -769,6 +845,7 @@
   },
   {
     "Name": "Purple Mushroom",
+    "ImageSrc": "Purple_Mushroom",
     "Description": "A rare mushroom found deep in caves.",
     "When": "Mines",
     "Found": "Anytime",
@@ -778,30 +855,34 @@
   },
   {
     "Name": "Cave Carrot",
+    "ImageSrc": "Cave_Carrot",
     "Description": "A starchy snack found in caves. It helps miners work longer.",
     "When": "Mines",
     "Found": "Anytime",
     "SellPrice": "25g",
     "Restores": "30 12",
-    "Used In": "Survival Burger Miner's Treat Roots Platter Stir FryExotic Foraging Bundle"
+    "Used In": "Survival Burger\nMiner's Treat\nRoots Platter\nStir Fry\nExotic Foraging Bundle"
   },
   {
     "Name": "Cactus Fruit",
+    "ImageSrc": "Cactus_Fruit",
     "Description": "The sweet fruit of the prickly pear cactus.",
     "When": "Desert",
     "Found": "Anytime",
     "SellPrice": "75g 93g 112g 150g",
     "Restores": "75 30 105 42 135 54 195 78",
-    "Used In": "Exotic Foraging Bundle\n Jelly WineLinus (loved gift)\nPam (loved gift)\nSam (loved gift)"
+    "Used In": "Exotic Foraging Bundle\nJelly\nWine\nLinus (loved gift)\nPam (loved gift)\nSam (loved gift)"
   },
   {
     "Name": "Coconut",
+    "ImageSrc": "Coconut",
     "Description": "A seed of the coconut palm. It has many culinary uses.",
     "When": "Anytime",
     "Found": "Desert",
     "SellPrice": "100g 125g 150g 200g",
     "Restores": "Inedible",
-    "Used In": "Tom Kha SoupExotic Foraging Bundle\n Jelly WineHaley (loved gift)\nLinus (loved gift)"
+    "Used In": "Tom Kha Soup\nExotic Foraging Bundle\nJelly\nWine\nHaley (loved gift)\nLinus (loved gift)"
   }
+
 
 ]

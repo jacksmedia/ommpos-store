@@ -21,8 +21,8 @@ Add it to your Home Screen, make your game more fun. 💝
 - router w subs for category sub pages ✅
 - Select w links to sub pages ✅
 - most crops added ✅
-- all crops added ⛔️
-- all forage items added ⛔️
+- all crops added ✅
+- all forage items added ✅
 - all people added ⛔️
 - all cooking recipes added ⛔️
 - all furniture + decor + ? recipes added ⛔️
@@ -36,6 +36,10 @@ Add it to your Home Screen, make your game more fun. 💝
 - Lighthouse PWA scoring ⛔️
 - Google listing ⛔️
 
+## 🏁 _Reach Goals_
+- landing page w/ granular filter (likely checkbox component)
+- navigation back and forth between items, from all items
+- version of Stardew Valley toggle on landing page (affects items available)
 
 ## { Default CRA Readme }
 
