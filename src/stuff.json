@@ -504,6 +504,7 @@
     "ArtisanTillerSellPrice": "336g 420g 504g 672g\n\n 294g"
   },
   {
+    "Type": "Forage",
     "Name": "Sap",
     "ImageSrc": "Sap",
     "Description": "A fluid obtained from trees.",
@@ -511,9 +512,10 @@
     "Found": "Wherever there are trees that can be chopped down",
     "SellPrice": "2g",
     "Restores": -2,
-    "Used In": "Basic Fertilizer Quality Fertilizer Trap Bobber Torch"
+    "UsedIn": "Basic Fertilizer Quality Fertilizer Trap Bobber Torch"
   },
   {
+    "Type": "Forage",
     "Name": "Wild Horseradish",
     "ImageSrc": "Wild_Horseradish",
     "Description": "A spicy root found in the spring.",
@@ -521,9 +523,10 @@
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "50g 62g 75g 100g",
     "Restores": "13 5 18 7 23 9 33 13",
-    "Used In": "Spring SeedsSpring Foraging Bundle\nKrobus (loved gift)"
+    "UsedIn": "Spring SeedsSpring Foraging Bundle\nKrobus (loved gift)"
   },
   {
+    "Type": "Forage",
     "Name": "Daffodil",
     "ImageSrc": "Daffodil",
     "Description": "A traditional spring flower that makes a nice gift.",
@@ -531,9 +534,10 @@
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "30g 37g 45g 60g",
     "Restores": "0 0 0 0 0 0 0 0",
-    "Used In": "Spring SeedsSpring Foraging Bundle\nSandy (loved gift)"
+    "UsedIn": "Spring SeedsSpring Foraging Bundle\nSandy (loved gift)"
   },
   {
+    "Type": "Forage",
     "Name": "Leek",
     "ImageSrc": "Leek",
     "Description": "A tasty relative of the onion.",
@@ -541,9 +545,10 @@
     "Found": "Above ground in Stardew Valley, may be more common in The Mountains",
     "SellPrice": "60g 75g 90g 120g",
     "Restores": "40 16 56 22 72 28 104 41",
-    "Used In": "Salad Spring SeedsSpring Foraging Bundle\nGeorge (loved gift)"
+    "UsedIn": "Salad Spring SeedsSpring Foraging Bundle\nGeorge (loved gift)"
   },
   {
+    "Type": "Forage",
     "Name": "Dandelion",
     "ImageSrc": "Dandelion",
     "Description": "Not the prettiest flower, but the leaves make a good salad.",
@@ -551,9 +556,10 @@
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "40g 50g 60g 80g",
     "Restores": "25 10 35 14 45 18 65 26",
-    "Used In": "Salad Spring SeedsSpring Foraging Bundle"
+    "UsedIn": "Salad Spring SeedsSpring Foraging Bundle"
   },
   {
+    "Type": "Forage",
     "Name": "Spring Onion",
     "ImageSrc": "Spring_Onion",
     "Description": "These grow wild during the spring.",
@@ -561,9 +567,10 @@
     "Found": "Cindersap Forest",
     "SellPrice": "8g 10g 12g 16g",
     "Restores": "13 5 18 7 23 9 33 13",
-    "Used In": ""
+    "UsedIn": ""
   },
   {
+    "Type": "Forage",
     "Name": "Morel",
     "ImageSrc": "Morel",
     "Description": "Sought after for its unique nutty flavor.",
@@ -571,9 +578,10 @@
     "Found": "Secret Woods",
     "SellPrice": "150g 187g 225g 300g",
     "Restores": "20 8 28 11 36 14 52 20",
-    "Used In": "Fried Mushroom Life ElixirExotic Foraging Bundle"
+    "UsedIn": "Fried Mushroom Life ElixirExotic Foraging Bundle"
   },
   {
+    "Type": "Forage",
     "Name": "Common Mushroom",
     "ImageSrc": "Common_Mushroom",
     "Description": "Slightly nutty, with good texture.",
@@ -581,9 +589,10 @@
     "Found": "Secret Woods",
     "SellPrice": "40g 50g 60g 80g",
     "Restores": "38 15 53 21 68 27 98 39",
-    "Used In": "Fried Mushroom Stir Fry Tom Kha SoupFall Foraging Bundle"
+    "UsedIn": "Fried Mushroom Stir Fry Tom Kha SoupFall Foraging Bundle"
   },
   {
+    "Type": "Forage",
     "Name": "Salmonberry",
     "ImageSrc": "Salmonberry",
     "Description": "A spring-time berry with the flavor of the forest.",
@@ -591,9 +600,10 @@
     "Found": "On bushes during Salmonberry Season (Spring 15 - 18).",
     "SellPrice": "5g 6g 7g 10g",
     "Restores": "25 10 35 14 45 18 65 26",
-    "Used In": "Jelly Wine"
+    "UsedIn": "Jelly Wine"
   },
   {
+    "Type": "Forage",
     "Name": "Spice Berry",
     "ImageSrc": "Spice_Berry",
     "Description": "It fills the air with a pungent aroma.",
@@ -601,9 +611,10 @@
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "80g 100g 120g 160g",
     "Restores": "25 10 35 14 45 18 65 26",
-    "Used In": "Summer SeedsSummer Foraging Bundle\n Jelly Wine"
+    "UsedIn": "Summer SeedsSummer Foraging Bundle\n Jelly Wine"
   },
   {
+    "Type": "Forage",
     "Name": "Grape",
     "ImageSrc": "Grape",
     "Description": "A sweet cluster of fruit.",
@@ -611,9 +622,10 @@
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "80g 100g 120g 160g",
     "Restores": "38 15 53 21 68 27 98 39",
-    "Used In": "Summer Seeds Summer Foraging BundleVincent (loved gift)\n Jelly Wine"
+    "UsedIn": "Summer Seeds Summer Foraging BundleVincent (loved gift)\n Jelly Wine"
   },
   {
+    "Type": "Forage",
     "Name": "Sweet Pea",
     "ImageSrc": "Sweet_Pea",
     "Description": "A fragrant summer flower.",
@@ -621,9 +633,10 @@
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "50g 62g 75g 100g",
     "Restores": "0 0 0 0 0 0 0 0",
-    "Used In": "Summer SeedsSummer Foraging Bundle\nSandy (loved gift)"
+    "UsedIn": "Summer SeedsSummer Foraging Bundle\nSandy (loved gift)"
   },
   {
+    "Type": "Forage",
     "Name": "Red Mushroom",
     "ImageSrc": "Red_Mushroom",
     "Description": "A spotted mushroom sometimes found in caves.",
@@ -631,9 +644,10 @@
     "Found": "The Mines Secret Woods",
     "SellPrice": "75g 93g 112g 150g",
     "Restores": "-50 -70 -90 -130",
-    "Used In": "Dye Bundle\nExotic Foraging Bundle\n Life Elixir"
+    "UsedIn": "Dye Bundle\nExotic Foraging Bundle\n Life Elixir"
   },
   {
+    "Type": "Forage",
     "Name": "Fiddlehead Fern",
     "ImageSrc": "Fiddlehead_Fern",
     "Description": "The young shoots are an edible specialty.",
@@ -641,9 +655,10 @@
     "Found": "Secret Woods",
     "SellPrice": "90g 112g 135g 180g",
     "Restores": "25 10 35 14 45 18 65 26",
-    "Used In": "Fiddlehead RisottoChef's Bundle\n Pickles Juice"
+    "UsedIn": "Fiddlehead RisottoChef's Bundle\n Pickles Juice"
   },
   {
+    "Type": "Forage",
     "Name": "Wild Plum",
     "ImageSrc": "Wild_Plum",
     "Description": "Tart and juicy with a pungent aroma.",
@@ -651,9 +666,10 @@
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "80g 100g 120g 160g",
     "Restores": "25 10 35 14 45 18 65 26",
-    "Used In": "Fall Seeds Plum PuddingFall Foraging Bundle\n Jelly Wine"
+    "UsedIn": "Fall Seeds Plum PuddingFall Foraging Bundle\n Jelly Wine"
   },
   {
+    "Type": "Forage",
     "Name": "Hazelnut",
     "ImageSrc": "Hazelnut",
     "Description": "That's one big hazelnut!",
@@ -661,9 +677,10 @@
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "90g 112g 135g 180g",
     "Restores": "30 12 42 16 54 21 78 31",
-    "Used In": "Fall Seeds Roasted Hazelnuts Super Meal StuffingFall Foraging Bundle"
+    "UsedIn": "Fall Seeds Roasted Hazelnuts Super Meal StuffingFall Foraging Bundle"
   },
   {
+    "Type": "Forage",
     "Name": "Blackberry",
     "ImageSrc": "Blackberry",
     "Description": "An early-fall treat.",
@@ -671,9 +688,10 @@
     "Found": "Above ground in Stardew Valley On bushes during Blackberry Season (Fall 8 - 11)",
     "SellPrice": "20g 25g 30g 40g",
     "Restores": "25 10 35 14 45 18 65 26",
-    "Used In": "Fall Seeds Blackberry CobblerFall Foraging Bundle\n Jelly Wine"
+    "UsedIn": "Fall Seeds Blackberry CobblerFall Foraging Bundle\n Jelly Wine"
   },
   {
+    "Type": "Forage",
     "Name": "Chanterelle",
     "ImageSrc": "Chanterelle",
     "Description": "A tasty mushroom with a fruity smell and slightly peppery flavor.",
@@ -681,9 +699,10 @@
     "Found": "Secret Woods",
     "SellPrice": "160g 200g 240g 320g",
     "Restores": "75 30 105 42 135 54 195 78",
-    "Used In": "Life Elixir"
+    "UsedIn": "Life Elixir"
   },
   {
+    "Type": "Forage",
     "Name": "Common Mushroom",
     "ImageSrc": "Common_Mushroom",
     "Description": "Slightly nutty, with good texture.",
@@ -691,9 +710,10 @@
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "40g 50g 60g 80g",
     "Restores": "38 15 53 21 68 27 98 39",
-    "Used In": "Fall Seeds\nFried Mushroom\nTom Kha Soup\nStir Fry\nFall Foraging Bundle"
+    "UsedIn": "Fall Seeds\nFried Mushroom\nTom Kha Soup\nStir Fry\nFall Foraging Bundle"
   },
   {
+    "Type": "Forage",
     "Name": "Red Mushroom",
     "ImageSrc": "Red_Mushroom",
     "Description": "A spotted mushroom sometimes found in caves.",
@@ -701,9 +721,10 @@
     "Found": "The Mines Secret Woods",
     "SellPrice": "75g 93g 112g 150g",
     "Restores": "-50 -70 -90 -130",
-    "Used In": "Dye Bundle\nExotic Foraging Bundle\n Life Elixir"
+    "UsedIn": "Dye Bundle\nExotic Foraging Bundle\n Life Elixir"
   },
   {
+    "Type": "Forage",
     "Name": "Winter Root",
     "ImageSrc": "Winter_Root",
     "Description": "A starchy tuber.",
@@ -711,9 +732,10 @@
     "Found": "Tilling soil throughout Stardew Valley",
     "SellPrice": "70g 87g 105g 140g",
     "Restores": "25 10 35 14 45 18 65 26",
-    "Used In": "Winter Seeds Roots PlatterWinter Foraging Bundle"
+    "UsedIn": "Winter Seeds Roots PlatterWinter Foraging Bundle"
   },
   {
+    "Type": "Forage",
     "Name": "Crystal Fruit",
     "ImageSrc": "Crystal_Fruit",
     "Description": "A delicate fruit that pops up from the snow.",
@@ -721,9 +743,10 @@
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "150g 187g 225g 300g",
     "Restores": "63 25 88 35 113 45 163 65",
-    "Used In": "Winter Seeds\nWinter Foraging Bundle\nJelly\nWine"
+    "UsedIn": "Winter Seeds\nWinter Foraging Bundle\nJelly\nWine"
   },
   {
+    "Type": "Forage",
     "Name": "Snow Yam",
     "ImageSrc": "Snow_Yam",
     "Description": "This little yam was hiding beneath the snow.",
@@ -731,9 +754,10 @@
     "Found": "Tilling soil throughout Stardew Valley",
     "SellPrice": "100g 125g 150g 200g",
     "Restores": "30 12 42 16 54 21 78 31",
-    "Used In": "Winter Seeds\nWinter Foraging Bundle"
+    "UsedIn": "Winter Seeds\nWinter Foraging Bundle"
   },
   {
+    "Type": "Forage",
     "Name": "Crocus",
     "ImageSrc": "Crocus",
     "Description": "A flower that can bloom in the winter.",
@@ -741,9 +765,10 @@
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "60g 75g 90g 120g",
     "Restores": "0 0 0 0 0 0 0 0",
-    "Used In": "Winter Seeds\nWinter Foraging Bundle\nSandy (loved gift)"
+    "UsedIn": "Winter Seeds\nWinter Foraging Bundle\nSandy (loved gift)"
   },
   {
+    "Type": "Forage",
     "Name": "Holly",
     "ImageSrc": "Holly",
     "Description": "The leaves and bright red berries make a popular winter decoration.",
@@ -751,9 +776,10 @@
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "80g 100g 120g 160g",
     "Restores": "-20",
-    "Used In": ""
+    "UsedIn": ""
   },
   {
+    "Type": "Forage",
     "Name": "Nautilus Shell",
     "ImageSrc": "Nautilus_Shell",
     "Description": "An ancient shell.",
@@ -761,9 +787,10 @@
     "Found": "Winter",
     "SellPrice": "120g 150g 180g 240g",
     "Restores": "",
-    "Used In": "Field Research Bundle"
+    "UsedIn": "Field Research Bundle"
   },
   {
+    "Type": "Forage",
     "Name": "Coral",
     "ImageSrc": "Coral",
     "Description": "A colony of tiny creatures that clump together to form beautiful structures.",
@@ -771,9 +798,10 @@
     "Found": "All",
     "SellPrice": "80g 100g 120g 160g",
     "Restores": "",
-    "Used In": "Deluxe Speed-Gro\nWarp Totem: Beach"
+    "UsedIn": "Deluxe Speed-Gro\nWarp Totem: Beach"
   },
   {
+    "Type": "Forage",
     "Name": "Sea Urchin",
     "ImageSrc": "Sea_Urchin",
     "Description": "A slow-moving, spiny creature that some consider a delicacy.",
@@ -781,9 +809,10 @@
     "Found": "All",
     "SellPrice": "160g 200g 240g 320g",
     "Restores": "",
-    "Used In": "Dye Bundle"
+    "UsedIn": "Dye Bundle"
   },
   {
+    "Type": "Forage",
     "Name": "Rainbow Shell",
     "ImageSrc": "Rainbow_Shell",
     "Description": "It's a very beautiful shell.",
@@ -791,9 +820,10 @@
     "Found": "Summer",
     "SellPrice": "300g 375g 450g 600g",
     "Restores": "",
-    "Used In": "'The Mysterious Qi' Quest"
+    "UsedIn": "'The Mysterious Qi' Quest"
   },
   {
+    "Type": "Forage",
     "Name": "Clam",
     "ImageSrc": "Clam",
     "Description": "Someone lived here once.",
@@ -801,9 +831,10 @@
     "Found": "All",
     "SellPrice": "50g 62g 75g 100g",
     "Restores": "",
-    "Used In": "Speed-Gro\nChowder\nCrab Pot Bundle"
+    "UsedIn": "Speed-Gro\nChowder\nCrab Pot Bundle"
   },
   {
+    "Type": "Forage",
     "Name": "Cockle",
     "ImageSrc": "Cockle",
     "Description": "A common saltwater clam.",
@@ -811,9 +842,10 @@
     "Found": "All",
     "SellPrice": "50g 62g 75g 100g",
     "Restores": "",
-    "Used In": "Crab Pot Bundle"
+    "UsedIn": "Crab Pot Bundle"
   },
   {
+    "Type": "Forage",
     "Name": "Mussel",
     "ImageSrc": "Mussel",
     "Description": "A common bivalve that often lives in clusters.",
@@ -821,9 +853,10 @@
     "Found": "All",
     "SellPrice": "30g 37g 45g 60g",
     "Restores": "",
-    "Used In": "Fish Stew\nCrab Pot Bundle"
+    "UsedIn": "Fish Stew\nCrab Pot Bundle"
   },
   {
+    "Type": "Forage",
     "Name": "Oyster",
     "ImageSrc": "Oyster",
     "Description": "Constantly filters water to find food. In the process, it removes dangerous toxins from the environment.",
@@ -831,9 +864,10 @@
     "Found": "All",
     "SellPrice": "40g 50g 60g 80g",
     "Restores": "",
-    "Used In": "Crab Pot Bundle"
+    "UsedIn": "Crab Pot Bundle"
   },
   {
+    "Type": "Forage",
     "Name": "Red Mushroom",
     "ImageSrc": "Red_Mushroom",
     "Description": "A spotted mushroom sometimes found in caves.",
@@ -841,9 +875,10 @@
     "Found": "Anytime",
     "SellPrice": "75g 93g 112g 150g",
     "Restores": "-50 -70 -90 -130",
-    "Used In": "Dye Bundle\nExotic Foraging Bundle\n Life Elixir"
+    "UsedIn": "Dye Bundle\nExotic Foraging Bundle\n Life Elixir"
   },
   {
+    "Type": "Forage",
     "Name": "Purple Mushroom",
     "ImageSrc": "Purple_Mushroom",
     "Description": "A rare mushroom found deep in caves.",
@@ -851,9 +886,10 @@
     "Found": "Anytime",
     "SellPrice": "250g 312g 375g 500g",
     "Restores": "125 50 175 70 225 90 325 130",
-    "Used In": "Exotic Foraging Bundle\nField Research Bundle\n Life ElixirWizard (loved gift)"
+    "UsedIn": "Exotic Foraging Bundle\nField Research Bundle\n Life ElixirWizard (loved gift)"
   },
   {
+    "Type": "Forage",
     "Name": "Cave Carrot",
     "ImageSrc": "Cave_Carrot",
     "Description": "A starchy snack found in caves. It helps miners work longer.",
@@ -861,9 +897,10 @@
     "Found": "Anytime",
     "SellPrice": "25g",
     "Restores": "30 12",
-    "Used In": "Survival Burger\nMiner's Treat\nRoots Platter\nStir Fry\nExotic Foraging Bundle"
+    "UsedIn": "Survival Burger\nMiner's Treat\nRoots Platter\nStir Fry\nExotic Foraging Bundle"
   },
   {
+    "Type": "Forage",
     "Name": "Cactus Fruit",
     "ImageSrc": "Cactus_Fruit",
     "Description": "The sweet fruit of the prickly pear cactus.",
@@ -871,9 +908,10 @@
     "Found": "Anytime",
     "SellPrice": "75g 93g 112g 150g",
     "Restores": "75 30 105 42 135 54 195 78",
-    "Used In": "Exotic Foraging Bundle\nJelly\nWine\nLinus (loved gift)\nPam (loved gift)\nSam (loved gift)"
+    "UsedIn": "Exotic Foraging Bundle\nJelly\nWine\nLinus (loved gift)\nPam (loved gift)\nSam (loved gift)"
   },
   {
+    "Type": "Forage",
     "Name": "Coconut",
     "ImageSrc": "Coconut",
     "Description": "A seed of the coconut palm. It has many culinary uses.",
@@ -881,7 +919,7 @@
     "Found": "Desert",
     "SellPrice": "100g 125g 150g 200g",
     "Restores": "Inedible",
-    "Used In": "Tom Kha Soup\nExotic Foraging Bundle\nJelly\nWine\nHaley (loved gift)\nLinus (loved gift)"
+    "UsedIn": "Tom Kha Soup\nExotic Foraging Bundle\nJelly\nWine\nHaley (loved gift)\nLinus (loved gift)"
   }
 
 
