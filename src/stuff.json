@@ -512,7 +512,7 @@
     "Found": "Wherever there are trees that can be chopped down",
     "SellPrice": "2g",
     "Restores": -2,
-    "UsedIn": "Basic Fertilizer Quality Fertilizer Trap Bobber Torch"
+    "UsedIn": "Basic Fertilizer\nQuality Fertilizer\nTrap Bobber\nTorch"
   },
   {
     "Type": "Forage",
@@ -523,7 +523,7 @@
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "50g 62g 75g 100g",
     "Restores": "13 5 18 7 23 9 33 13",
-    "UsedIn": "Spring SeedsSpring Foraging Bundle\nKrobus (loved gift)"
+    "UsedIn": "Spring Seeds\nSpring Foraging Bundle\nKrobus (loved gift)"
   },
   {
     "Type": "Forage",
@@ -534,7 +534,7 @@
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "30g 37g 45g 60g",
     "Restores": "0 0 0 0 0 0 0 0",
-    "UsedIn": "Spring SeedsSpring Foraging Bundle\nSandy (loved gift)"
+    "UsedIn": "Spring Seeds\nSpring Foraging Bundle\nSandy (loved gift)"
   },
   {
     "Type": "Forage",
@@ -545,7 +545,7 @@
     "Found": "Above ground in Stardew Valley, may be more common in The Mountains",
     "SellPrice": "60g 75g 90g 120g",
     "Restores": "40 16 56 22 72 28 104 41",
-    "UsedIn": "Salad Spring SeedsSpring Foraging Bundle\nGeorge (loved gift)"
+    "UsedIn": "Salad\nSpring Seeds\nSpring Foraging Bundle\nGeorge (loved gift)"
   },
   {
     "Type": "Forage",
@@ -556,7 +556,7 @@
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "40g 50g 60g 80g",
     "Restores": "25 10 35 14 45 18 65 26",
-    "UsedIn": "Salad Spring SeedsSpring Foraging Bundle"
+    "UsedIn": "Salad\nSpring Seeds\nSpring Foraging Bundle"
   },
   {
     "Type": "Forage",
@@ -578,7 +578,7 @@
     "Found": "Secret Woods",
     "SellPrice": "150g 187g 225g 300g",
     "Restores": "20 8 28 11 36 14 52 20",
-    "UsedIn": "Fried Mushroom Life ElixirExotic Foraging Bundle"
+    "UsedIn": "Fried Mushroom\nLife Elixir\nExotic Foraging Bundle"
   },
   {
     "Type": "Forage",
@@ -589,7 +589,7 @@
     "Found": "Secret Woods",
     "SellPrice": "40g 50g 60g 80g",
     "Restores": "38 15 53 21 68 27 98 39",
-    "UsedIn": "Fried Mushroom Stir Fry Tom Kha SoupFall Foraging Bundle"
+    "UsedIn": "Fried Mushroom\nStir Fry\nTom Kha Soup\nFall Foraging Bundle"
   },
   {
     "Type": "Forage",
@@ -600,7 +600,7 @@
     "Found": "On bushes during Salmonberry Season (Spring 15 - 18).",
     "SellPrice": "5g 6g 7g 10g",
     "Restores": "25 10 35 14 45 18 65 26",
-    "UsedIn": "Jelly Wine"
+    "UsedIn": "Jelly\nWine"
   },
   {
     "Type": "Forage",
@@ -611,7 +611,7 @@
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "80g 100g 120g 160g",
     "Restores": "25 10 35 14 45 18 65 26",
-    "UsedIn": "Summer SeedsSummer Foraging Bundle\n Jelly Wine"
+    "UsedIn": "Summer Seeds\nSummer Foraging Bundle\nJelly\nWine"
   },
   {
     "Type": "Forage",
@@ -622,7 +622,7 @@
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "80g 100g 120g 160g",
     "Restores": "38 15 53 21 68 27 98 39",
-    "UsedIn": "Summer Seeds Summer Foraging BundleVincent (loved gift)\n Jelly Wine"
+    "UsedIn": "Summer Seeds\nSummer Foraging Bundle\nVincent (loved gift)\nJelly\nWine"
   },
   {
     "Type": "Forage",
@@ -633,7 +633,7 @@
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "50g 62g 75g 100g",
     "Restores": "0 0 0 0 0 0 0 0",
-    "UsedIn": "Summer SeedsSummer Foraging Bundle\nSandy (loved gift)"
+    "UsedIn": "Summer Seeds\nSummer Foraging Bundle\nSandy (loved gift)"
   },
   {
     "Type": "Forage",
@@ -655,7 +655,7 @@
     "Found": "Secret Woods",
     "SellPrice": "90g 112g 135g 180g",
     "Restores": "25 10 35 14 45 18 65 26",
-    "UsedIn": "Fiddlehead RisottoChef's Bundle\n Pickles Juice"
+    "UsedIn": "Fiddlehead Risotto\nChef's Bundle\nPickles\nJuice"
   },
   {
     "Type": "Forage",
@@ -666,7 +666,7 @@
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "80g 100g 120g 160g",
     "Restores": "25 10 35 14 45 18 65 26",
-    "UsedIn": "Fall Seeds Plum PuddingFall Foraging Bundle\n Jelly Wine"
+    "UsedIn": "Fall Seeds\nPlum Pudding\nFall Foraging Bundle\nJelly\nWine"
   },
   {
     "Type": "Forage",
@@ -677,7 +677,7 @@
     "Found": "Above ground in Stardew Valley",
     "SellPrice": "90g 112g 135g 180g",
     "Restores": "30 12 42 16 54 21 78 31",
-    "UsedIn": "Fall Seeds Roasted Hazelnuts Super Meal StuffingFall Foraging Bundle"
+    "UsedIn": "Fall Seeds\nRoasted Hazelnuts\nSuper Meal\nStuffing\nFall Foraging Bundle"
   },
   {
     "Type": "Forage",
@@ -688,7 +688,7 @@
     "Found": "Above ground in Stardew Valley On bushes during Blackberry Season (Fall 8 - 11)",
     "SellPrice": "20g 25g 30g 40g",
     "Restores": "25 10 35 14 45 18 65 26",
-    "UsedIn": "Fall Seeds Blackberry CobblerFall Foraging Bundle\n Jelly Wine"
+    "UsedIn": "Fall Seeds\nBlackberry Cobbler\nFall Foraging Bundle\nJelly\nWine"
   },
   {
     "Type": "Forage",
@@ -732,7 +732,7 @@
     "Found": "Tilling soil throughout Stardew Valley",
     "SellPrice": "70g 87g 105g 140g",
     "Restores": "25 10 35 14 45 18 65 26",
-    "UsedIn": "Winter Seeds Roots PlatterWinter Foraging Bundle"
+    "UsedIn": "Winter Seeds\nRoots Platter\nWinter Foraging Bundle"
   },
   {
     "Type": "Forage",
@@ -886,7 +886,7 @@
     "Found": "Anytime",
     "SellPrice": "250g 312g 375g 500g",
     "Restores": "125 50 175 70 225 90 325 130",
-    "UsedIn": "Exotic Foraging Bundle\nField Research Bundle\n Life ElixirWizard (loved gift)"
+    "UsedIn": "Exotic Foraging Bundle\nField Research Bundle\n Life Elixir\nWizard (loved gift)"
   },
   {
     "Type": "Forage",

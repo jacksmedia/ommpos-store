@@ -17,6 +17,8 @@ p {z-index: 2;}
     pointer-events: none;
 }
 
+
+/* large area styling */
 .App-header {
   background-image: radial-gradient(  black, #12175a, #3f9cf7);
   min-height: 20vh;
@@ -28,28 +30,37 @@ p {z-index: 2;}
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: red;
-}
+FormControl { color: white; }
 
 .App-body {
   padding: 2rem 0 2rem 0;
   background-image: linear-gradient(to left, #4ea128, #3f9cf7, #4ea128);
   width: 100vw;
+  flex-grow: 1; 
 }
-
-.itemm-grid { flex-grow: 1; }
 
 ul {
   list-style: none;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
+
 .categorical {
-  margin: 0.4rem;
-  max-width: 24vw;
+  margin: 0.25rem;  
+  @media only screen and (max-width: 400px) {
+    background-color: lightblue;
+  }
+  @media only screen and (max-width: 600px) {
+    max-width: 30vw;
+    background-color: forestgreen;
+  }
+  @media only screen and (max-width: 900px) {
+    max-width: 24vw;
+    background-color: lime;
+  }
+
 }
 
 .itemm-card-back {
@@ -70,14 +81,28 @@ ul {
   width: 48px;
 }
 
+.lotta-text { max-width: 40vw; color: navy; }
+
+/* layout utilities */
+
 .rowed {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
+  justify-content: space-around;
   align-content: center;
   align-items: center;
 }
 .rowed * {
+  margin: 0.15em;
+}
+.coled {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.coled * {
   margin: 0.15em;
 }
 
