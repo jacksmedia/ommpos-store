@@ -90,7 +90,8 @@ ul {
   width: 48px;
 }
 
-.lotta-text { max-width: 40vw; color: navy; }
+.lotta-text { max-width: 40vw; }
+.navy { color: navy; }
 
 /* layout utilities */
 
