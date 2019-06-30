@@ -52,7 +52,14 @@ class App extends Component {
           </div>
           <div className="lotta-text">{item.Description}</div>
           <h4>{item.SellPrice}</h4>
-          <div className="lotta-text">{item.UsedIn}</div>
+          <ul className="lotta-text navy">
+            {item.UsedIn && <li>⚫️ {item.UsedIn}</li>}
+            {item.UsedIn2 && <li>🔵 {item.UsedIn2}</li>}
+            {item.UsedIn3 && <li>🔴 {item.UsedIn3}</li>}
+            {item.UsedIn4 && <li>⚪️ {item.UsedIn4}</li>}
+            {item.UsedIn5 && <li>🌀 {item.UsedIn5}</li>}
+            {item.UsedIn6 && <li>🎃 {item.UsedIn6}</li>}
+          </ul>
         </div>
         </div>
         </div>
