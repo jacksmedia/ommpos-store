@@ -27,22 +27,34 @@ class App extends Component {
   render(){
 
     const items = this.state.categoricals.map((item, key ) =>
-      <li key={item.Name} className="categorical">
+      <li key={item.Key} className="categorical">
         <div className="itemm-border-4">
         <div className="itemm-border-3">
         <div className="itemm-border-2">
         <div className="itemm-border-1">
-        <div className="itemm-layout itemm-card-back coled">
+        <div className={item.When+ " coled"}>
+        <div className="itemm-card-back">
+        <div className="itemm-card-padding">
           <img src={require('./img/'+item.ImageSrc+'.png')} 
           className="item-border" 
           alt={item.Name}
           />
           <div className="rowed">
             <h2>{item.Name}</h2>
+            <h4>{item.When}</h4>
+            {/*
+            <img src={require('./img/'+item.When+'.png')} alt={item.When} />
+            {item.When2 && <img src={require('./img/'+item.When2+'.png')} alt={item.When2} /> }
+            {item.When3 && <img src={require('./img/'+item.When3+'.png')} alt={item.When3} /> }
+            {item.When4 && <img src={require('./img/'+item.When4+'.png')} alt={item.When4} /> }
+            */}
             <h4>{item.Type}</h4>
           </div>
+          <div className="lotta-text">{item.Description}</div>
           <h4>{item.SellPrice}</h4>
           <div className="lotta-text">{item.UsedIn}</div>
+        </div>
+        </div>
         </div>
         </div>
         </div>

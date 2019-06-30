@@ -37,8 +37,8 @@ Add it to your Home Screen, make your game more fun. 💝
 - Google listing ⛔️
 
 ## 🏁 _Reach Goals_
-- landing page w/ granular filter (likely checkbox component)
-- navigation back and forth between items, from all items
+- landing page w/ granular filter (likely checkbox component) 🛠
+- navigation back and forth between items, from all items 🛠
 - version of Stardew Valley toggle on landing page (affects items available)
 
 ## { Default CRA Readme }

@@ -63,10 +63,19 @@ ul {
 
 }
 
+.Spring { background: url(./img/paper_Spring.png), wheat ; }
+.Summer { background: url(./img/paper_Summer.png), wheat ; }
+.Fall { background: url(./img/paper_Fall.png), wheat ; }
+.Winter { background: url(./img/paper_Winter.png), wheat ; }
+.Beach { background: url(./img/paper_Beach.png), wheat ; }
+.Mines { background: url(./img/paper_Mines.png), wheat ; }
+.Desert { background: url(./img/paper_Desert.png), wheat ; }
+.Anytime { background: url(./img/paper_Anytime.png), wheat ; }
+
 .itemm-card-back {
-  background: wheat;
-  padding: 3px 7px 7px 7px;
+  background-image: linear-gradient(to bottom, rgba(245,222,179,0.15),rgba(245,222,179,0.8), rgba(245,222,179,1));
 }
+.itemm-card-padding { padding: 3px 7px 7px 7px; }
 .itemm-border-1 { border: 2px sienna solid; border-radius: 3px; }
 .itemm-border-2 { border: 3px chocolate solid; border-radius: 4px; }
 .itemm-border-3 { border: 5px sandybrown solid; border-radius: 8px; }
@@ -88,7 +97,7 @@ ul {
 .rowed {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around;
+  justify-content: center;
   align-content: center;
   align-items: center;
 }
@@ -103,7 +112,8 @@ ul {
   align-items: center;
 }
 .coled * {
-  margin: 0.15em;
+  margin: 0.0em;
+  padding: 0.15em;
 }
 
 @keyframes pulse {

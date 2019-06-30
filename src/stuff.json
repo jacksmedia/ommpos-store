@@ -1,10 +1,11 @@
 [
   {
+    "Key": "1",
     "Type": "Vegetable",
     "Name": "Amaranth",
     "ImageSrc": "Amaranth",
     "GetHow": "Farming",
-    "Season": "Fall",
+    "When": "Fall",
     "Restores": "50 22 70 30 90 39",
     "SellPrice": "150g 187g 225g",
     "TillerSellPrice": "165g 206g 247g",
@@ -12,11 +13,12 @@
     "ArtisanTillerSellPrice": "471g 490g"
   },
   {
+    "Key": "2",
     "Type": "Vegetable",
     "Name": "Artichoke",
     "ImageSrc": "Artichoke",
     "GetHow": "Farming",
-    "Season": "Fall",
+    "When": "Fall",
     "Restores": "30 13 42 18 54 23",
     "SellPrice": "160g 200g 240g",
     "TillerSellPrice": "176g 220g 264g",
@@ -24,11 +26,12 @@
     "ArtisanTillerSellPrice": "504g 518g"
   },
   {
+    "Key": "3",
     "Type": "Vegetable",
     "Name": "Beet",
     "ImageSrc": "Beet",
     "GetHow": "Farming",
-    "Season": "Fall",
+    "When": "Fall",
     "Restores": "30 13 42 18 54 23",
     "SellPrice": "100g 125g 150g",
     "TillerSellPrice": "110g 137g 165g",
@@ -36,11 +39,12 @@
     "ArtisanTillerSellPrice": "315g 350g"
   },
   {
+    "Key": "4",
     "Type": "Vegetable",
     "Name": "Bok Choy",
     "ImageSrc": "Bok_Choy",
     "GetHow": "Farming",
-    "Season": "Fall",
+    "When": "Fall",
     "Restores": "25 11 35 15 45 19",
     "SellPrice": "80g 100g 120g",
     "TillerSellPrice": "88g 110g 132g",
@@ -48,11 +52,12 @@
     "ArtisanTillerSellPrice": "252g 294g"
   },
   {
+    "Key": "5",
     "Type": "Vegetable",
     "Name": "Cauliflower",
     "ImageSrc": "Cauliflower",
     "GetHow": "Farming",
-    "Season": "Spring",
+    "When": "Spring",
     "Restores": "75 33 105 46 135 59",
     "SellPrice": "175g 218g 262g",
     "TillerSellPrice": "192g 240g 288g",
@@ -60,11 +65,13 @@
     "ArtisanTillerSellPrice": "550g 560g"
   },
   {
+    "Key": "6",
     "Type": "Vegetable",
     "Name": "Corn",
     "ImageSrc": "Corn",
     "GetHow": "Farming",
-    "Season": "Summer\n Fall",
+    "When": "Summer",
+    "When2": "Fall",
     "Restores": "25 11 35 15 45 19",
     "SellPrice": "50g 62g 75g",
     "TillerSellPrice": "55g 68g 82g",
@@ -72,11 +79,12 @@
     "ArtisanTillerSellPrice": "156g 210g 100g"
   },
   {
+    "Key": "7",
     "Type": "Vegetable",
     "Name": "Eggplant",
     "ImageSrc": "Eggplant",
     "GetHow": "Farming",
-    "Season": "Fall",
+    "When": "Fall",
     "Restores": "20 9 28 12 36 16",
     "SellPrice": "60g 75g 90g",
     "TillerSellPrice": "66g 82g 99g",
@@ -84,11 +92,12 @@
     "ArtisanTillerSellPrice": "189g 238g"
   },
   {
+    "Key": "8",
     "Type": "Vegetable",
     "Name": "Fiddlehead Fern",
     "ImageSrc": "Fiddlehead_Fern",
     "GetHow": "Foraging in the Secret Woods",
-    "Season": "Summer",
+    "When": "Summer",
     "Restores": "25 11 35 15 45 19 65 28",
     "SellPrice": "90g 112g 135g 180g",
     "TillerSellPrice": "99g 123g 148g 198g",
@@ -96,11 +105,12 @@
     "ArtisanTillerSellPrice": "282g 322g"
   },
   {
+    "Key": "9",
     "Type": "Vegetable",
     "Name": "Garlic",
     "ImageSrc": "Garlic",
     "GetHow": "Farming",
-    "Season": "Spring",
+    "When": "Spring",
     "Restores": "20 9 28 12 36 16",
     "SellPrice": "60g 75g 90g",
     "TillerSellPrice": "66g 82g 99g",
@@ -108,11 +118,12 @@
     "ArtisanTillerSellPrice": "189g 238g"
   },
   {
+    "Key": "10",
     "Type": "Vegetable",
     "Name": "Green Bean",
     "ImageSrc": "Green_Bean",
     "GetHow": "Farming",
-    "Season": "Spring",
+    "When": "Spring",
     "Restores": "25 11 35 15 45 19",
     "SellPrice": "40g 50g 60g",
     "TillerSellPrice": "44g 55g 66g",
@@ -120,23 +131,25 @@
     "ArtisanTillerSellPrice": "126g 182g"
   },
   {
+    "Key": "11",
     "Type": "Vegetable",
     "Name": "Hops",
     "ImageSrc": "Hops",
     "GetHow": "Farming",
-    "Season": "Summer",
+    "When": "Summer",
     "Restores": "45 20 62 28 81 36",
     "SellPrice": "25g 31g 37g",
     "TillerSellPrice": "27g 33g 40g",
-    "ArtisanSellPrice": "300g 375g 450g 600g\n\n 100g",
-    "ArtisanTillerSellPrice": "420g 525g 630g 840g\n\n 140g"
+    "ArtisanSellPrice": "300g 375g 450g 600g\n 100g",
+    "ArtisanTillerSellPrice": "420g 525g 630g 840g\n 140g"
   },
   {
+    "Key": "12",
     "Type": "Vegetable",
     "Name": "Kale",
     "ImageSrc": "Kale",
     "GetHow": "Farming",
-    "Season": "Spring",
+    "When": "Spring",
     "Restores": "50 22 70 30 90 39",
     "SellPrice": "110g 137g 165g",
     "TillerSellPrice": "121g 151g 181g",
@@ -144,11 +157,12 @@
     "ArtisanTillerSellPrice": "345g 378g"
   },
   {
+    "Key": "13",
     "Type": "Vegetable",
     "Name": "Parsnip",
     "ImageSrc": "Parsnip",
     "GetHow": "Farming",
-    "Season": "Spring",
+    "When": "Spring",
     "Restores": "25 11 35 15 45 19",
     "SellPrice": "35g 43g 52g",
     "TillerSellPrice": "38g 47g 57g",
@@ -156,11 +170,12 @@
     "ArtisanTillerSellPrice": "109g 168g"
   },
   {
+    "Key": "14",
     "Type": "Vegetable",
     "Name": "Potato",
     "ImageSrc": "Potato",
     "GetHow": "Farming",
-    "Season": "Spring",
+    "When": "Spring",
     "Restores": "25 11 35 15 45 19",
     "SellPrice": "80g 100g 120g",
     "TillerSellPrice": "88g 110g 132g",
@@ -168,11 +183,12 @@
     "ArtisanTillerSellPrice": "252g 294g"
   },
   {
+    "Key": "15",
     "Type": "Vegetable",
     "Name": "Pumpkin",
     "ImageSrc": "Pumpkin",
     "GetHow": "Farming",
-    "Season": "Fall",
+    "When": "Fall",
     "Restores": "Inedible",
     "SellPrice": "320g 400g 480g",
     "TillerSellPrice": "352g 440g 528g",
@@ -180,11 +196,12 @@
     "ArtisanTillerSellPrice": "1008g 966g"
   },
   {
+    "Key": "16",
     "Type": "Vegetable",
     "Name": "Radish",
     "ImageSrc": "Radish",
     "GetHow": "Farming",
-    "Season": "Summer",
+    "When": "Summer",
     "Restores": "45 20 62 28 81 36",
     "SellPrice": "90g 112g 135g",
     "TillerSellPrice": "99g 123g 148g",
@@ -192,11 +209,12 @@
     "ArtisanTillerSellPrice": "282g 322g"
   },
   {
+    "Key": "17",
     "Type": "Vegetable",
     "Name": "Red Cabbage",
     "ImageSrc": "Red_Cabbage",
     "GetHow": "Farming",
-    "Season": "Summer",
+    "When": "Summer",
     "Restores": "75 33 105 46 135 59",
     "SellPrice": "260g 325g 390g",
     "TillerSellPrice": "286g 357g 429g",
@@ -204,11 +222,12 @@
     "ArtisanTillerSellPrice": "819g 798g"
   },
   {
+    "Key": "18",
     "Type": "Vegetable",
     "Name": "Tomato",
     "ImageSrc": "Tomato",
     "GetHow": "Farming",
-    "Season": "Summer",
+    "When": "Summer",
     "Restores": "20 9 28 12 36 16",
     "SellPrice": "60g 75g 90g",
     "TillerSellPrice": "66g 82g 99g",
@@ -216,23 +235,26 @@
     "ArtisanTillerSellPrice": "189g 238g"
   },
   {
+    "Key": "19",
     "Type": "Vegetable",
     "Name": "Wheat",
     "ImageSrc": "Wheat",
     "GetHow": "Farming",
-    "Season": "Summer\n Fall",
+    "When": "Summer",
+    "When2": "Fall",
     "Restores": "Inedible",
     "SellPrice": "25g 31g 37g",
     "TillerSellPrice": "27g 33g 40g",
-    "ArtisanSellPrice": "200g 250g 300g 400g\n\n 100g",
-    "ArtisanTillerSellPrice": "280g 350g 420g 560g\n\n 140g"
+    "ArtisanSellPrice": "200g 250g 300g 400g\n 100g",
+    "ArtisanTillerSellPrice": "280g 350g 420g 560g\n 140g"
   },
   {
+    "Key": "20",
     "Type": "Vegetable",
     "Name": "Yam",
     "ImageSrc": "Yam",
     "GetHow": "Farming",
-    "Season": "Fall",
+    "When": "Fall",
     "Restores": "45 20 62 28 81 36",
     "SellPrice": "160g 200g 240g",
     "TillerSellPrice": "176g 220g 264g",
@@ -240,281 +262,315 @@
     "ArtisanTillerSellPrice": "504g 518g"
   },
   {
+    "Key": "21",
     "Type": "Fruit",
     "Name": "Ancient Fruit",
     "ImageSrc": "Ancient_Fruit",
     "GetHow": "Farming",
-    "Season": "Spring\n Summer\n Fall",
+    "When": "Spring",
+    "When2": "Summer",
+    "When3": "Fall",
     "Restores": "Inedible",
     "SellPrice": "550g 687g 825g",
     "TillerSellPrice": "605g 756g 907g",
-    "ArtisanSellPrice": "1650g 2062g 2475g 3300g\n\n 1150g",
-    "ArtisanTillerSellPrice": "2310g 2887g 3465g 4620g\n\n 1610g"
+    "ArtisanSellPrice": "1650g 2062g 2475g 3300g 1150g",
+    "ArtisanTillerSellPrice": "2310g 2887g 3465g 4620g 1610g"
   },
   {
+    "Key": "22",
     "Type": "Fruit",
     "Name": "Apple",
     "ImageSrc": "Apple",
     "GetHow": "Fruit Trees",
-    "Season": "Fall",
+    "When": "Fall",
     "Restores": "38 17 53 23 68 30 98 44",
     "SellPrice": "100g 125g 150g 200g",
     "TillerSellPrice": "110g 137g 165g 220g",
-    "ArtisanSellPrice": "300g 375g 450g 600g\n\n 250g",
-    "ArtisanTillerSellPrice": "420g 525g 630g 840g\n\n 350g"
+    "ArtisanSellPrice": "300g 375g 450g 600g 250g",
+    "ArtisanTillerSellPrice": "420g 525g 630g 840g 350g"
   },
   {
+    "Key": "23",
     "Type": "Fruit",
     "Name": "Apricot",
     "ImageSrc": "Apricot",
     "GetHow": "Fruit Trees",
-    "Season": "Spring",
+    "When": "Spring",
     "Restores": "38 17 53 23 68 30 98 44",
     "SellPrice": "50g 62g 75g 100g",
     "TillerSellPrice": "55g 68g 82g 110g",
-    "ArtisanSellPrice": "150g 187g 225g 300g\n\n 150g",
-    "ArtisanTillerSellPrice": "210g 262g 315g 420g\n\n 210g"
+    "ArtisanSellPrice": "150g 187g 225g 300g 150g",
+    "ArtisanTillerSellPrice": "210g 262g 315g 420g 210g"
   },
   {
+    "Key": "24",
     "Type": "Fruit",
     "Name": "Blackberry",
     "ImageSrc": "Blackberry",
     "GetHow": "Foraging",
-    "Season": "Fall",
+    "When": "Fall",
     "Restores": "25 11 35 15 45 19 65 28",
     "SellPrice": "20g 25g 30g 40g",
     "TillerSellPrice": "20g 25g 30g 40g",
-    "ArtisanSellPrice": "60g 75g 90g 120g\n\n 90g",
-    "ArtisanTillerSellPrice": "84g 105g 126g 168g\n\n 125g"
+    "ArtisanSellPrice": "60g 75g 90g 120g 90g",
+    "ArtisanTillerSellPrice": "84g 105g 126g 168g 125g"
   },
   {
+    "Key": "25",
     "Type": "Fruit",
     "Name": "Blueberry",
     "ImageSrc": "Blueberry",
     "GetHow": "Farming",
-    "Season": "Summer",
+    "When": "Summer",
     "Restores": "25 11 35 15 45 19",
     "SellPrice": "50g 62g 75g",
     "TillerSellPrice": "55g 68g 82g",
-    "ArtisanSellPrice": "150g 187g 225g 300g\n\n 150g",
-    "ArtisanTillerSellPrice": "210g 262g 315g 420g\n\n 210g"
+    "ArtisanSellPrice": "150g 187g 225g 300g 150g",
+    "ArtisanTillerSellPrice": "210g 262g 315g 420g 210g"
   },
   {
+    "Key": "26",
     "Type": "Fruit",
     "Name": "Cactus Fruit",
     "ImageSrc": "Cactus_Fruit",
     "GetHow": "Foraging",
-    "Season": "All Seasons",
+    "When": "Spring",
+    "When2": "Summer",
+    "When3": "Fall",
+    "When4": "Winter",
     "Restores": "75 33 105 46 135 59 195 85",
     "SellPrice": "75g 93g 112g 150g",
     "TillerSellPrice": "82g 102g 123g",
-    "ArtisanSellPrice": "225g 281g 337g 450g\n\n 200g",
-    "ArtisanTillerSellPrice": "315g 393g 472g 630g\n\n 280g"
+    "ArtisanSellPrice": "225g 281g 337g 450g 200g",
+    "ArtisanTillerSellPrice": "315g 393g 472g 630g 280g"
   },
   {
+    "Key": "27",
     "Type": "Fruit",
     "Name": "Cherry",
     "ImageSrc": "Cherry",
     "GetHow": "Fruit Trees",
-    "Season": "Spring",
+    "When": "Spring",
     "Restores": "38 17 53 23 68 30 98 44",
     "SellPrice": "80g 100g 120g 160g",
     "TillerSellPrice": "88g 110g 132g 176g",
-    "ArtisanSellPrice": "240g 300g 360g 480g\n\n 210g",
-    "ArtisanTillerSellPrice": "336g 420g 504g 672g\n\n 294g"
+    "ArtisanSellPrice": "240g 300g 360g 480g 210g",
+    "ArtisanTillerSellPrice": "336g 420g 504g 672g 294g"
   },
   {
+    "Key": "28",
     "Type": "Fruit",
     "Name": "Coconut",
     "ImageSrc": "Coconut",
     "GetHow": "Foraging",
-    "Season": "All Seasons",
+    "When": "Spring",
+    "When2": "Summer",
+    "When3": "Fall",
+    "When4": "Winter",
     "Restores": "Inedible",
     "SellPrice": "100g 125g 150g 200g",
     "TillerSellPrice": "100g 125g 150g 200g",
-    "ArtisanSellPrice": "300g 375g 450g 600g\n\n 250g",
-    "ArtisanTillerSellPrice": "420g 525g 630g 840g\n\n 350g"
+    "ArtisanSellPrice": "300g 375g 450g 600g 250g",
+    "ArtisanTillerSellPrice": "420g 525g 630g 840g 350g"
   },
   {
+    "Key": "29",
     "Type": "Fruit",
     "Name": "Cranberries",
     "ImageSrc": "Cranberries",
     "GetHow": "Farming",
-    "Season": "Fall",
+    "When": "Fall",
     "Restores": "38 17 53 23 68 30",
     "SellPrice": "75g 93g 112g",
     "TillerSellPrice": "82g 102g 123g",
-    "ArtisanSellPrice": "225g 281g 337g 450g\n\n 200g",
-    "ArtisanTillerSellPrice": "315g 393g 472g 630g\n\n 280g"
+    "ArtisanSellPrice": "225g 281g 337g 450g 200g",
+    "ArtisanTillerSellPrice": "315g 393g 472g 630g 280g"
   },
   {
+    "Key": "30",
     "Type": "Fruit",
     "Name": "Crystal Fruit",
     "ImageSrc": "Crystal_Fruit",
     "GetHow": "Foraging",
-    "Season": "Winter",
+    "When": "Winter",
     "Restores": "63 28 88 39 113 50 163 72",
     "SellPrice": "150g 187g 225g 300g",
     "TillerSellPrice": "150g 187g 225g 300g",
-    "ArtisanSellPrice": "450g 562g 675g 900g\n\n 350g",
-    "ArtisanTillerSellPrice": "630g 787g 945g 1260g\n\n 489g"
+    "ArtisanSellPrice": "450g 562g 675g 900g 350g",
+    "ArtisanTillerSellPrice": "630g 787g 945g 1260g 489g"
   },
   {
+    "Key": "31",
     "Type": "Fruit",
     "Name": "Grape",
     "ImageSrc": "Grape",
-    "GetHow": "Foraging\nFarming",
-    "Season": "Summer\n Fall",
+    "GetHow": "Foraging",
+    "GetHow2": "Farming",
+    "When": "Summer",
+    "When2": "Fall",
     "Restores": "38 17 53 23 68 30 98 44",
     "SellPrice": "80g 100g 120g 160g",
     "TillerSellPrice": "88g 110g 132g 176g",
-    "ArtisanSellPrice": "240g 300g 360g 480g\n\n 210g",
-    "ArtisanTillerSellPrice": "336g 420g 504g 672g\n\n 294g"
+    "ArtisanSellPrice": "240g 300g 360g 480g 210g",
+    "ArtisanTillerSellPrice": "336g 420g 504g 672g 294g"
   },
   {
+    "Key": "32",
     "Type": "Fruit",
     "Name": "Hot Pepper",
     "ImageSrc": "Hot_Pepper",
     "GetHow": "Farming",
-    "Season": "Summer",
+    "When": "Summer",
     "Restores": "13 5 18 7 23 9",
     "SellPrice": "40g 50g 60g",
     "TillerSellPrice": "44g 55g 66g",
-    "ArtisanSellPrice": "120g 150g 180g 240g\n\n 130g",
-    "ArtisanTillerSellPrice": "168g 210g 252g 336g\n\n 182g"
+    "ArtisanSellPrice": "120g 150g 180g 240g 130g",
+    "ArtisanTillerSellPrice": "168g 210g 252g 336g 182g"
   },
   {
+    "Key": "33",
     "Type": "Fruit",
     "Name": "Melon",
     "ImageSrc": "Melon",
     "GetHow": "Farming",
-    "Season": "Summer",
+    "When": "Summer",
     "Restores": "113 50 158 70 203 90",
     "SellPrice": "250g 312g 375g",
     "TillerSellPrice": "275g 343g 412g",
-    "ArtisanSellPrice": "750g 937g 1125g 1500g\n\n 550g",
-    "ArtisanTillerSellPrice": "1050g 1312g 1575g 2100g\n\n 770g"
+    "ArtisanSellPrice": "750g 937g 1125g 1500g 550g",
+    "ArtisanTillerSellPrice": "1050g 1312g 1575g 2100g 770g"
   },
   {
+    "Key": "34",
     "Type": "Fruit",
     "Name": "Orange",
     "ImageSrc": "Orange",
     "GetHow": "Fruit Trees",
-    "Season": "Summer",
+    "When": "Summer",
     "Restores": "38 17 53 23 68 30 98 44",
     "SellPrice": "100g 125g 150g 200g",
     "TillerSellPrice": "110g 137g 165g 220g",
-    "ArtisanSellPrice": "300g 375g 450g 600g\n\n 250g",
-    "ArtisanTillerSellPrice": "420g 525g 630g 840g\n\n 350g"
+    "ArtisanSellPrice": "300g 375g 450g 600g 250g",
+    "ArtisanTillerSellPrice": "420g 525g 630g 840g 350g"
   },
   {
+    "Key": "35",
     "Type": "Fruit",
     "Name": "Peach",
     "ImageSrc": "Peach",
     "GetHow": "Fruit Trees",
-    "Season": "Summer",
+    "When": "Summer",
     "Restores": "38 17 53 23 68 30 98 44",
     "SellPrice": "140g 175g 210g 280g",
     "TillerSellPrice": "154g 192g 231g 308g",
-    "ArtisanSellPrice": "420g 525g 630g 840g\n\n 330g",
-    "ArtisanTillerSellPrice": "588g 735g 882g 1176g\n\n 461g"
+    "ArtisanSellPrice": "420g 525g 630g 840g 330g",
+    "ArtisanTillerSellPrice": "588g 735g 882g 1176g 461g"
   },
   {
+    "Key": "36",
     "Type": "Fruit",
     "Name": "Pomegranate",
     "ImageSrc": "Pomegranate",
     "GetHow": "Fruit Trees",
-    "Season": "Fall",
+    "When": "Fall",
     "Restores": "38 17 53 23 68 30 98 44",
     "SellPrice": "140g 175g 210g 280g",
     "TillerSellPrice": "154g 192g 231g 308g",
-    "ArtisanSellPrice": "420g 525g 630g 840g\n\n 330g",
-    "ArtisanTillerSellPrice": "588g 735g 882g 1176g\n\n 461g"
+    "ArtisanSellPrice": "420g 525g 630g 840g 330g",
+    "ArtisanTillerSellPrice": "588g 735g 882g 1176g 461g"
   },
   {
+    "Key": "37",
     "Type": "Fruit",
     "Name": "Rhubarb",
     "ImageSrc": "Rhubarb",
     "GetHow": "Farming",
-    "Season": "Spring",
+    "When": "Spring",
     "Restores": "Inedible",
     "SellPrice": "220g 275g 330g",
     "TillerSellPrice": "242g 302g 363g",
-    "ArtisanSellPrice": "660g 825g 990g 1320g\n\n 490g",
-    "ArtisanTillerSellPrice": "923g 1153g 1384g 1846g\n\n 686g"
+    "ArtisanSellPrice": "660g 825g 990g 1320g 490g",
+    "ArtisanTillerSellPrice": "923g 1153g 1384g 1846g 686g"
   },
   {
+    "Key": "38",
     "Type": "Fruit",
     "Name": "Salmonberry",
     "ImageSrc": "Salmonberry",
     "GetHow": "Foraging",
-    "Season": "Spring",
+    "When": "Spring",
     "Restores": "25 11 35 15 45 19 65 28",
     "SellPrice": "5g 6g 7g 10g",
     "TillerSellPrice": "5g 6g 7g 10g",
-    "ArtisanSellPrice": "15g 18g 22g 30g\n\n 60g",
-    "ArtisanTillerSellPrice": "21g 26g 31g 42g\n\n 84g"
+    "ArtisanSellPrice": "15g 18g 22g 30g 60g",
+    "ArtisanTillerSellPrice": "21g 26g 31g 42g 84g"
   },
   {
+    "Key": "39",
     "Type": "Fruit",
     "Name": "Spice Berry",
     "ImageSrc": "Spice_Berry",
     "GetHow": "Foraging",
-    "Season": "Summer",
+    "When": "Summer",
     "Restores": "25 11 35 15 45 19 65 28",
     "SellPrice": "80g 100g 120g 160g",
     "TillerSellPrice": "80g 100g 120g 160g",
-    "ArtisanSellPrice": "240g 300g 360g 480g\n\n 210g",
-    "ArtisanTillerSellPrice": "336g 420g 504g 672g\n\n 294g"
+    "ArtisanSellPrice": "240g 300g 360g 480g 210g",
+    "ArtisanTillerSellPrice": "336g 420g 504g 672g 294g"
   },
   {
+    "Key": "40",
     "Type": "Fruit",
     "Name": "Starfruit",
     "ImageSrc": "Starfruit",
     "GetHow": "Farming",
-    "Season": "Summer",
+    "When": "Summer",
     "Restores": "125 56 175 78 225 100",
     "SellPrice": "750g 937g 1125g",
     "TillerSellPrice": "825g 1031g 1237g",
-    "ArtisanSellPrice": "2250g 2812g 3375g 4500g\n\n 1550g",
-    "ArtisanTillerSellPrice": "3150g 3937g 4725g 6300g\n\n 2170g"
+    "ArtisanSellPrice": "2250g 2812g 3375g 4500g 1550g",
+    "ArtisanTillerSellPrice": "3150g 3937g 4725g 6300g 2170g"
   },
   {
+    "Key": "41",
     "Type": "Fruit",
     "Name": "Strawberry",
     "ImageSrc": "Strawberry",
     "GetHow": "Farming",
-    "Season": "Spring",
+    "When": "Spring",
     "Restores": "50 22 70 30 90 39",
     "SellPrice": "120g 150g 180g",
     "TillerSellPrice": "132g 165g 198g",
-    "ArtisanSellPrice": "360g 450g 540g 720g\n\n 290g",
-    "ArtisanTillerSellPrice": "503g 628g 754g 1006g\n\n 406g"
+    "ArtisanSellPrice": "360g 450g 540g 720g 290g",
+    "ArtisanTillerSellPrice": "503g 628g 754g 1006g 406g"
   },
   {
+    "Key": "42",
     "Type": "Fruit",
     "Name": "Wild Plum",
     "ImageSrc": "Wild_Plum",
     "GetHow": "Foraging",
-    "Season": "Fall",
+    "When": "Fall",
     "Restores": "25 11 35 15 45 19 65 28",
     "SellPrice": "80g 100g 120g 160g",
     "TillerSellPrice": "80g 100g 120g 160g",
-    "ArtisanSellPrice": "240g 300g 360g 480g\n\n 210g",
-    "ArtisanTillerSellPrice": "336g 420g 504g 672g\n\n 294g"
+    "ArtisanSellPrice": "240g 300g 360g 480g 210g",
+    "ArtisanTillerSellPrice": "336g 420g 504g 672g 294g"
   },
   {
+    "Key": "43",
     "Type": "Forage",
     "Name": "Sap",
     "ImageSrc": "Sap",
     "Description": "A fluid obtained from trees.",
-    "When": "Anyday",
+    "When": "Anytime",
     "Found": "Wherever there are trees that can be chopped down",
     "SellPrice": "2g",
     "Restores": -2,
     "UsedIn": "Basic Fertilizer\nQuality Fertilizer\nTrap Bobber\nTorch"
   },
   {
+    "Key": "44",
     "Type": "Forage",
     "Name": "Wild Horseradish",
     "ImageSrc": "Wild_Horseradish",
@@ -526,6 +582,7 @@
     "UsedIn": "Spring Seeds\nSpring Foraging Bundle\nKrobus (loved gift)"
   },
   {
+    "Key": "45",
     "Type": "Forage",
     "Name": "Daffodil",
     "ImageSrc": "Daffodil",
@@ -537,6 +594,7 @@
     "UsedIn": "Spring Seeds\nSpring Foraging Bundle\nSandy (loved gift)"
   },
   {
+    "Key": "46",
     "Type": "Forage",
     "Name": "Leek",
     "ImageSrc": "Leek",
@@ -548,6 +606,7 @@
     "UsedIn": "Salad\nSpring Seeds\nSpring Foraging Bundle\nGeorge (loved gift)"
   },
   {
+    "Key": "47",
     "Type": "Forage",
     "Name": "Dandelion",
     "ImageSrc": "Dandelion",
@@ -559,6 +618,7 @@
     "UsedIn": "Salad\nSpring Seeds\nSpring Foraging Bundle"
   },
   {
+    "Key": "48",
     "Type": "Forage",
     "Name": "Spring Onion",
     "ImageSrc": "Spring_Onion",
@@ -570,6 +630,7 @@
     "UsedIn": ""
   },
   {
+    "Key": "49",
     "Type": "Forage",
     "Name": "Morel",
     "ImageSrc": "Morel",
@@ -581,6 +642,7 @@
     "UsedIn": "Fried Mushroom\nLife Elixir\nExotic Foraging Bundle"
   },
   {
+    "Key": "50",
     "Type": "Forage",
     "Name": "Common Mushroom",
     "ImageSrc": "Common_Mushroom",
@@ -592,6 +654,7 @@
     "UsedIn": "Fried Mushroom\nStir Fry\nTom Kha Soup\nFall Foraging Bundle"
   },
   {
+    "Key": "51",
     "Type": "Forage",
     "Name": "Salmonberry",
     "ImageSrc": "Salmonberry",
@@ -603,6 +666,7 @@
     "UsedIn": "Jelly\nWine"
   },
   {
+    "Key": "52",
     "Type": "Forage",
     "Name": "Spice Berry",
     "ImageSrc": "Spice_Berry",
@@ -614,6 +678,7 @@
     "UsedIn": "Summer Seeds\nSummer Foraging Bundle\nJelly\nWine"
   },
   {
+    "Key": "53",
     "Type": "Forage",
     "Name": "Grape",
     "ImageSrc": "Grape",
@@ -625,6 +690,7 @@
     "UsedIn": "Summer Seeds\nSummer Foraging Bundle\nVincent (loved gift)\nJelly\nWine"
   },
   {
+    "Key": "54",
     "Type": "Forage",
     "Name": "Sweet Pea",
     "ImageSrc": "Sweet_Pea",
@@ -636,6 +702,7 @@
     "UsedIn": "Summer Seeds\nSummer Foraging Bundle\nSandy (loved gift)"
   },
   {
+    "Key": "55",
     "Type": "Forage",
     "Name": "Red Mushroom",
     "ImageSrc": "Red_Mushroom",
@@ -647,6 +714,7 @@
     "UsedIn": "Dye Bundle\nExotic Foraging Bundle\n Life Elixir"
   },
   {
+    "Key": "56",
     "Type": "Forage",
     "Name": "Fiddlehead Fern",
     "ImageSrc": "Fiddlehead_Fern",
@@ -658,6 +726,7 @@
     "UsedIn": "Fiddlehead Risotto\nChef's Bundle\nPickles\nJuice"
   },
   {
+    "Key": "57",
     "Type": "Forage",
     "Name": "Wild Plum",
     "ImageSrc": "Wild_Plum",
@@ -669,6 +738,7 @@
     "UsedIn": "Fall Seeds\nPlum Pudding\nFall Foraging Bundle\nJelly\nWine"
   },
   {
+    "Key": "58",
     "Type": "Forage",
     "Name": "Hazelnut",
     "ImageSrc": "Hazelnut",
@@ -680,6 +750,7 @@
     "UsedIn": "Fall Seeds\nRoasted Hazelnuts\nSuper Meal\nStuffing\nFall Foraging Bundle"
   },
   {
+    "Key": "59",
     "Type": "Forage",
     "Name": "Blackberry",
     "ImageSrc": "Blackberry",
@@ -691,6 +762,7 @@
     "UsedIn": "Fall Seeds\nBlackberry Cobbler\nFall Foraging Bundle\nJelly\nWine"
   },
   {
+    "Key": "60",
     "Type": "Forage",
     "Name": "Chanterelle",
     "ImageSrc": "Chanterelle",
@@ -702,6 +774,7 @@
     "UsedIn": "Life Elixir"
   },
   {
+    "Key": "61",
     "Type": "Forage",
     "Name": "Common Mushroom",
     "ImageSrc": "Common_Mushroom",
@@ -713,6 +786,7 @@
     "UsedIn": "Fall Seeds\nFried Mushroom\nTom Kha Soup\nStir Fry\nFall Foraging Bundle"
   },
   {
+    "Key": "62",
     "Type": "Forage",
     "Name": "Red Mushroom",
     "ImageSrc": "Red_Mushroom",
@@ -724,6 +798,7 @@
     "UsedIn": "Dye Bundle\nExotic Foraging Bundle\n Life Elixir"
   },
   {
+    "Key": "63",
     "Type": "Forage",
     "Name": "Winter Root",
     "ImageSrc": "Winter_Root",
@@ -735,6 +810,7 @@
     "UsedIn": "Winter Seeds\nRoots Platter\nWinter Foraging Bundle"
   },
   {
+    "Key": "64",
     "Type": "Forage",
     "Name": "Crystal Fruit",
     "ImageSrc": "Crystal_Fruit",
@@ -746,6 +822,7 @@
     "UsedIn": "Winter Seeds\nWinter Foraging Bundle\nJelly\nWine"
   },
   {
+    "Key": "65",
     "Type": "Forage",
     "Name": "Snow Yam",
     "ImageSrc": "Snow_Yam",
@@ -757,6 +834,7 @@
     "UsedIn": "Winter Seeds\nWinter Foraging Bundle"
   },
   {
+    "Key": "66",
     "Type": "Forage",
     "Name": "Crocus",
     "ImageSrc": "Crocus",
@@ -768,6 +846,7 @@
     "UsedIn": "Winter Seeds\nWinter Foraging Bundle\nSandy (loved gift)"
   },
   {
+    "Key": "67",
     "Type": "Forage",
     "Name": "Holly",
     "ImageSrc": "Holly",
@@ -779,6 +858,7 @@
     "UsedIn": ""
   },
   {
+    "Key": "68",
     "Type": "Forage",
     "Name": "Nautilus Shell",
     "ImageSrc": "Nautilus_Shell",
@@ -790,6 +870,7 @@
     "UsedIn": "Field Research Bundle"
   },
   {
+    "Key": "69",
     "Type": "Forage",
     "Name": "Coral",
     "ImageSrc": "Coral",
@@ -801,6 +882,7 @@
     "UsedIn": "Deluxe Speed-Gro\nWarp Totem: Beach"
   },
   {
+    "Key": "70",
     "Type": "Forage",
     "Name": "Sea Urchin",
     "ImageSrc": "Sea_Urchin",
@@ -812,6 +894,7 @@
     "UsedIn": "Dye Bundle"
   },
   {
+    "Key": "71",
     "Type": "Forage",
     "Name": "Rainbow Shell",
     "ImageSrc": "Rainbow_Shell",
@@ -823,6 +906,7 @@
     "UsedIn": "'The Mysterious Qi' Quest"
   },
   {
+    "Key": "72",
     "Type": "Forage",
     "Name": "Clam",
     "ImageSrc": "Clam",
@@ -834,6 +918,7 @@
     "UsedIn": "Speed-Gro\nChowder\nCrab Pot Bundle"
   },
   {
+    "Key": "73",
     "Type": "Forage",
     "Name": "Cockle",
     "ImageSrc": "Cockle",
@@ -845,6 +930,7 @@
     "UsedIn": "Crab Pot Bundle"
   },
   {
+    "Key": "74",
     "Type": "Forage",
     "Name": "Mussel",
     "ImageSrc": "Mussel",
@@ -856,6 +942,7 @@
     "UsedIn": "Fish Stew\nCrab Pot Bundle"
   },
   {
+    "Key": "75",
     "Type": "Forage",
     "Name": "Oyster",
     "ImageSrc": "Oyster",
@@ -867,6 +954,7 @@
     "UsedIn": "Crab Pot Bundle"
   },
   {
+    "Key": "76",
     "Type": "Forage",
     "Name": "Red Mushroom",
     "ImageSrc": "Red_Mushroom",
@@ -878,6 +966,7 @@
     "UsedIn": "Dye Bundle\nExotic Foraging Bundle\n Life Elixir"
   },
   {
+    "Key": "77",
     "Type": "Forage",
     "Name": "Purple Mushroom",
     "ImageSrc": "Purple_Mushroom",
@@ -889,6 +978,7 @@
     "UsedIn": "Exotic Foraging Bundle\nField Research Bundle\n Life Elixir\nWizard (loved gift)"
   },
   {
+    "Key": "78",
     "Type": "Forage",
     "Name": "Cave Carrot",
     "ImageSrc": "Cave_Carrot",
@@ -900,6 +990,7 @@
     "UsedIn": "Survival Burger\nMiner's Treat\nRoots Platter\nStir Fry\nExotic Foraging Bundle"
   },
   {
+    "Key": "79",
     "Type": "Forage",
     "Name": "Cactus Fruit",
     "ImageSrc": "Cactus_Fruit",
@@ -911,6 +1002,7 @@
     "UsedIn": "Exotic Foraging Bundle\nJelly\nWine\nLinus (loved gift)\nPam (loved gift)\nSam (loved gift)"
   },
   {
+    "Key": "80",
     "Type": "Forage",
     "Name": "Coconut",
     "ImageSrc": "Coconut",
