@@ -30,7 +30,23 @@ class App extends Component {
     );
 
     const items = this.state.categoricals.map((item, key ) =>
-        <li key={item.Name}><img src={require('./img/'+item.ImageSrc+'.png')} className="categorical-icon" /><h2>{item.Name}</h2>&nbsp;{item.SellPrice}</li>
+          <div className="itemm-border-5">
+          <div className="itemm-border-4">
+          <div className="itemm-border-3">
+          <div className="itemm-border-2">
+          <div className="itemm-border-1">
+          <div className="itemm-layout">
+            <li key={item.Name} class="itemm-card-back">
+              <img src={require('./img/'+item.ImageSrc+'.png')} className="item-border" />
+              <h2>{item.Name}</h2>
+              <div>{item.SellPrice}</div>
+            </li>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
     );
 
     return (
@@ -55,7 +71,7 @@ class App extends Component {
             CSV Worksheet 
           </a>
         </header>
-        <section>
+        <section className="flex-grid">
          <ul>
           {items}
          </ul>
