@@ -6,7 +6,8 @@
 StardewDex gives you Stardew Valley info easily. 📈
 Add it to your Home Screen, make your game more fun. 💝
 
-## Alex Jacks Apps 2019, MIT License
+## Alex Jacks Apps 2019, MIT License (~Permissive Unlimited Reuse~)
+### Just please reference the MIT License in your resampling 🙏
 
 ## 💥 _Features_
 
@@ -41,6 +42,9 @@ Add it to your Home Screen, make your game more fun. 💝
 - landing page w/ granular filter (likely checkbox component) 🛠
 - navigation back and forth between items, from all items 🛠
 - version of Stardew Valley toggle on landing page (affects items available)
+
+# All Stardew Valley IP by Concerned Ape, used here under the Fair Use copyright.
+
 
 ## { Default CRA Readme }
 
