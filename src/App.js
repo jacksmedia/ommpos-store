@@ -40,15 +40,11 @@ class App extends Component {
           alt={item.Name}
           />
           <div className="rowed">
-            <h2>{item.Name}</h2>
-            <h4>{item.When}</h4>
-            {/*
-            <img src={require('./img/'+item.When+'.png')} alt={item.When} />
-            {item.When2 && <img src={require('./img/'+item.When2+'.png')} alt={item.When2} /> }
-            {item.When3 && <img src={require('./img/'+item.When3+'.png')} alt={item.When3} /> }
-            {item.When4 && <img src={require('./img/'+item.When4+'.png')} alt={item.When4} /> }
-            */}
-            <h4>{item.Type}</h4>
+              <h2>{item.Name}</h2>
+            <div className="coled">
+              <h4>{item.When}</h4>
+              <h4>{item.Type}</h4>
+            </div>
           </div>
           <div className="lotta-text">{item.Description}</div>
           <h4>{item.SellPrice}</h4>
@@ -72,23 +68,25 @@ class App extends Component {
 
     return (
       <div className="App">
-        
-
+        {/* HEADER component, includes sorting of BODY content */}
         <header className="App-header rowed">
           <div className="coled">
             <img src={logo} className="App-logo pulse" alt="logo" />
             <SimpleMenu />
           </div>
-          <FilterSwitches />
+          <div className="App-header-switchpanel">
+            <FilterSwitches />
+          </div>
           <div className="coled">
             <h2>
               Your Guide to Pelican Town
             </h2>
             <h3>
-              Launching June 2019
+              Add To Home Screen!
             </h3>
           </div>
         </header>
+      {/* BODY component, content sorted by HEADER */}
         <section >
          <ul className="App-body">
           {items}

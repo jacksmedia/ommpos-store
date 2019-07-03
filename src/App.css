@@ -78,8 +78,8 @@ ul {
 .itemm-card-padding { padding: 3px 7px 7px 7px; }
 .itemm-border-1 { border: 2px sienna solid; border-radius: 3px; }
 .itemm-border-2 { border: 3px chocolate solid; border-radius: 4px; }
-.itemm-border-3 { border: 5px sandybrown solid; border-radius: 8px; }
-.itemm-border-4 { border: 2px brown solid; border-radius: 8px; }
+.itemm-border-3 { border: 5px sandybrown solid; border-radius: 7px; }
+.itemm-border-4 { border: 2px brown solid; border-radius: 6px; }
 
 
 .item-border {
@@ -90,8 +90,12 @@ ul {
   width: 48px;
 }
 
-.lotta-text { max-width: 40vw; }
+.lotta-text { max-width: 27vw; }
 .navy { color: navy; }
+
+.App-header-switchpanel {
+  width: 30vw;
+}
 
 /* layout utilities */
 
