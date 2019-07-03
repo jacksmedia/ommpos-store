@@ -6,7 +6,7 @@
 StardewDex gives you Stardew Valley info easily. 📈
 Add it to your Home Screen, make your game more fun. 💝
 
-## Alex Jacks Apps 2019, MIT License (~Permissive Unlimited Reuse~)
+## Alex Jacks Apps 2019, MIT License ( Permissive Unlimited Reuse )
 ### Just please reference the MIT License in your resampling 🙏
 
 ## 💥 _Features_
