@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import SimpleMenu from './SimpleMenu.js';
 import FilterSwitches from './FilterSwitches.js';
 import stuff from './stuff.json';
+import bundles from './bundles.json';
 import './App.css';
 
 
@@ -21,7 +22,8 @@ class App extends Component {
   }
   
   componentDidMount() {      
-    console.log("@ p p   m 0 u n t   $ u c c e $ $");
+    console.log("check out the hipster hand-made JSON goodness");
+    console.log(bundles);
   }
 
   render(){
@@ -49,12 +51,12 @@ class App extends Component {
           <div className="lotta-text">{item.Description}</div>
           <h4>{item.SellPrice}</h4>
           <ul className="lotta-text navy">
-            {item.UsedIn && <li>⚫️ {item.UsedIn}</li>}
-            {item.UsedIn2 && <li>🔵 {item.UsedIn2}</li>}
-            {item.UsedIn3 && <li>🔴 {item.UsedIn3}</li>}
-            {item.UsedIn4 && <li>⚪️ {item.UsedIn4}</li>}
-            {item.UsedIn5 && <li>🌀 {item.UsedIn5}</li>}
-            {item.UsedIn6 && <li>🎃 {item.UsedIn6}</li>}
+            {item.UsedIn && <li>⓵ {item.UsedIn}</li>}
+            {item.UsedIn2 && <li>⓶ {item.UsedIn2}</li>}
+            {item.UsedIn3 && <li>⓷ {item.UsedIn3}</li>}
+            {item.UsedIn4 && <li>⓸ {item.UsedIn4}</li>}
+            {item.UsedIn5 && <li>⓹ {item.UsedIn5}</li>}
+            {item.UsedIn6 && <li>⓺ {item.UsedIn6}</li>}
           </ul>
         </div>
         </div>

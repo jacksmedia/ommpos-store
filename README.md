@@ -1,13 +1,12 @@
 # StardewDex 🍈🌟📇
 
-## Available at
-# [stardewdex.com](https://stardewdex.com)
+## Available at [stardewdex.com](https://stardewdex.com)
 
-StardewDex gives you Stardew Valley info easily. 📈
-Add it to your Home Screen, make your game more fun. 💝
+### StardewDex gives you Stardew Valley info easily. 📈
+### Add it to your Home Screen, make your game more fun. 💝
 
-## Alex Jacks Apps 2019, MIT License (~Permissive Unlimited Reuse~)
-### Just please reference the MIT License in your resampling 🙏
+### Alex Jacks Apps 2019, MIT License ( Permissive Unlimited Reuse )
+#### Just please reference the MIT License in your resampling 🙏
 
 ## 💥 _Features_
 
