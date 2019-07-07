@@ -27,7 +27,7 @@ class SortyTable extends Component {
 			},
 			MUIDataTableBodyRow: {
 				root: {
-					border: "3px solid forestgreen",
+					border: "2px solid forestgreen",
 				}
 			},
 		}
@@ -45,14 +45,6 @@ class SortyTable extends Component {
   		}
 	},
 	{
-		name: "ImageSrc",
-		label: "Image raw filename",
-		options: {
-		   filter: false,
-		   sort: false,
-  		}
-	},
-	{
 		name: "When",
 		label: "Season",
 		options: {
@@ -62,7 +54,7 @@ class SortyTable extends Component {
 	},
 	{
 		name: "Found",
-		label: "Acquired by",
+		label: "Acquired",
 		options: {
 		   filter: true,
 		   sort: true,
@@ -72,8 +64,10 @@ class SortyTable extends Component {
 		name: "BaseSellPrice",
 		label: "BaseSellPrice",
 		options: {
-		   filter: false,
 		   sort: true,
+		   filter: true,
+		   filterType: "textField",
+		   customFilterListRender: f => `${f}g`,
   		}
 	}
 	];
@@ -81,6 +75,9 @@ class SortyTable extends Component {
 	  filterType: "checkbox",
 	  pagination: false,
 	  selectableRows: "none",
+	  onFilterChange: (changedColumn, filterList) => {
+        console.log(changedColumn, filterList);
+      },
 	};
 		return(
 			<MuiThemeProvider theme={this.getMuiTheme()}>
