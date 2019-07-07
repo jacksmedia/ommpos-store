@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import SimpleMenu from './SimpleMenu.js';
-import FilterSwitches from './FilterSwitches.js';
+import SortyTable from './SortyTable.js';
+
 import stuff from './stuff.json';
 import bundles from './bundles.json';
 import './App.css';
@@ -21,8 +21,7 @@ class App extends Component {
     }
   }
   
-  componentDidMount() {      
-    console.log("check out the hipster hand-made JSON goodness");
+  componentDidMount() {
     console.log(bundles);
   }
 
@@ -49,7 +48,7 @@ class App extends Component {
             </div>
           </div>
           <div className="lotta-text">{item.Description}</div>
-          <h4>{item.SellPrice}</h4>
+          <h4>{item.BaseSellPrice}</h4>
           <ul className="lotta-text navy">
             {item.UsedIn && <li>⓵ {item.UsedIn}</li>}
             {item.UsedIn2 && <li>⓶ {item.UsedIn2}</li>}
@@ -74,10 +73,6 @@ class App extends Component {
         <header className="App-header rowed">
           <div className="coled">
             <img src={logo} className="App-logo pulse" alt="logo" />
-            <SimpleMenu />
-          </div>
-          <div className="App-header-switchpanel">
-            <FilterSwitches />
           </div>
           <div className="coled">
             <h2>
@@ -88,6 +83,9 @@ class App extends Component {
             </h3>
           </div>
         </header>
+          <div className="rowed">
+            <SortyTable />
+          </div>
       {/* BODY component, content sorted by HEADER */}
         <section >
          <ul className="App-body">
