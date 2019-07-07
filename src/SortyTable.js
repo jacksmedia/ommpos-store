@@ -1,10 +1,24 @@
-import React from 'react';
+import React, { Component } from 'react';
 import MUIDataTable from "mui-datatables";
+import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
 
 import stuff from './stuff.json';
 
-export default function SortyTable() {
+class SortyTable extends Component {
 
+
+	getMuiTheme = () => createMuiTheme({
+		overrides: {
+			// special styling to obfuscate Material-UI aesthetic ^_^
+			MUIDataTableBodyCell: {
+				root: {
+					backgroundColor: "ivory"
+				}
+			}
+		}
+	});
+
+	render(){
 	const JSONcolumns = [
 	{
 		name: "Name",
@@ -49,15 +63,18 @@ export default function SortyTable() {
 	];
 	const JSONdata = stuff;
 	const JSONoptions = {
-	  filterType: 'textField',
+	  filterType: 'checkbox',
 	};
-
-	return(
-		<MUIDataTable
-		  title={"Employee List"}
-		  data={JSONdata}
-		  columns={JSONcolumns}
-		  options={JSONoptions}
-		/>
-	);
+		return(
+			<MuiThemeProvider theme={this.getMuiTheme()}>
+				<MUIDataTable
+				  title={"Stardew Stuff"}
+				  data={JSONdata}
+				  columns={JSONcolumns}
+				  options={JSONoptions}
+				/>
+			</MuiThemeProvider>
+		);
+	}
 }
+export default SortyTable;
