@@ -6,25 +6,41 @@ import stuff from './stuff.json';
 
 class SortyTable extends Component {
 
-
 	getMuiTheme = () => createMuiTheme({
 		overrides: {
 			// special styling to obfuscate Material-UI aesthetic ^_^
+			MUIDataTableToolbar: {
+				root: {
+					backgroundColor: "wheat",
+				}
+			},
+			MUIDataTableHeadCell: {
+				root: {
+					color: "maroon",
+				}
+			},
 			MUIDataTableBodyCell: {
 				root: {
-					backgroundColor: "ivory"
+					backgroundColor: "ivory",
+					color: "navy",
 				}
-			}
+			},
+			MUIDataTableBodyRow: {
+				root: {
+					border: "3px solid forestgreen",
+				}
+			},
 		}
 	});
 
 	render(){
+	const JSONdata = stuff;
 	const JSONcolumns = [
 	{
 		name: "Name",
 		label: "Name of Item",
 		options: {
-		   filter: true,
+		   filter: false,
 		   sort: true,
   		}
 	},
@@ -32,7 +48,7 @@ class SortyTable extends Component {
 		name: "ImageSrc",
 		label: "Image raw filename",
 		options: {
-		   filter: true,
+		   filter: false,
 		   sort: false,
   		}
 	},
@@ -56,14 +72,15 @@ class SortyTable extends Component {
 		name: "BaseSellPrice",
 		label: "BaseSellPrice",
 		options: {
-		   filter: true,
+		   filter: false,
 		   sort: true,
   		}
 	}
 	];
-	const JSONdata = stuff;
 	const JSONoptions = {
-	  filterType: 'checkbox',
+	  filterType: "checkbox",
+	  pagination: false,
+	  selectableRows: "none",
 	};
 		return(
 			<MuiThemeProvider theme={this.getMuiTheme()}>
