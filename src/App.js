@@ -79,7 +79,7 @@ class App extends Component {
               Your Guide to Pelican Town
             </h2>
             <h3>
-              Add To Home Screen!
+              Open Settings Menu (⠇) & Add To Your Home Screen
             </h3>
           </div>
         </header>
@@ -88,6 +88,7 @@ class App extends Component {
           </div>
       {/* BODY component, content sorted by HEADER */}
         <section >
+        <h2>🚧 Work In Progress, Stay Tuned 🚧</h2>
          <ul className="App-body">
           {items}
          </ul>

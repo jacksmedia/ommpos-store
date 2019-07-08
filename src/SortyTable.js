@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import ReactDOM from "react-dom";
 import MUIDataTable from "mui-datatables";
 import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
+import { FormControlLabel, TextField } from '@material-ui/core';
 
 import stuff from './stuff.json';
 
@@ -9,6 +11,11 @@ class SortyTable extends Component {
 	getMuiTheme = () => createMuiTheme({
 		overrides: {
 			// special styling to obfuscate Material-UI aesthetic ^_^
+			MUIDataTable: {
+				root: {
+					width: "65vw",
+				}
+			},
 			MUIDataTableToolbar: {
 				root: {
 					backgroundColor: "wheat",
@@ -37,6 +44,19 @@ class SortyTable extends Component {
 	const JSONdata = stuff;
 	const JSONcolumns = [
 	{
+		name: "ImageSrc",
+		label: "_",
+		options: {
+		   filter: false,
+		   sort: false,
+		   customBodyRender: (value, tableMeta ) => (
+	            <FormControlLabel
+	              control={<img src={require('./img/' + value + '.png')} className='ikon'/>}
+	            />
+            )
+  		}
+	},
+	{
 		name: "Name",
 		label: "Name of Item",
 		options: {
@@ -47,6 +67,14 @@ class SortyTable extends Component {
 	{
 		name: "When",
 		label: "Season",
+		options: {
+		   filter: true,
+		   sort: true,
+  		}
+	},
+	{
+		name: "Type",
+		label: "Type",
 		options: {
 		   filter: true,
 		   sort: true,
@@ -66,8 +94,17 @@ class SortyTable extends Component {
 		options: {
 		   sort: true,
 		   filter: true,
-		   filterType: "textField",
-		   customFilterListRender: f => `${f}g`,
+		   customBodyRender: (value, tableMeta, updateValue) => {
+
+            const nf = new Intl.NumberFormat('en-US', {
+              style: 'currency',
+              currency: 'USD',
+              minimumFractionDigits: 2,
+              maximumFractionDigits: 2
+            });
+
+            return nf.format(value);
+          }
   		}
 	}
 	];
