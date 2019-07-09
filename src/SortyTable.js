@@ -10,12 +10,7 @@ class SortyTable extends Component {
 
 	getMuiTheme = () => createMuiTheme({
 		overrides: {
-			// special styling to obfuscate Material-UI aesthetic ^_^
-			MUIDataTable: {
-				root: {
-					width: "65vw",
-				}
-			},
+			// some baseline styling to obfuscate Material-UI aesthetic ^_^
 			MUIDataTableToolbar: {
 				root: {
 					backgroundColor: "wheat",
@@ -44,24 +39,38 @@ class SortyTable extends Component {
 	const JSONdata = stuff;
 	const JSONcolumns = [
 	{
-		name: "ImageSrc",
-		label: "_",
-		options: {
-		   filter: false,
-		   sort: false,
-		   customBodyRender: (value, tableMeta ) => (
-	            <FormControlLabel
-	              control={<img src={require('./img/' + value + '.png')} className='ikon'/>}
-	            />
-            )
-  		}
-	},
-	{
 		name: "Name",
 		label: "Name of Item",
 		options: {
 		   filter: false,
 		   sort: true,
+		   customBodyRender: (value, tableMeta ) => (
+	            <FormControlLabel
+	               className="wheat-fade"
+	              control={
+	              	<div>
+	              	<img src={require('./img/' + value.replace(/ /g,"_") + '.png')} className='ikon'/>
+	              	<span>{value}</span>
+	              	</div>
+	              }
+	            />
+           )
+  		}
+	},
+	{
+		name: "BaseSellPrice",
+		label: "BaseSellPrice",
+		options: {
+		   filter: true,
+		   sort: true,
+		   customBodyRender: (value, tableMeta ) => (
+	            <FormControlLabel
+	               className="wheat-fade"
+	              control={
+	              	<span>{value+'g'}</span>
+	              }
+	            />
+           )
   		}
 	},
 	{
@@ -70,6 +79,15 @@ class SortyTable extends Component {
 		options: {
 		   filter: true,
 		   sort: true,
+		   customBodyRender: (value, tableMeta ) => (
+	            <FormControlLabel
+	              control={
+	              	<div className={""+ value +" maxy"}>
+	              	{value}
+	              	</div>
+	              }
+	            />
+           )
   		}
 	},
 	{
@@ -78,6 +96,16 @@ class SortyTable extends Component {
 		options: {
 		   filter: true,
 		   sort: true,
+		   customBodyRender: (value, tableMeta ) => (
+	            <FormControlLabel
+	               className="wheat-fade"
+	              control={
+	              	<div className={""+ value +""}>
+	              	{value}
+	              	</div>
+	              }
+	            />
+           )
   		}
 	},
 	{
@@ -86,25 +114,16 @@ class SortyTable extends Component {
 		options: {
 		   filter: true,
 		   sort: true,
-  		}
-	},
-	{
-		name: "BaseSellPrice",
-		label: "BaseSellPrice",
-		options: {
-		   sort: true,
-		   filter: true,
-		   customBodyRender: (value, tableMeta, updateValue) => {
-
-            const nf = new Intl.NumberFormat('en-US', {
-              style: 'currency',
-              currency: 'USD',
-              minimumFractionDigits: 2,
-              maximumFractionDigits: 2
-            });
-
-            return nf.format(value);
-          }
+		   customBodyRender: (value, tableMeta ) => (
+	            <FormControlLabel
+	               className="wheat-fade"
+	              control={
+	              	<div className={""+ value +" maxy"}>
+	              	{value}
+	              	</div>
+	              }
+	            />
+           )
   		}
 	}
 	];

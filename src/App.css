@@ -63,14 +63,18 @@ ul {
 
 }
 
-.Spring { background: url(./img/paper_Spring.png), wheat ; }
-.Summer { background: url(./img/paper_Summer.png), wheat ; }
-.Fall { background: url(./img/paper_Fall.png), wheat ; }
-.Winter { background: url(./img/paper_Winter.png), wheat ; }
-.Beach { background: url(./img/paper_Beach.png), wheat ; }
-.Mines { background: url(./img/paper_Mines.png), wheat ; }
-.Desert { background: url(./img/paper_Desert.png), wheat ; }
-.Anytime { background: url(./img/paper_Anytime.png), wheat ; }
+.wheat-fade {
+  background-image: linear-gradient(to top, rgba(245,222,179,0.15),rgba(245,222,179,0.8), rgba(245,222,179,1));
+}
+
+.Spring { background-image: linear-gradient(to top, rgba(245,222,179,0.15),rgba(245,222,179,0.8), rgba(245,222,179,1)), url(./img/paper_Spring.png); } 
+.Summer { background-image: linear-gradient(to top, rgba(245,222,179,0.15),rgba(245,222,179,0.8), rgba(245,222,179,1)), url(./img/paper_Summer.png); } 
+.Fall { background-image: linear-gradient(to top, rgba(245,222,179,0.15),rgba(245,222,179,0.8), rgba(245,222,179,1)), url(./img/paper_Fall.png); } 
+.Winter { background-image: linear-gradient(to top, rgba(245,222,179,0.15),rgba(245,222,179,0.8), rgba(245,222,179,1)), url(./img/paper_Winter.png); } 
+.Beach { background-image: linear-gradient(to top, rgba(245,222,179,0.15),rgba(245,222,179,0.8), rgba(245,222,179,1)), url(./img/paper_Beach.png); } 
+.Mines { background-image: linear-gradient(to top, rgba(245,222,179,0.15),rgba(245,222,179,0.8), rgba(245,222,179,1)), url(./img/paper_Mines.png); } 
+.Desert { background-image: linear-gradient(to top, rgba(245,222,179,0.15),rgba(245,222,179,0.8), rgba(245,222,179,1)), url(./img/paper_Desert.png); } 
+.Anytime { background-image: linear-gradient(to top, rgba(245,222,179,0.15),rgba(245,222,179,0.8), rgba(245,222,179,1)), url(./img/paper_Anytime.png); } 
 
 .itemm-card-back {
   background-image: linear-gradient(to bottom, rgba(245,222,179,0.15),rgba(245,222,179,0.8), rgba(245,222,179,1));

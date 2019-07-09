@@ -88,10 +88,7 @@ class App extends Component {
           </div>
       {/* BODY component, content sorted by HEADER */}
         <section >
-        <h2>🚧 Work In Progress, Stay Tuned 🚧</h2>
-         <ul className="App-body">
-          {items}
-         </ul>
+          <h2>🚧 Work In Progress, Stay Tuned 🚧</h2>
         </section>
 
       </div>

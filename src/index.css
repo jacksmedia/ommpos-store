@@ -12,19 +12,13 @@ code {
     monospace;
 }
 
-
+/* Material-UI erasure from datatable */
 .ikon {
 	width: 48px;
 	height: 48px; 
 }
-
-/* special MUIDataTable plugin overrides 
-
-/* selecting the cell with the item name 
-.MuiTableCell-body-144:nth-child(2)::before {
-	content: 'url(./img/';
+.maxy {
+	min-width: 100%;
+	min-height: 100%;
+	padding: 2rem;
 }
-.MuiTableCell-body-144:nth-child(2)::after {
-	content: '.png)';
-}
-*/
