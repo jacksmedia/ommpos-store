@@ -22,3 +22,7 @@ code {
 	min-height: 100%;
 	padding: 2rem;
 }
+.textwrap {
+	display: flex;
+	flex-wrap: wrap;
+}

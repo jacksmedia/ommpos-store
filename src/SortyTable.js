@@ -11,6 +11,11 @@ class SortyTable extends Component {
 	getMuiTheme = () => createMuiTheme({
 		overrides: {
 			// some baseline styling to obfuscate Material-UI aesthetic ^_^
+			MUIDataTableBody: {
+				root: {
+					maxWidth: "100vw",
+				}
+			},
 			MUIDataTableToolbar: {
 				root: {
 					backgroundColor: "wheat",
@@ -29,7 +34,8 @@ class SortyTable extends Component {
 			},
 			MUIDataTableBodyRow: {
 				root: {
-					border: "2px solid forestgreen",
+					border: "2px brown solid",
+					borderRadius: "6px",
 				}
 			},
 		}
@@ -65,7 +71,7 @@ class SortyTable extends Component {
 		   sort: true,
 		   customBodyRender: (value, tableMeta ) => (
 	            <FormControlLabel
-	               className="wheat-fade"
+	               className="wheat-fade maxy"
 	              control={
 	              	<span>{value+'g'}</span>
 	              }
@@ -98,7 +104,7 @@ class SortyTable extends Component {
 		   sort: true,
 		   customBodyRender: (value, tableMeta ) => (
 	            <FormControlLabel
-	               className="wheat-fade"
+	               className="wheat-fade maxy"
 	              control={
 	              	<div className={""+ value +""}>
 	              	{value}
@@ -108,24 +114,7 @@ class SortyTable extends Component {
            )
   		}
 	},
-	{
-		name: "Found",
-		label: "Acquired",
-		options: {
-		   filter: true,
-		   sort: true,
-		   customBodyRender: (value, tableMeta ) => (
-	            <FormControlLabel
-	               className="wheat-fade"
-	              control={
-	              	<div className={""+ value +" maxy"}>
-	              	{value}
-	              	</div>
-	              }
-	            />
-           )
-  		}
-	}
+	
 	];
 	const JSONoptions = {
 	  filterType: "checkbox",
