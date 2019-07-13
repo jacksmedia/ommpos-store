@@ -8,20 +8,23 @@
 
 ## 💥 _Features_
 
-- WORKS OFFLINE b/c loads to your device like an app
-- quick and fast UI
-- up to date with latest Stardew Valley version
-- easy to find = separate load like an app on phones
+- quick and fast UI ☑️
+- sort inventory by product name 🚧
+- sort inventory by category 🚧
+- WORKS OFFLINE b/c loads to your device like an app 🚧
+- easy to find = separate load like an app on phones 🚧
 
 ## 📋 _Milestones_
 
 ### Engineering + Code
-- service-worker = works even if offline ⛔️
+- API test call ⛔️ add axios, use .env vars w netlify
+- datatable feature ⛔️ strip styling from lib
+- service-worker = works even if offline ⛔️ research, find lib
 
 ### Design + Biz
-- manifest for custom load screen & color branding ⛔️
-- custom logo + favicons ⛔️
-- Lighthouse PWA scoring, tweaks ⛔️
+- manifest for custom load screen & color branding ⛔️ compare to website, add
+- custom logo + favicons ⛔️ compare to website, add
+- Lighthouse PWA scoring, tweaks ⛔️ run test!
 
 ## 🏁 _Reach Goals_
-- rebuild in Gatsby
+- rebuild in Gatsby . . .
