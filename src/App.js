@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
 
 import SortyTable from './SortyTable.js';
 
@@ -7,9 +8,7 @@ import stuff from './stuff.json';
 import bundles from './bundles.json';
 import './App.css';
 
-
-
-import logo from './img/logo.png';
+import logo from './img/ommpos_logo.png';
 
 
 class App extends Component {
@@ -23,47 +22,22 @@ class App extends Component {
   
   componentDidMount() {
     console.log(bundles);
+
+    Promise.all([
+            axios.get('https://ommposapi420.azurewebsites.net/api/inventory/')
+            ])
+            .then(([ response ]) => {
+                this.setState({ inventory: response.data });
+
+                console.log(this.state.inventory);
+            });
   }
 
   render(){
 
     const items = this.state.categoricals.map((item, key ) =>
       <li key={item.Key} className="categorical">
-        <div className="itemm-border-4">
-        <div className="itemm-border-3">
-        <div className="itemm-border-2">
-        <div className="itemm-border-1">
-        <div className={item.When+ " coled"}>
-        <div className="itemm-card-back">
-        <div className="itemm-card-padding">
-          <img src={require('./img/'+item.ImageSrc+'.png')} 
-          className="item-border" 
-          alt={item.Name}
-          />
-          <div className="rowed">
-              <h2>{item.Name}</h2>
-            <div className="coled">
-              <h4>{item.When}</h4>
-              <h4>{item.Type}</h4>
-            </div>
-          </div>
-          <div className="lotta-text">{item.Description}</div>
-          <h4>{item.BaseSellPrice}</h4>
-          <ul className="lotta-text navy">
-            {item.UsedIn && <li>⓵ {item.UsedIn}</li>}
-            {item.UsedIn2 && <li>⓶ {item.UsedIn2}</li>}
-            {item.UsedIn3 && <li>⓷ {item.UsedIn3}</li>}
-            {item.UsedIn4 && <li>⓸ {item.UsedIn4}</li>}
-            {item.UsedIn5 && <li>⓹ {item.UsedIn5}</li>}
-            {item.UsedIn6 && <li>⓺ {item.UsedIn6}</li>}
-          </ul>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
+        OK
       </li>
     );
 
@@ -76,7 +50,7 @@ class App extends Component {
           </div>
           <div className="coled">
             <h2>
-              Your Guide to Pelican Town
+              Your OMMPOS Store
             </h2>
             <h3>
               Open Settings Menu (⠇) & Add To Your Home Screen
@@ -84,11 +58,12 @@ class App extends Component {
           </div>
         </header>
           <div className="rowed">
+
             <SortyTable />
           </div>
       {/* BODY component, content sorted by HEADER */}
         <section >
-          <h2>🚧 Work In Progress, Stay Tuned 🚧</h2>
+          <h2>🚧 Thank You for Choosing OMMPOS; Work In Progress 🚧</h2>
         </section>
 
       </div>

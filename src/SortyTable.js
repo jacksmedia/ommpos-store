@@ -6,19 +6,29 @@ import { FormControlLabel, TextField } from '@material-ui/core';
 
 import stuff from './stuff.json';
 
+
+
 class SortyTable extends Component {
 
 	getMuiTheme = () => createMuiTheme({
+		breakpoints: {
+			values: {
+		      xs: 0,
+		      sm: 300,
+		      md: 325,
+		      lg: 768,
+		      xl: 1100
+		    }
+		},
 		overrides: {
-			// some baseline styling to obfuscate Material-UI aesthetic ^_^
+			// some baseline styling to tweak Material-UI aesthetic ^_^
 			MUIDataTableBody: {
 				root: {
-					maxWidth: "100vw",
+					width: "100vw",
 				}
 			},
 			MUIDataTableToolbar: {
 				root: {
-					backgroundColor: "wheat",
 				}
 			},
 			MUIDataTableHeadCell: {
@@ -28,14 +38,13 @@ class SortyTable extends Component {
 			},
 			MUIDataTableBodyCell: {
 				root: {
-					backgroundColor: "ivory",
+					backgroundColor: "snow",
 					color: "navy",
 				}
 			},
 			MUIDataTableBodyRow: {
 				root: {
-					border: "2px brown solid",
-					borderRadius: "6px",
+					border: "2px green solid",
 				}
 			},
 		}
@@ -52,10 +61,9 @@ class SortyTable extends Component {
 		   sort: true,
 		   customBodyRender: (value, tableMeta ) => (
 	            <FormControlLabel
-	               className="wheat-fade"
+	               className="maxy"
 	              control={
 	              	<div>
-	              	<img src={require('./img/' + value.replace(/ /g,"_") + '.png')} className='ikon'/>
 	              	<span>{value}</span>
 	              	</div>
 	              }
@@ -65,32 +73,15 @@ class SortyTable extends Component {
 	},
 	{
 		name: "BaseSellPrice",
-		label: "BaseSellPrice",
+		label: "Price",
 		options: {
 		   filter: true,
 		   sort: true,
 		   customBodyRender: (value, tableMeta ) => (
 	            <FormControlLabel
-	               className="wheat-fade maxy"
+	               className="maxy"
 	              control={
 	              	<span>{value+'g'}</span>
-	              }
-	            />
-           )
-  		}
-	},
-	{
-		name: "When",
-		label: "Season",
-		options: {
-		   filter: true,
-		   sort: true,
-		   customBodyRender: (value, tableMeta ) => (
-	            <FormControlLabel
-	              control={
-	              	<div className={""+ value +" maxy"}>
-	              	{value}
-	              	</div>
 	              }
 	            />
            )
@@ -104,9 +95,9 @@ class SortyTable extends Component {
 		   sort: true,
 		   customBodyRender: (value, tableMeta ) => (
 	            <FormControlLabel
-	               className="wheat-fade maxy"
+	               className="maxy"
 	              control={
-	              	<div className={""+ value +""}>
+	              	<div className={""}>
 	              	{value}
 	              	</div>
 	              }
@@ -127,7 +118,7 @@ class SortyTable extends Component {
 		return(
 			<MuiThemeProvider theme={this.getMuiTheme()}>
 				<MUIDataTable
-				  title={"Stardew Stuff"}
+				  title={"Store Inventory"}
 				  data={JSONdata}
 				  columns={JSONcolumns}
 				  options={JSONoptions}
