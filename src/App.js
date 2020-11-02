@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import axios from 'axios';
 
 import SortyTable from './SortyTable.js';
 
@@ -9,7 +8,6 @@ import bundles from './bundles.json';
 import './App.css';
 
 import logo from './img/ommpos_logo.png';
-
 
 class App extends Component {
 
@@ -22,15 +20,6 @@ class App extends Component {
   
   componentDidMount() {
     console.log(bundles);
-
-    Promise.all([
-            axios.get('https://ommposapi420.azurewebsites.net/api/inventory/')
-            ])
-            .then(([ response ]) => {
-                this.setState({ inventory: response.data });
-
-                console.log(this.state.inventory);
-            });
   }
 
   render(){
@@ -50,20 +39,19 @@ class App extends Component {
           </div>
           <div className="coled">
             <h2>
-              Your OMMPOS Store
+              Your Local Store
             </h2>
             <h3>
               Open Settings Menu (⠇) & Add To Your Home Screen
             </h3>
           </div>
         </header>
-          <div className="rowed">
-
+          <div className="">
             <SortyTable />
           </div>
       {/* BODY component, content sorted by HEADER */}
         <section >
-          <h2>🚧 Thank You for Choosing OMMPOS; Work In Progress 🚧</h2>
+          <h4>🚧 Thank You for Choosing Your Local Store; this app is a Work In Progress 🚧</h4>
         </section>
 
       </div>
