@@ -5,8 +5,6 @@ import { FormControlLabel } from '@material-ui/core';
 
 import stuff from './stuff.json';
 
-
-
 class SortyTable extends Component {
 
 	getMuiTheme = () => createMuiTheme({
@@ -53,7 +51,7 @@ class SortyTable extends Component {
 	const JSONdata = stuff;
 	const JSONcolumns = [
 	{
-		name: "Name",
+		name: "item",
 		label: "Name of Item",
 		options: {
 		   filter: false,
@@ -71,7 +69,7 @@ class SortyTable extends Component {
   		}
 	},
 	{
-		name: "BaseSellPrice",
+		name: "price",
 		label: "Price",
 		options: {
 		   filter: true,
@@ -87,7 +85,7 @@ class SortyTable extends Component {
   		}
 	},
 	{
-		name: "Type",
+		name: "category",
 		label: "Type",
 		options: {
 		   filter: true,
@@ -117,7 +115,7 @@ class SortyTable extends Component {
 		return(
 			<MuiThemeProvider theme={this.getMuiTheme()}>
 				<MUIDataTable
-				  title={"Store Inventory"}
+				  title={"Store Inventory (Click 🔍 to Search)"}
 				  data={JSONdata}
 				  columns={JSONcolumns}
 				  options={JSONoptions}

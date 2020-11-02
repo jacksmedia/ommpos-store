@@ -1,954 +1,968 @@
 [
-  {
-    "Key": "1",
-    "Type": "Vegetable",
-    "Name": "Amaranth",
-    "ImageSrc": "Amaranth",
-    "Found": "Farming",
-    "When": "Fall",
-    "Restores": "50 22 70 30 90 39",
-    "BaseSellPrice": 150
-  },
-  {
-    "Key": "2",
-    "Type": "Vegetable",
-    "Name": "Artichoke",
-    "ImageSrc": "Artichoke",
-    "Found": "Farming",
-    "When": "Fall",
-    "Restores": "30 13 42 18 54 23",
-    "BaseSellPrice": 160
-  },
-  {
-    "Key": "3",
-    "Type": "Vegetable",
-    "Name": "Beet",
-    "ImageSrc": "Beet",
-    "Found": "Farming",
-    "When": "Fall",
-    "Restores": "30 13 42 18 54 23",
-    "BaseSellPrice": 100
-  },
-  {
-    "Key": "4",
-    "Type": "Vegetable",
-    "Name": "Bok Choy",
-    "ImageSrc": "Bok_Choy",
-    "Found": "Farming",
-    "When": "Fall",
-    "Restores": "25 11 35 15 45 19",
-    "BaseSellPrice": 80
-  },
-  {
-    "Key": "5",
-    "Type": "Vegetable",
-    "Name": "Cauliflower",
-    "ImageSrc": "Cauliflower",
-    "Found": "Farming",
-    "When": "Spring",
-    "Restores": "75 33 105 46 135 59",
-    "BaseSellPrice": 175
-  },
-  {
-    "Key": "6",
-    "Type": "Vegetable",
-    "Name": "Corn",
-    "ImageSrc": "Corn",
-    "Found": "Farming",
-    "When": "Summer",
-    "When2": "Fall",
-    "Restores": "25 11 35 15 45 19",
-    "BaseSellPrice": 50
-  },
-  {
-    "Key": "7",
-    "Type": "Vegetable",
-    "Name": "Eggplant",
-    "ImageSrc": "Eggplant",
-    "Found": "Farming",
-    "When": "Fall",
-    "Restores": "20 9 28 12 36 16",
-    "BaseSellPrice": 60
-  },
-  {
-    "Key": "8",
-    "Type": "Vegetable",
-    "Name": "Fiddlehead Fern",
-    "ImageSrc": "Fiddlehead_Fern",
-    "Found": "Foraging in the Secret Woods",
-    "When": "Summer",
-    "Restores": "25 11 35 15 45 19 65 28",
-    "BaseSellPrice": 90
-  },
-  {
-    "Key": "9",
-    "Type": "Vegetable",
-    "Name": "Garlic",
-    "ImageSrc": "Garlic",
-    "Found": "Farming",
-    "When": "Spring",
-    "Restores": "20 9 28 12 36 16",
-    "BaseSellPrice": 60
-  },
-  {
-    "Key": "10",
-    "Type": "Vegetable",
-    "Name": "Green Bean",
-    "ImageSrc": "Green_Bean",
-    "Found": "Farming",
-    "When": "Spring",
-    "Restores": "25 11 35 15 45 19",
-    "BaseSellPrice": 40
-  },
-  {
-    "Key": "11",
-    "Type": "Vegetable",
-    "Name": "Hops",
-    "ImageSrc": "Hops",
-    "Found": "Farming",
-    "When": "Summer",
-    "Restores": "45 20 62 28 81 36",
-    "BaseSellPrice": 25
-  },
-  {
-    "Key": "12",
-    "Type": "Vegetable",
-    "Name": "Kale",
-    "ImageSrc": "Kale",
-    "Found": "Farming",
-    "When": "Spring",
-    "Restores": "50 22 70 30 90 39",
-    "BaseSellPrice": 110
-  },
-  {
-    "Key": "13",
-    "Type": "Vegetable",
-    "Name": "Parsnip",
-    "ImageSrc": "Parsnip",
-    "Found": "Farming",
-    "When": "Spring",
-    "Restores": "25 11 35 15 45 19",
-    "BaseSellPrice": 35
-  },
-  {
-    "Key": "14",
-    "Type": "Vegetable",
-    "Name": "Potato",
-    "ImageSrc": "Potato",
-    "Found": "Farming",
-    "When": "Spring",
-    "Restores": "25 11 35 15 45 19",
-    "BaseSellPrice": 80
-  },
-  {
-    "Key": "15",
-    "Type": "Vegetable",
-    "Name": "Pumpkin",
-    "ImageSrc": "Pumpkin",
-    "Found": "Farming",
-    "When": "Fall",
-    "Restores": "Inedible",
-    "BaseSellPrice": 320
-  },
-  {
-    "Key": "16",
-    "Type": "Vegetable",
-    "Name": "Radish",
-    "ImageSrc": "Radish",
-    "Found": "Farming",
-    "When": "Summer",
-    "Restores": "45 20 62 28 81 36",
-    "BaseSellPrice": 90
-  },
-  {
-    "Key": "17",
-    "Type": "Vegetable",
-    "Name": "Red Cabbage",
-    "ImageSrc": "Red_Cabbage",
-    "Found": "Farming",
-    "When": "Summer",
-    "Restores": "75 33 105 46 135 59",
-    "BaseSellPrice": 260
-  },
-  {
-    "Key": "18",
-    "Type": "Vegetable",
-    "Name": "Tomato",
-    "ImageSrc": "Tomato",
-    "Found": "Farming",
-    "When": "Summer",
-    "Restores": "20 9 28 12 36 16",
-    "BaseSellPrice": 60
-  },
-  {
-    "Key": "19",
-    "Type": "Vegetable",
-    "Name": "Wheat",
-    "ImageSrc": "Wheat",
-    "Found": "Farming",
-    "When": "Summer",
-    "When2": "Fall",
-    "Restores": "Inedible",
-    "BaseSellPrice": 25
-  },
-  {
-    "Key": "20",
-    "Type": "Vegetable",
-    "Name": "Yam",
-    "ImageSrc": "Yam",
-    "Found": "Farming",
-    "When": "Fall",
-    "Restores": "45 20 62 28 81 36",
-    "BaseSellPrice": 160
-  },
-  {
-    "Key": "21",
-    "Type": "Fruit",
-    "Name": "Ancient Fruit",
-    "ImageSrc": "Ancient_Fruit",
-    "Found": "Farming",
-    "When": "Anytime",
-    "Restores": "Inedible",
-    "BaseSellPrice": 550
-  },
-  {
-    "Key": "22",
-    "Type": "Fruit",
-    "Name": "Apple",
-    "ImageSrc": "Apple",
-    "Found": "Fruit Trees",
-    "When": "Fall",
-    "Restores": "38 17 53 23 68 30 98 44",
-    "BaseSellPrice": 100
-  },
-  {
-    "Key": "23",
-    "Type": "Fruit",
-    "Name": "Apricot",
-    "ImageSrc": "Apricot",
-    "Found": "Fruit Trees",
-    "When": "Spring",
-    "Restores": "38 17 53 23 68 30 98 44",
-    "BaseSellPrice": 50
-  },
-  {
-    "Key": "24",
-    "Type": "Fruit",
-    "Name": "Blackberry",
-    "ImageSrc": "Blackberry",
-    "Found": "Foraging",
-    "When": "Fall",
-    "Restores": "25 11 35 15 45 19 65 28",
-    "BaseSellPrice": 20
-  },
-  {
-    "Key": "25",
-    "Type": "Fruit",
-    "Name": "Blueberry",
-    "ImageSrc": "Blueberry",
-    "Found": "Farming",
-    "When": "Summer",
-    "Restores": "25 11 35 15 45 19",
-    "BaseSellPrice": 50
-  },
-  {
-    "Key": "26",
-    "Type": "Fruit",
-    "Name": "Cactus Fruit",
-    "ImageSrc": "Cactus_Fruit",
-    "Found": "Foraging",
-    "When": "Anytime",
-    "Restores": "75 33 105 46 135 59 195 85",
-    "BaseSellPrice": 75
-  },
-  {
-    "Key": "27",
-    "Type": "Fruit",
-    "Name": "Cherry",
-    "ImageSrc": "Cherry",
-    "Found": "Fruit Trees",
-    "When": "Spring",
-    "Restores": "38 17 53 23 68 30 98 44",
-    "BaseSellPrice": 80
-  },
-  {
-    "Key": "29",
-    "Type": "Fruit",
-    "Name": "Cranberries",
-    "ImageSrc": "Cranberries",
-    "Found": "Farming",
-    "When": "Fall",
-    "Restores": "38 17 53 23 68 30",
-    "BaseSellPrice": 75
-  },
-  {
-    "Key": "30",
-    "Type": "Fruit",
-    "Name": "Crystal Fruit",
-    "ImageSrc": "Crystal_Fruit",
-    "Found": "Foraging",
-    "When": "Winter",
-    "Restores": "63 28 88 39 113 50 163 72",
-    "BaseSellPrice": 150
-  },
-  {
-    "Key": "31",
-    "Type": "Fruit",
-    "Name": "Grape",
-    "ImageSrc": "Grape",
-    "Found": "Foraging",
-    "Found2": "Farming",
-    "When": "Summer",
-    "When2": "Fall",
-    "Restores": "38 17 53 23 68 30 98 44",
-    "BaseSellPrice": 80
-  },
-  {
-    "Key": "32",
-    "Type": "Fruit",
-    "Name": "Hot Pepper",
-    "ImageSrc": "Hot_Pepper",
-    "Found": "Farming",
-    "When": "Summer",
-    "Restores": "13 5 18 7 23 9",
-    "BaseSellPrice": 40
-  },
-  {
-    "Key": "33",
-    "Type": "Fruit",
-    "Name": "Melon",
-    "ImageSrc": "Melon",
-    "Found": "Farming",
-    "When": "Summer",
-    "Restores": "113 50 158 70 203 90",
-    "BaseSellPrice": 250
-  },
-  {
-    "Key": "34",
-    "Type": "Fruit",
-    "Name": "Orange",
-    "ImageSrc": "Orange",
-    "Found": "Fruit Trees",
-    "When": "Summer",
-    "Restores": "38 17 53 23 68 30 98 44",
-    "BaseSellPrice": 100
-  },
-  {
-    "Key": "35",
-    "Type": "Fruit",
-    "Name": "Peach",
-    "ImageSrc": "Peach",
-    "Found": "Fruit Trees",
-    "When": "Summer",
-    "Restores": "38 17 53 23 68 30 98 44",
-    "BaseSellPrice": 140
-  },
-  {
-    "Key": "36",
-    "Type": "Fruit",
-    "Name": "Pomegranate",
-    "ImageSrc": "Pomegranate",
-    "Found": "Fruit Trees",
-    "When": "Fall",
-    "Restores": "38 17 53 23 68 30 98 44",
-    "BaseSellPrice": 140
-  },
-  {
-    "Key": "37",
-    "Type": "Fruit",
-    "Name": "Rhubarb",
-    "ImageSrc": "Rhubarb",
-    "Found": "Farming",
-    "When": "Spring",
-    "Restores": "Inedible",
-    "BaseSellPrice": 220
-  },
-  {
-    "Key": "38",
-    "Type": "Fruit",
-    "Name": "Salmonberry",
-    "ImageSrc": "Salmonberry",
-    "Found": "Foraging",
-    "When": "Spring",
-    "Restores": "25 11 35 15 45 19 65 28",
-    "BaseSellPrice": 5
-  },
-  {
-    "Key": "39",
-    "Type": "Fruit",
-    "Name": "Spice Berry",
-    "ImageSrc": "Spice_Berry",
-    "Found": "Foraging",
-    "When": "Summer",
-    "Restores": "25 11 35 15 45 19 65 28",
-    "BaseSellPrice": 80
-  },
-  {
-    "Key": "40",
-    "Type": "Fruit",
-    "Name": "Starfruit",
-    "ImageSrc": "Starfruit",
-    "Found": "Farming",
-    "When": "Summer",
-    "Restores": "125 56 175 78 225 100",
-    "BaseSellPrice": 750
-  },
-  {
-    "Key": "41",
-    "Type": "Fruit",
-    "Name": "Strawberry",
-    "ImageSrc": "Strawberry",
-    "Found": "Farming",
-    "When": "Spring",
-    "Restores": "50 22 70 30 90 39",
-    "BaseSellPrice": 120
-  },
-  {
-    "Key": "42",
-    "Type": "Fruit",
-    "Name": "Wild Plum",
-    "ImageSrc": "Wild_Plum",
-    "Found": "Foraging",
-    "When": "Fall",
-    "Restores": "25 11 35 15 45 19 65 28",
-    "BaseSellPrice": 80
-  },
-  {
-    "Key": "43",
-    "Type": "Forage",
-    "Name": "Sap",
-    "ImageSrc": "Sap",
-    "Description": "A fluid obtained from trees.",
-    "When": "Anytime",
-    "Found": "Wherever there are trees that can be chopped down",
-    "BaseSellPrice": 2,
-    "Restores": -2,
-    "UsedIn": "Basic Fertilizer",
-    "UsedIn2": "Quality Fertilizer",
-    "UsedIn3": "Trap Bobber",
-    "UsedIn4": "Torch"
-  },
-  {
-    "Key": "44",
-    "Type": "Forage",
-    "Name": "Wild Horseradish",
-    "ImageSrc": "Wild_Horseradish",
-    "Description": "A spicy root found in the spring.",
-    "When": "Spring",
-    "Found": "Above ground in Stardew Valley",
-    "BaseSellPrice": 50,
-    "Restores": "13 5 18 7 23 9 33 13",
-    "UsedIn": "Spring Seeds",
-    "UsedIn2": "Spring Foraging Bundle",
-    "UsedIn3": "Krobus (loved gift)"
-  },
-  {
-    "Key": "45",
-    "Type": "Forage",
-    "Name": "Daffodil",
-    "ImageSrc": "Daffodil",
-    "Description": "A traditional spring flower that makes a nice gift.",
-    "When": "Spring",
-    "Found": "Above ground in Stardew Valley",
-    "BaseSellPrice": 30,
-    "Restores": "0 0 0 0 0 0 0 0",
-    "UsedIn": "Spring Seeds",
-    "UsedIn2": "Spring Foraging Bundle",
-    "UsedIn3": "Sandy (loved gift)"
-  },
-  {
-    "Key": "46",
-    "Type": "Forage",
-    "Name": "Leek",
-    "ImageSrc": "Leek",
-    "Description": "A tasty relative of the onion.",
-    "When": "Spring",
-    "Found": "Above ground in Stardew Valley, may be more common in The Mountains",
-    "BaseSellPrice": 60,
-    "Restores": "40 16 56 22 72 28 104 41",
-    "UsedIn": "Salad",
-    "UsedIn2": "Spring Seeds",
-    "UsedIn3": "Spring Foraging Bundle",
-    "UsedIn4": "George (loved gift)"
-  },
-  {
-    "Key": "47",
-    "Type": "Forage",
-    "Name": "Dandelion",
-    "ImageSrc": "Dandelion",
-    "Description": "Not the prettiest flower, but the leaves make a good salad.",
-    "When": "Spring",
-    "Found": "Above ground in Stardew Valley",
-    "BaseSellPrice": 40,
-    "Restores": "25 10 35 14 45 18 65 26",
-    "UsedIn": "Salad",
-    "UsedIn2": "Spring Seeds",
-    "UsedIn3": "Spring Foraging Bundle"
-  },
-  {
-    "Key": "48",
-    "Type": "Forage",
-    "Name": "Spring Onion",
-    "ImageSrc": "Spring_Onion",
-    "Description": "These grow wild during the spring.",
-    "When": "Spring",
-    "Found": "Cindersap Forest",
-    "BaseSellPrice": 8,
-    "Restores": "13 5 18 7 23 9 33 13",
-    "UsedIn": ""
-  },
-  {
-    "Key": "49",
-    "Type": "Forage",
-    "Name": "Morel",
-    "ImageSrc": "Morel",
-    "Description": "Sought after for its unique nutty flavor.",
-    "When": "Spring",
-    "Found": "Secret Woods",
-    "BaseSellPrice": 150,
-    "Restores": "20 8 28 11 36 14 52 20",
-    "UsedIn": "Fried Mushroom",
-    "UsedIn2": "Life Elixir",
-    "UsedIn3": "Exotic Foraging Bundle"
-  },
-  {
-    "Key": "50",
-    "Type": "Forage",
-    "Name": "Common Mushroom",
-    "ImageSrc": "Common_Mushroom",
-    "Description": "Slightly nutty, with good texture.",
-    "When": "Spring",
-    "Found": "Secret Woods",
-    "BaseSellPrice": 40,
-    "Restores": "38 15 53 21 68 27 98 39",
-    "UsedIn": "Fried Mushroom",
-    "UsedIn2": "Stir Fry",
-    "UsedIn3": "Tom Kha Soup",
-    "UsedIn4": "Fall Foraging Bundle"
-  },
-  {
-    "Key": "51",
-    "Type": "Forage",
-    "Name": "Salmonberry",
-    "ImageSrc": "Salmonberry",
-    "Description": "A spring-time berry with the flavor of the forest.",
-    "When": "Spring",
-    "Found": "On bushes during Salmonberry Season (Spring 15 - 18).",
-    "BaseSellPrice": 5,
-    "Restores": "25 10 35 14 45 18 65 26",
-    "UsedIn": "Jelly",
-    "UsedIn2": "Wine"
-  },
-  {
-    "Key": "52",
-    "Type": "Forage",
-    "Name": "Spice Berry",
-    "ImageSrc": "Spice_Berry",
-    "Description": "It fills the air with a pungent aroma.",
-    "When": "Summer",
-    "Found": "Above ground in Stardew Valley",
-    "BaseSellPrice": 80,
-    "Restores": "25 10 35 14 45 18 65 26",
-    "UsedIn": "Summer Seeds",
-    "UsedIn2": "Summer Foraging Bundle",
-    "UsedIn3": "Jelly",
-    "UsedIn4": "Wine"
-  },
-  {
-    "Key": "53",
-    "Type": "Forage",
-    "Name": "Grape",
-    "ImageSrc": "Grape",
-    "Description": "A sweet cluster of fruit.",
-    "When": "Summer",
-    "Found": "Above ground in Stardew Valley",
-    "BaseSellPrice": 80,
-    "Restores": "38 15 53 21 68 27 98 39",
-    "UsedIn": "Summer Seeds",
-    "UsedIn2": "Summer Foraging Bundle",
-    "UsedIn3": "Vincent (loved gift)",
-    "UsedIn4": "Jelly",
-    "UsedIn5": "Wine"
-  },
-  {
-    "Key": "54",
-    "Type": "Forage",
-    "Name": "Sweet Pea",
-    "ImageSrc": "Sweet_Pea",
-    "Description": "A fragrant summer flower.",
-    "When": "Summer",
-    "Found": "Above ground in Stardew Valley",
-    "BaseSellPrice": 50,
-    "Restores": "0 0 0 0 0 0 0 0",
-    "UsedIn": "Summer Seeds",
-    "UsedIn2": "Summer Foraging Bundle",
-    "UsedIn3": "Sandy (loved gift)"
-  },
-  {
-    "Key": "55",
-    "Type": "Forage",
-    "Name": "Red Mushroom",
-    "ImageSrc": "Red_Mushroom",
-    "Description": "A spotted mushroom sometimes found in caves.",
-    "When": "Summer",
-    "Found": "The Mines Secret Woods",
-    "BaseSellPrice": 75,
-    "Restores": "-50 -70 -90 -130",
-    "UsedIn": "Dye Bundle",
-    "UsedIn2": "Exotic Foraging Bundle",
-    "UsedIn3": "Life Elixir"
-  },
-  {
-    "Key": "56",
-    "Type": "Forage",
-    "Name": "Fiddlehead Fern",
-    "ImageSrc": "Fiddlehead_Fern",
-    "Description": "The young shoots are an edible specialty.",
-    "When": "Summer",
-    "Found": "Secret Woods",
-    "BaseSellPrice": 90,
-    "Restores": "25 10 35 14 45 18 65 26",
-    "UsedIn": "Fiddlehead Risotto",
-    "UsedIn2": "Chef's Bundle",
-    "UsedIn3": "Pickles",
-    "UsedIn4": "Juice"
-  },
-  {
-    "Key": "57",
-    "Type": "Forage",
-    "Name": "Wild Plum",
-    "ImageSrc": "Wild_Plum",
-    "Description": "Tart and juicy with a pungent aroma.",
-    "When": "Fall",
-    "Found": "Above ground in Stardew Valley",
-    "BaseSellPrice": 80,
-    "Restores": "25 10 35 14 45 18 65 26",
-    "UsedIn": "Fall Seeds",
-    "UsedIn2": "Plum Pudding",
-    "UsedIn3": "Fall Foraging Bundle",
-    "UsedIn4": "Jelly",
-    "UsedIn5": "Wine"
-  },
-  {
-    "Key": "58",
-    "Type": "Forage",
-    "Name": "Hazelnut",
-    "ImageSrc": "Hazelnut",
-    "Description": "That's one big hazelnut!",
-    "When": "Fall",
-    "Found": "Above ground in Stardew Valley",
-    "BaseSellPrice": 90,
-    "Restores": "30 12 42 16 54 21 78 31",
-    "UsedIn": "Fall Seeds",
-    "UsedIn2": "Roasted Hazelnuts",
-    "UsedIn3": "Super Meal",
-    "UsedIn4": "Stuffing",
-    "UsedIn5": "Fall Foraging Bundle"
-  },
-  {
-    "Key": "59",
-    "Type": "Forage",
-    "Name": "Blackberry",
-    "ImageSrc": "Blackberry",
-    "Description": "An early-fall treat.",
-    "When": "Fall",
-    "Found": "Above ground in Stardew Valley On bushes during Blackberry Season (Fall 8 - 11)",
-    "BaseSellPrice": 20,
-    "Restores": "25 10 35 14 45 18 65 26",
-    "UsedIn": "Fall Seeds",
-    "UsedIn2": "Blackberry Cobbler",
-    "UsedIn3": "Fall Foraging Bundle",
-    "UsedIn4": "Jelly",
-    "UsedIn5": "Wine"
-  },
-  {
-    "Key": "60",
-    "Type": "Forage",
-    "Name": "Chanterelle",
-    "ImageSrc": "Chanterelle",
-    "Description": "A tasty mushroom with a fruity smell and slightly peppery flavor.",
-    "When": "Fall",
-    "Found": "Secret Woods",
-    "BaseSellPrice": 160,
-    "Restores": "75 30 105 42 135 54 195 78",
-    "UsedIn": "Life Elixir"
-  },
-  {
-    "Key": "61",
-    "Type": "Forage",
-    "Name": "Common Mushroom",
-    "ImageSrc": "Common_Mushroom",
-    "Description": "Slightly nutty, with good texture.",
-    "When": "Fall",
-    "Found": "Above ground in Stardew Valley",
-    "BaseSellPrice": 40,
-    "Restores": "38 15 53 21 68 27 98 39",
-    "UsedIn": "Fall Seeds",
-    "UsedIn2": "Fried Mushroom",
-    "UsedIn2": "Tom Kha Soup",
-    "UsedIn3": "Stir Fry",
-    "UsedIn4": "Fall Foraging Bundle"
-  },
-  {
-    "Key": "62",
-    "Type": "Forage",
-    "Name": "Red Mushroom",
-    "ImageSrc": "Red_Mushroom",
-    "Description": "A spotted mushroom sometimes found in caves.",
-    "When": "Fall",
-    "Found": "The Mines Secret Woods",
-    "BaseSellPrice": 75,
-    "Restores": "-50 -70 -90 -130",
-    "UsedIn": "Dye Bundle",
-    "UsedIn2": "Exotic Foraging Bundle",
-    "UsedIn3":" Life Elixir"
-  },
-  {
-    "Key": "63",
-    "Type": "Forage",
-    "Name": "Winter Root",
-    "ImageSrc": "Winter_Root",
-    "Description": "A starchy tuber.",
-    "When": "Winter",
-    "Found": "Tilling soil throughout Stardew Valley",
-    "BaseSellPrice": 70,
-    "Restores": "25 10 35 14 45 18 65 26",
-    "UsedIn": "Winter Seeds",
-    "UsedIn2": "Roots Platter",
-    "UsedIn3": "Winter Foraging Bundle"
-  },
-  {
-    "Key": "64",
-    "Type": "Forage",
-    "Name": "Crystal Fruit",
-    "ImageSrc": "Crystal_Fruit",
-    "Description": "A delicate fruit that pops up from the snow.",
-    "When": "Winter",
-    "Found": "Above ground in Stardew Valley",
-    "BaseSellPrice": 150,
-    "Restores": "63 25 88 35 113 45 163 65",
-    "UsedIn": "Winter Seeds",
-    "UsedIn2": "Winter Foraging Bundle",
-    "UsedIn3": "Jelly",
-    "UsedIn4": "Wine"
-  },
-  {
-    "Key": "65",
-    "Type": "Forage",
-    "Name": "Snow Yam",
-    "ImageSrc": "Snow_Yam",
-    "Description": "This little yam was hiding beneath the snow.",
-    "When": "Winter",
-    "Found": "Tilling soil throughout Stardew Valley",
-    "BaseSellPrice": 100,
-    "Restores": "30 12 42 16 54 21 78 31",
-    "UsedIn": "Winter Seeds",
-    "UsedIn2": "Winter Foraging Bundle"
-  },
-  {
-    "Key": "66",
-    "Type": "Forage",
-    "Name": "Crocus",
-    "ImageSrc": "Crocus",
-    "Description": "A flower that can bloom in the winter.",
-    "When": "Winter",
-    "Found": "Above ground in Stardew Valley",
-    "BaseSellPrice": 60,
-    "Restores": "0 0 0 0 0 0 0 0",
-    "UsedIn": "Winter Seeds",
-    "UsedIn2": "Winter Foraging Bundle",
-    "UsedIn3": "Sandy (loved gift)"
-  },
-  {
-    "Key": "67",
-    "Type": "Forage",
-    "Name": "Holly",
-    "ImageSrc": "Holly",
-    "Description": "The leaves and bright red berries make a popular winter decoration.",
-    "When": "Winter",
-    "Found": "Above ground in Stardew Valley",
-    "BaseSellPrice": 80,
-    "Restores": "-20",
-    "UsedIn": ""
-  },
-  {
-    "Key": "68",
-    "Type": "Forage",
-    "Name": "Nautilus Shell",
-    "ImageSrc": "Nautilus_Shell",
-    "Description": "An ancient shell.",
-    "When": "Beach",
-    "Found": "Winter",
-    "BaseSellPrice": 120,
-    "Restores": "",
-    "UsedIn": "Field Research Bundle"
-  },
-  {
-    "Key": "69",
-    "Type": "Forage",
-    "Name": "Coral",
-    "ImageSrc": "Coral",
-    "Description": "A colony of tiny creatures that clump together to form beautiful structures.",
-    "When": "Beach",
-    "Found": "All",
-    "BaseSellPrice": 80,
-    "Restores": "",
-    "UsedIn": "Deluxe Speed-Gro",
-    "UsedIn2": "Warp Totem: Beach"
-  },
-  {
-    "Key": "70",
-    "Type": "Forage",
-    "Name": "Sea Urchin",
-    "ImageSrc": "Sea_Urchin",
-    "Description": "A slow-moving, spiny creature that some consider a delicacy.",
-    "When": "Beach",
-    "Found": "All",
-    "BaseSellPrice": 160,
-    "Restores": "",
-    "UsedIn": "Dye Bundle"
-  },
-  {
-    "Key": "71",
-    "Type": "Forage",
-    "Name": "Rainbow Shell",
-    "ImageSrc": "Rainbow_Shell",
-    "Description": "It's a very beautiful shell.",
-    "When": "Beach",
-    "Found": "Summer",
-    "BaseSellPrice": 300,
-    "Restores": "",
-    "UsedIn": "'The Mysterious Qi' Quest"
-  },
-  {
-    "Key": "72",
-    "Type": "Forage",
-    "Name": "Clam",
-    "ImageSrc": "Clam",
-    "Description": "Someone lived here once.",
-    "When": "Beach",
-    "Found": "All",
-    "BaseSellPrice": 50,
-    "Restores": "",
-    "UsedIn": "Speed-Gro",
-    "UsedIn2": "Chowder",
-    "UsedIn2": "Crab Pot Bundle"
-  },
-  {
-    "Key": "73",
-    "Type": "Forage",
-    "Name": "Cockle",
-    "ImageSrc": "Cockle",
-    "Description": "A common saltwater clam.",
-    "When": "Beach",
-    "Found": "All",
-    "BaseSellPrice": 50,
-    "Restores": "",
-    "UsedIn": "Crab Pot Bundle"
-  },
-  {
-    "Key": "74",
-    "Type": "Forage",
-    "Name": "Mussel",
-    "ImageSrc": "Mussel",
-    "Description": "A common bivalve that often lives in clusters.",
-    "When": "Beach",
-    "Found": "All",
-    "BaseSellPrice": 30,
-    "Restores": "",
-    "UsedIn": "Fish Stew",
-    "UsedIn2": "Crab Pot Bundle"
-  },
-  {
-    "Key": "75",
-    "Type": "Forage",
-    "Name": "Oyster",
-    "ImageSrc": "Oyster",
-    "Description": "Constantly filters water to find food. In the process, it removes dangerous toxins from the environment.",
-    "When": "Beach",
-    "Found": "All",
-    "BaseSellPrice": 40,
-    "Restores": "",
-    "UsedIn": "Crab Pot Bundle"
-  },
-  {
-    "Key": "76",
-    "Type": "Forage",
-    "Name": "Red Mushroom",
-    "ImageSrc": "Red_Mushroom",
-    "Description": "A spotted mushroom sometimes found in caves.",
-    "When": "Mines",
-    "Found": "Anytime",
-    "BaseSellPrice": 75,
-    "Restores": "-50 -70 -90 -130",
-    "UsedIn": "Dye Bundle",
-    "UsedIn2": "Exotic Foraging Bundle",
-     "UsedIn2":" Life Elixir"
-  },
-  {
-    "Key": "77",
-    "Type": "Forage",
-    "Name": "Purple Mushroom",
-    "ImageSrc": "Purple_Mushroom",
-    "Description": "A rare mushroom found deep in caves.",
-    "When": "Mines",
-    "Found": "Anytime",
-    "BaseSellPrice": 250,
-    "Restores": "125 50 175 70 225 90 325 130",
-    "UsedIn": "Exotic Foraging Bundle",
-    "UsedIn2": "Field Research Bundle",
-    "UsedIn3": "Life Elixir",
-    "UsedIn4": "Wizard (loved gift)"
-  },
-  {
-    "Key": "78",
-    "Type": "Forage",
-    "Name": "Cave Carrot",
-    "ImageSrc": "Cave_Carrot",
-    "Description": "A starchy snack found in caves. It helps miners work longer.",
-    "When": "Mines",
-    "Found": "Anytime",
-    "BaseSellPrice": 25,
-    "Restores": "30 12",
-    "UsedIn": "Survival Burger",
-    "UsedIn2": "Miner's Treat",
-    "UsedIn3": "Roots Platter",
-    "UsedIn4": "Stir Fry",
-    "UsedIn5": "Exotic Foraging Bundle"
-  },
-  {
-    "Key": "79",
-    "Type": "Forage",
-    "Name": "Cactus Fruit",
-    "ImageSrc": "Cactus_Fruit",
-    "Description": "The sweet fruit of the prickly pear cactus.",
-    "When": "Desert",
-    "Found": "Anytime",
-    "BaseSellPrice": 75,
-    "Restores": "75 30 105 42 135 54 195 78",
-    "UsedIn": "Exotic Foraging Bundle",
-    "UsedIn2": "Jelly",
-    "UsedIn3": "Wine",
-    "UsedIn4": "Linus (loved gift)",
-    "UsedIn5": "Pam (loved gift)",
-    "UsedIn6": "Sam (loved gift)"
-  },
-  {
-    "Key": "80",
-    "Type": "Forage",
-    "Name": "Coconut",
-    "ImageSrc": "Coconut",
-    "Description": "A seed of the coconut palm. It has many culinary uses.",
-    "When": "Desert",
-    "Found": "Desert",
-    "BaseSellPrice": 100,
-    "Restores": "Inedible",
-    "UsedIn": "Tom Kha Soup",
-    "UsedIn2": "Exotic Foraging Bundle",
-    "UsedIn3": "Jelly",
-    "UsedIn4": "Wine",
-    "UsedIn5": "Haley (loved gift)",
-    "UsedIn6": "Linus (loved gift)"
-  }
-
+ {
+   "category": "edible",
+   "item": "Blackberry Fruit Chew [1pk] (10mg) THCSmokiezGUMMIEZ(EACH)10mg",
+   "price": 2.5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Blood Orange (50mg)HushGUMMIES(EACH)50mg",
+   "price": 5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Blue Raspberry Gummiez [10pk] (50mg) THCSmokiezGUMMIEZ(EACH)50mg",
+   "price": 15,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "CBD1:1 Meadow [20pk] (50mg CBD/50mg THC)Luminous BotanicalsCAPSULES(EACH)50mg CBD/50mg THC 20pk",
+   "price": 25,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "CBD1:1 Peppermint (50mg CBD/50mg THC)Mr. Moxey'sMINTS(EACH)50mg CBD/50mg THC",
+   "price": 20,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "CBD2:1 Peach [10pk] (50mg CBD/25mg THC)WYLD8GUMMIES(EACH)50mg CBD/25mg THC 10pk",
+   "price": 18,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "CBD20:1 Strawberry (200mg CBD/10mg THC)WYLD29GUMMIES(EACH)200mg CBD/10mg THC",
+   "price": 15,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "CBD25:1 Zen Peppermint [20pk] (500mg CBD/20m...Mr. Moxey'sMINTS(EACH)500mg CBD/20mg THC 20pk",
+   "price": 26,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "CBD5:1 Ginger [20pk] (100mg CBD/20mg THC)Mr. Moxey'sMINTS(EACH)100mg CBD/20mg THC 20pk",
+   "price": 20,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "CBDBlue Raspberry Gummiez [10pk] (250mg CBD)SmokiezGUMMIEZ(EACH)250mg CBD",
+   "price": 15,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "CBDCherry Vanilla (25mg CBD/25mg THC)Magic NumberSODA(EACH)25mg CBD/25mg THC",
+   "price": 10,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "CBDDream Lavender [20pk] (150mg CBD/50mg THC)Mr. Moxey'sMINTS(EACH)150mg CBD/50mg THC 20pk",
+   "price": 20,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "CBDEarth Blend [20pk] (50mg)Luminous BotanicalsCAPSULES(EACH)50mg 20pk",
+   "price": 25,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "CBDJamberry Gummiez - [10pk] (250mg CBD)SmokiezGUMMIEZ(EACH)250mg CBD 10pk",
+   "price": 15,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "CBDSour Blackberry Gummiez [10pk] (250mg) CBDSmokiezGUMMIEZ(EACH)250mg CBD",
+   "price": 15,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "CBDTropical - [10pk] (250mg) CBDSmokiezGUMMIEZ(EACH)250mg CBD",
+   "price": 15,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "CBDWatermelon Gummiez - [10pk] (250mg) CBDSmokiezGUMMIEZ(EACH)250mg CBD",
+   "price": 15,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Cherry (50mg)Buddies BrandJELLIES(EACH)50mg",
+   "price": 5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Cherry (50mg)DropsSINGLE JELLY(EACH)50mg",
+   "price": 5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Cherry Vanilla (25mg)Magic NumberSODA(EACH)25mg",
+   "price": 5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Chocolate Chip (50mg)She Don't KnowCOOKIES(EACH)50mg",
+   "price": 5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Classic Cola (25mg)Magic NumberSODA(EACH)25mg",
+   "price": 5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Classic Cola (50mg)Magic NumberSODA(EACH)50mg",
+   "price": 10,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "GG#4 (50mg)Crop Circle ChocolateTRUFFLES(EACH)50mg",
+   "price": 16.5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Ginger (50mg)Crop Circle ChocolateTRUFFLES(EACH)50mg",
+   "price": 16.5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Grapefruit Gummiez -- [10pk] (50mg) THCSmokiezGUMMIEZ(EACH)50mg",
+   "price": 15,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Green Apple [10pk] (250mg) THCSmokiezDELTA 8 GUMMIEZ(EACH)250mg 10pk",
+   "price": 20,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Honey Stick (50mg)Med With LoveHONEY STICK(EACH)50mg",
+   "price": 5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "HYBRIDHuckleberry - Hybrid [10pk] (50mg)WYLDGUMMIES(EACH)50mg 10pk",
+   "price": 15,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "HYBRIDStrawberry - Hybrid [10pk] (50mg)WYLDWHITE CHOCOLATE(EACH)50mg 10pk",
+   "price": 17.5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "INDICAElderberry [10pk] (50mg THC/50mg CBN)WYLDGUMMIES(EACH)50mg THC/50mg CBN 10pk",
+   "price": 15,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "INDICAMarionberry - Indica [10pk] (50mg)WYLD6GUMMIES(EACH)50mg 10pk",
+   "price": 15,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "INDICAPeach - Indica [10pk] (50mg)WYLDWHITE CHOCOLATE(EACH)50mg 10pk",
+   "price": 17.5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "INDICARelaxing Cinnamon (50mg)Mr. Moxey'sMOXEY'S MINTS(EACH)50mg",
+   "price": 16,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Jamberry Gummiez [10pk] (50mg) THCSmokiezGUMMIEZ(EACH)50mg",
+   "price": 15,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Lemon (50mg)Buddies BrandJELLIES(EACH)50mg",
+   "price": 8.33,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Lemon [10pk] (50mg)DropsCANNABIS JELLIES(EACH)50mg 10pk",
+   "price": 10,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Lime (50mg)Buddies BrandJELLIES(EACH)50mg",
+   "price": 5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Lime [10pk] (50mg)DropsCANNABIS JELLIES(EACH)50mg 10pk",
+   "price": 10,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Lime [5pk] (50mg)Buddies BrandJELLIES(EACH)50mg 5pk",
+   "price": 8.33,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Mandarin Lime (10mg)Magic NumberSODA(EACH)10mg",
+   "price": 4,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Mandarin Lime (25mg)Magic NumberSODA(EACH)25mg",
+   "price": 5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Mango Lemonade (50mg)HushGUMMIES(EACH)50mg",
+   "price": 5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Orange (50mg) - SingleBuddies BrandJELLIES(EACH)50mg",
+   "price": 5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Orange [10pk] (50mg)DropsCANNABIS JELLIES(EACH)50mg 10pk",
+   "price": 10,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Orange [5pk] (50mg)Buddies BrandJELLIES(EACH)50mg 5pk",
+   "price": 8.33,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Orange Cream (50mg)Laurie + MaryJaneFUDGE(EACH)50mg",
+   "price": 8.5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Peach Gummiez [10pk] (50mg) THCSmokiezGUMMIEZ(EACH)50mg 10pk",
+   "price": 15,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Pineapple Passion (50mg)HushGUMMIES(EACH)50mg",
+   "price": 5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "SATIVABlood Orange - Sativa [10pk] (50mg)WYLDWHITE CHOCOLATE(EACH)50mg 10pk",
+   "price": 17.5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "SATIVACharge (50mg)Laurie + MaryJaneFUDGE(EACH)50mg",
+   "price": 6.5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "SATIVAEnergizing Peppermint (50mg)Mr. Moxey'sMOXEY'S MINTS(EACH)50mg",
+   "price": 16,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "SATIVARaspberry - Sativa [10pk] (50mg)WYLDGUMMIES(EACH)50mg 10pk",
+   "price": 15,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Snickerdoodle (50mg)She Don't KnowCOOKIE(EACH)50mg",
+   "price": 5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Sour Jamberry Gummy [1 pk] (10mg) THCSmokiezGUMMIES(EACH)10mg",
+   "price": 2.5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Strawberry Cream (50mg)Fudge YourselfFUDGE(EACH)50mg",
+   "price": 6.5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Strawberry LemonadeCrop Circle ChocolateTRUFFLES(EACH)",
+   "price": 16.5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Strawberry Limeade (50mg)HushGUMMIES(EACH)50mg",
+   "price": 5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Super Silver Haze (50mg)Crop Circle ChocolateTRUFFLES(EACH)50mg",
+   "price": 16.5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Watermelon (50mg) - SingleBuddies BrandJELLIES(EACH)50mg",
+   "price": 5,
+   "grams": null
+ },
+ {
+   "category": "edible",
+   "item": "Watermelon [10pk] (50mg)DropsCANNABIS JELLIES(EACH)50mg 10pk",
+   "price": 10,
+   "grams": null
+ },
+ {
+   "category": "extract",
+   "item": "CBDCBDGenesis PharmsRICK SIMPSON OIL (RSO)(1G)",
+   "price": 20,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Agent OrangeHushSHATTER(1G)THC 71% CBD 0.1%",
+   "price": 10,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Amnesia HazeOrgoneSHATTER(1G)",
+   "price": 13,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Blueberry BannerHushSHATTER(1G)THC 72.1% CBD 0.1%",
+   "price": 10,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Blueberry Muffins #4White Label ExtractsSHATTER(1G)",
+   "price": 20,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Bubba Kush x SherbetWhite Label ExtractsSUGAR SAUCE(1G)THC 73.52% CBD 0.24%",
+   "price": 20,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "BullfighterOrgoneSHATTER(1G)",
+   "price": 13,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "CBDCBDGenesis PharmsRICK SIMPSON OIL (RSO)(1G)",
+   "price": 20,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Chemical XOrgonePULL & SNAP(1G)THC 71.1% CBD 0.17%",
+   "price": 13,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Chocolate Oranges x Mendo LimeWhite Label ExtractsSUGAR SAUCE(1G)THC 76.58% CBD 0.13%",
+   "price": 20,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Fatso x GelatoWhite Label ExtractsHONEYCOMB(1G)",
+   "price": 20,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Frozen GelatoWhite Label ExtractsSUGAR SAUCE(1G)THC 72.32% CBD 0.14%",
+   "price": 20,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Fruit 'n' FuelWhite Label ExtractsHONEYCOMB(1G)THC 81.19% CBD 0.16%",
+   "price": 20,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "INDICABlueberryHushSHATTER(1G)THC 74.2% CBD 0.2%",
+   "price": 10,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Ju!ce Boxx x Sour TangieWhite Label ExtractsHONEYCOMB(1G)THC 78.47% CBD 0.21%",
+   "price": 20,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Lemon KushHushSHATTER(1G)THC 69.2% CBD 0.01%",
+   "price": 10,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Lemon PunchWhite Label ExtractsPULL N SNAP(1G)",
+   "price": 20,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Lime Drops x Mandarin CooksWhite Label ExtractsSHATTER(1G)THC 76.77% CBD 0.14%",
+   "price": 20,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Lucid BlueOrgoneSHATTER(1G)",
+   "price": 13,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Lucky CharmsOrgoneSUGAR WAX(1G)THC 77.8%",
+   "price": 18,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Mint Chocolate Gelato x GG#4White Label ExtractsSHATTER(1G)",
+   "price": 20,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Orange FireWhite Label ExtractsLIVE RESIN DIAMONDS(1G)",
+   "price": 40,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Pink CookiesNugget Candy CoBUBBLE HASH(1G)",
+   "price": 16,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Platinum Huckleberry Cooks x Durban PoisonWhite Label ExtractsHONEYCOMB(1G)",
+   "price": 20,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Platinum Punch Remix x Sour TangieWhite Label ExtractsHONEYCOMB(1G)THC 81.98% CBD 0.15%",
+   "price": 20,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Platinum Punch Remix x Sour TangieWhite Label ExtractsSHATTER(1G)THC 76.11% CBD 0.45%",
+   "price": 20,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Root Beer FloatWhite Label ExtractsLIVE RESIN(1G)THC 72.98% CBD 0.13%",
+   "price": 30,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Sour Lambs BreadWhite Label ExtractsHONEYCOMB(1G)",
+   "price": 20,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "The Dr. x Willy's Tour BusWhite Label ExtractsLIVE RESIN(1G)",
+   "price": 30,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Tropicanna Cooks x Wedding CrasherWhite Label ExtractsHONEYCOMB(1G)THC 77.53% CBD 0.15%",
+   "price": 20,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Wedding Cake Gelato x Kush MintWhite Label ExtractsSUGAR SAUCE(1G)THC 72.54% CBD 0.13%",
+   "price": 20,
+   "grams": 1
+ },
+ {
+   "category": "extract",
+   "item": "Wedding CakeNugget Candy CoBUBBLE HASH(1G)THC 48.8%",
+   "price": 16,
+   "grams": 1
+ },
+ {
+   "category": "flower",
+   "item": "HYBRIDDurban SunsetAlter FarmsFLOWER(1G - 28G)THC 26.61% CBD 0.13%",
+   "price": 33.33,
+   "grams": 3.5
+ },
+ {
+   "category": "flower",
+   "item": "CBDPineapple ThaiAlter FarmsFLOWER(1G - 28G)THC 22.54% CBD 0.12%",
+   "price": 25,
+   "grams": 3.5
+ },
+ {
+   "category": "flower",
+   "item": "HYBRIDPurple WildfireAlter FarmsFLOWER(1G - 14G)THC 19.56% CBD 0.06%",
+   "price": 25,
+   "grams": 3.5
+ },
+ {
+   "category": "flower",
+   "item": "HYBRIDSuperstitiousAlter FarmsFLOWER(1G - 7G)THC 25.98% CBD 0.11%",
+   "price": 25,
+   "grams": 3.5
+ },
+ {
+   "category": "flower",
+   "item": "HYBRIDGoji DCEbb & FlowFLOWER(1G - 28G)THC 11.72% CBD 12.02%",
+   "price": 16.67,
+   "grams": 3.5
+ },
+ {
+   "category": "flower",
+   "item": "SATIVADurban PoisonNorthwest Artisan CoalitionFLOWER(1G - 28G)THC 17.02%",
+   "price": 33.33,
+   "grams": 3.5
+ },
+ {
+   "category": "flower",
+   "item": "HYBRIDCookies and CreamPhyreFLOWER(1G - 28G)THC 25.31%",
+   "price": 33.33,
+   "grams": 3.5
+ },
+ {
+   "category": "flower",
+   "item": "HYBRIDGelato CheesecakePhyreFLOWER(1G - 28G)THC 30.34% CBD 0.001%",
+   "price": 33.33,
+   "grams": 3.5
+ },
+ {
+   "category": "flower",
+   "item": "HYBRIDGG4PhyreFLOWER(1G - 28G)THC 18.36% CBD 0.06%",
+   "price": 25,
+   "grams": 3.5
+ },
+ {
+   "category": "flower",
+   "item": "HYBRIDGorilla BerriesPhyreFLOWER(1G - 28G)THC 17.21% CBD 0.001%",
+   "price": 25,
+   "grams": 3.5
+ },
+ {
+   "category": "flower",
+   "item": "HYBRIDGuavas and CreamPhyreFLOWER(1G - 28G)THC 19.93% CBD 0.05%",
+   "price": 25,
+   "grams": 3.5
+ },
+ {
+   "category": "flower",
+   "item": "HYBRIDMargaritaPhyreFLOWER(1G - 28G)THC 22.72% CBD 0.08%",
+   "price": 25,
+   "grams": 3.5
+ },
+ {
+   "category": "flower",
+   "item": "HYBRIDMarionberry KushPhyreFLOWER(1G - 28G)THC 17.1% CBD 0.05%",
+   "price": 33.33,
+   "grams": 3.5
+ },
+ {
+   "category": "flower",
+   "item": "HYBRIDPlatinum Animal CookiesPhyreFLOWER(1G - 7G)THC 24.42% CBD 0.01%",
+   "price": 33.33,
+   "grams": 3.5
+ },
+ {
+   "category": "flower",
+   "item": "HYBRIDThailatoPhyreFLOWER(1G - 28G)THC 27.49% CBD 0.001%",
+   "price": 33.33,
+   "grams": 3.5
+ },
+ {
+   "category": "flower",
+   "item": "HYBRIDWhite Tahoe CookiesPhyreFLOWER(1G - 28G)THC 22.88% CBD 0.01%",
+   "price": 33.33,
+   "grams": 3.5
+ },
+ {
+   "category": "flower",
+   "item": "HYBRIDWild ThaiPhyreFLOWER(1G - 28G)THC 26.11%",
+   "price": 33.33,
+   "grams": 3.5
+ },
+ {
+   "category": "flower",
+   "item": "INDICAOG #18Platinum BrotherzFLOWER(1G - 28G)THC 28% CBD 0.06%",
+   "price": 33.33,
+   "grams": 3.5
+ },
+ {
+   "category": "flower",
+   "item": "HYBRIDLarry OGSasha GardensFLOWER(1G - 28G)THC 24.69% CBD 0.04%",
+   "price": 16.67,
+   "grams": 3.5
+ },
+ {
+   "category": "flower",
+   "item": "INDICAOG God BudSasha GardensFLOWER(1G - 28G)THC 16.6%",
+   "price": 16.67,
+   "grams": 3.5
+ },
+ {
+   "category": "flower",
+   "item": "HYBRIDWedding CakeSasha GardensFLOWER(1G - 28G)THC 22.04% CBD 0.03%",
+   "price": 16.67,
+   "grams": 3.5
+ },
+ {
+   "category": "flower",
+   "item": "HYBRIDJuggernautZeta 7 FarmsFLOWER(1G - 28G)THC 22.74%",
+   "price": 33.33,
+   "grams": 3.5
+ },
+ {
+   "category": "flower",
+   "item": "HYBRIDStrawberry HashplantZeta 7 FarmsFLOWER(1G - 28G)THC 22.56%",
+   "price": 33.33,
+   "grams": 3.5
+ },
+ {
+   "category": "vape",
+   "item": "Blue JackBuddies BrandPAX ERA DISTILLATE POD(.5G)THC 73.7% CBD 0.17%",
+   "price": 40,
+   "grams": 0.5
+ },
+ {
+   "category": "vape",
+   "item": "INDICAOG KushBuddies BrandDISTILLATE CARTRIDGE(1G)THC 82.2% CBD 0.01%",
+   "price": 30,
+   "grams": 1
+ },
+ {
+   "category": "vape",
+   "item": "HYBRIDBlueberry MuffinEnjoyCARTRIDGE(1G)THC 84.5%",
+   "price": 29,
+   "grams": 1
+ },
+ {
+   "category": "vape",
+   "item": "OG KushEnjoyOilOIL CARTRIDGE(1G)THC 85.5%",
+   "price": 29,
+   "grams": 1
+ },
+ {
+   "category": "vape",
+   "item": "Blue DreamNaked ExtractsDISTILLATE CARTRIDGE(1G)THC 76.97% CBD 0.37%",
+   "price": 22,
+   "grams": 1
+ },
+ {
+   "category": "vape",
+   "item": "Blueberry AfgooNaked ExtractsDISTILLATE CARTRIDGE(1G)THC 63.51% CBD 2.49%",
+   "price": 22,
+   "grams": 1
+ },
+ {
+   "category": "vape",
+   "item": "GSCNaked ExtractsDISTILLATE CARTRIDGE(1G)THC 63.51% CBD 2.49%",
+   "price": 22,
+   "grams": 1
+ },
+ {
+   "category": "vape",
+   "item": "Jack HererNaked ExtractsDISTILLATE CARTRIDGE(1G)THC 80.97%",
+   "price": 22,
+   "grams": 1
+ },
+ {
+   "category": "vape",
+   "item": "Northern LightsNaked ExtractsDISTILLATE CARTRIDGE(1G)THC 63.51% CBD 2.49%",
+   "price": 22,
+   "grams": 1
+ },
+ {
+   "category": "vape",
+   "item": "Pineapple ExpressNaked ExtractsDISTILLATE CARTRIDGE(1G)THC 63.51% CBD 2.49%",
+   "price": 22,
+   "grams": 1
+ },
+ {
+   "category": "vape",
+   "item": "HYBRIDFire OGO.penVAPERESERVE CARTRIDGE(1G)THC 77%",
+   "price": 24,
+   "grams": 1
+ },
+ {
+   "category": "vape",
+   "item": "SATIVAJack HererO.penVAPERESERVE CARTRIDGE(1G)THC 80.33%",
+   "price": 24,
+   "grams": 1
+ },
+ {
+   "category": "vape",
+   "item": "INDICANorthern LightsO.penVAPERESERVE CARTRIDGE(1G)THC 78.68%",
+   "price": 24,
+   "grams": 1
+ },
+ {
+   "category": "vape",
+   "item": "HYBRIDSFV OGO.penVAPERESERVE CARTRIDGE(1G)THC 72.87%",
+   "price": 24,
+   "grams": 1
+ },
+ {
+   "category": "vape",
+   "item": "SATIVATrainwreckO.penVAPERESERVE CARTRIDGE(1G)THC 79.75%",
+   "price": 24,
+   "grams": 1
+ },
+ {
+   "category": "vape",
+   "item": "Jet Fuel Gelato x Forest Park PurpleWhite Label ExtractsCURED RESIN CARTRIDGE(1G)THC 77.07% CBD 8.37%",
+   "price": 30,
+   "grams": 1
+ },
+ {
+   "category": "vape",
+   "item": "Z CubedWhite Label ExtractsLIVE RESIN CARTRIDGE(1G)THC 69.26% CBD 0.15%",
+   "price": 40,
+   "grams": 1
+ },
+ {
+   "category": "vape",
+   "item": "INDICAPlatinum Kush BreathWillamette Valley Alchemy (W...LIQUID LIVE RESIN(.5G)THC 73.01%",
+   "price": 37.5,
+   "grams": 0.5
+ },
+ {
+   "category": "vape",
+   "item": "WookiesWillamette Valley Alchemy (W...LIQUID LIVE RESIN(.5G)THC 71.18%",
+   "price": 37.5,
+   "grams": 0.5
+ },
+ {
+   "category": "preroll",
+   "item": "Purple Hindu KushAlter FarmsPRE ROLL(EACH)",
+   "price": 5,
+   "grams": null
+ },
+ {
+   "category": "preroll",
+   "item": "INDICABlack Box of Trebles - Indica [.5g]Decibel Farms5 PACK PRE ROLL(EACH).5g",
+   "price": 26,
+   "grams": null
+ },
+ {
+   "category": "preroll",
+   "item": "Chem CookiesDecibel FarmsINFUSED - LOUDS(EACH)",
+   "price": 16.67,
+   "grams": null
+ },
+ {
+   "category": "preroll",
+   "item": "Ghost Train Haze [1g]Decibel FarmsINFUSED PREROLL(EACH)1g",
+   "price": 16.67,
+   "grams": null
+ },
+ {
+   "category": "preroll",
+   "item": "SATIVAWhite Box of Trebles - Sativa [5pk]Decibel Farms5 PACK PRE ROLL(EACH)5pk",
+   "price": 26,
+   "grams": null
+ },
+ {
+   "category": "preroll",
+   "item": "B. Banner #3 [.5g]Ebb & Flow2 PACK PRE ROLL(EACH).5g",
+   "price": 7.5,
+   "grams": null
+ },
+ {
+   "category": "preroll",
+   "item": "Black Fire [.5g]Ebb & Flow2 PACK PRE ROLL(EACH).5g",
+   "price": 7.5,
+   "grams": null
+ },
+ {
+   "category": "preroll",
+   "item": "Viper Cookies [.5g]Ebb & Flow2 PACK PRE ROLL(EACH).5g",
+   "price": 7.5,
+   "grams": null
+ },
+ {
+   "category": "preroll",
+   "item": "CannatonicGardenersPRE ROLL(EACH)",
+   "price": 5,
+   "grams": null
+ },
+ {
+   "category": "preroll",
+   "item": "Private ReserveGardenersPRE ROLL(EACH)",
+   "price": 5,
+   "grams": null
+ },
+ {
+   "category": "preroll",
+   "item": "PHK [.5g]Hush5 PACK PRE ROLL(EACH).5g",
+   "price": 8.33,
+   "grams": null
+ },
+ {
+   "category": "preroll",
+   "item": "Shu 535 [.5g]Hush5 PACK PRE ROLL(EACH).5g",
+   "price": 8.33,
+   "grams": null
+ },
+ {
+   "category": "preroll",
+   "item": "Larry OG [.7g]Millerville Farms2 PACK PRE ROLL(EACH).7g",
+   "price": 9.17,
+   "grams": null
+ },
+ {
+   "category": "preroll",
+   "item": "CitronPhyrePRE ROLL(EACH)",
+   "price": 20,
+   "grams": null
+ },
+ {
+   "category": "preroll",
+   "item": "Sweet Leaf [.65g]Winberry Farms10 PACK PRE ROLL(EACH).65g",
+   "price": 12.5,
+   "grams": null
+ },
+ {
+   "category": "preroll",
+   "item": "Tropical Trainwreck [3.9g]Winberry FarmsINFUSED PRE ROLL(EACH)3.9g",
+   "price": 25.83,
+   "grams": null
+ },
+ {
+   "category": "preroll",
+   "item": "Washington Apple [3.9g]Winberry FarmsINFUSED PRE ROLL(EACH)3.9g",
+   "price": 25.83,
+   "grams": null
+ },
+ {
+   "category": "preroll",
+   "item": "Smith Rock [.5g]10 PACK PRE ROLL(EACH).5g",
+   "price": 14.5,
+   "grams": null
+ },
+ {
+   "category": "tincture",
+   "item": "Assorted [1oz] (110mg)Dirty Arm FarmADABINOL SYRUP(EACH)110mg 1oz",
+   "price": 20,
+   "grams": null
+ },
+ {
+   "category": "tincture",
+   "item": "CBDEarth Blend [1oz] (675mg CBD/75mg THC)Luminous BotanicalsTINCTURE(EACH)675mg CBD/75mg THC 1oz",
+   "price": 75,
+   "grams": null
+ },
+ {
+   "category": "tincture",
+   "item": "CBDMeadow Blend [.5oz] (187.5mg CBD/187.5mg T...Luminous BotanicalsTINCTURE(EACH)187.5mg CBD/187.5mg THC .5oz",
+   "price": 65,
+   "grams": null
+ },
+ {
+   "category": "tincture",
+   "item": "Sky Blend [1oz] (75mg CBD/675mg THC)Luminous BotanicalsTINCTURE(EACH)75mg CBD/675mg THC 1oz",
+   "price": 65,
+   "grams": null
+ },
+ {
+   "category": "topical",
+   "item": "CBD1:1 Eucalyptus [2oz] (365mg CBD/370mg THC)High Desert PureBALM(EACH)365mg CBD/370mg THC 2oz",
+   "price": 40,
+   "grams": null
+ },
+ {
+   "category": "topical",
+   "item": "1:1 Light Tropic (100mg CBD/100mg THC)High Desert PureLOTION(EACH)100mg CBD/100mg THC",
+   "price": 24,
+   "grams": null
+ },
+ {
+   "category": "topical",
+   "item": "CBD1:1 Sunshine Citrus (50mg CBD/50mg THC)High Desert PureBATH BOMB(EACH)50mg CBD/50mg THC",
+   "price": 20,
+   "grams": null
+ },
+ {
+   "category": "topical",
+   "item": "CBDGinger Lime (600mg CBD/550mg THC)High Desert PureCLINICAL STRENGTH LOTION(EACH)600mg CBD/550mg THC",
+   "price": 66,
+   "grams": null
+ }
 ]
