@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import ReactDOM from "react-dom";
 import MUIDataTable from "mui-datatables";
 import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
-import { FormControlLabel, TextField } from '@material-ui/core';
+import { FormControlLabel } from '@material-ui/core';
 
 import stuff from './stuff.json';
 

@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-
 import SortyTable from './SortyTable.js';
-
 import stuff from './stuff.json';
 import bundles from './bundles.json';
 import './App.css';
-
 import logo from './img/ommpos_logo.png';
 
 class App extends Component {
@@ -24,11 +20,11 @@ class App extends Component {
 
   render(){
 
-    const items = this.state.categoricals.map((item, key ) =>
-      <li key={item.Key} className="categorical">
-        OK
-      </li>
-    );
+    // const items = this.state.categoricals.map((item, key ) =>
+    //   <li key={item.Key} className="categorical">
+    //     OK
+    //   </li>
+    // );
 
     return (
       <div className="App">
@@ -51,7 +47,7 @@ class App extends Component {
           </div>
       {/* BODY component, content sorted by HEADER */}
         <section >
-          <h4>🚧 Thank You for Choosing Your Local Store; this app is a Work In Progress 🚧</h4>
+          <h4><span role="img" aria-label="construction-emoji">🚧</span> Thank You for Choosing Your Local Store; this app is a Work In Progress <span role="img" aria-label="construction-emoji">🚧</span></h4>
         </section>
 
       </div>
