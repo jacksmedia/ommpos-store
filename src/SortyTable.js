@@ -70,7 +70,7 @@ class SortyTable extends Component {
 	},
 	{
 		name: "price",
-		label: "Price",
+		label: "Size",
 		options: {
 		   filter: true,
 		   sort: true,
@@ -115,7 +115,7 @@ class SortyTable extends Component {
 		return(
 			<MuiThemeProvider theme={this.getMuiTheme()}>
 				<MUIDataTable
-				  title={"Store Inventory (Click 🔍 to Search)"}
+				  title={"Store Inventory (Click 🔍 or 🥞 to Search ➡️)"}
 				  data={JSONdata}
 				  columns={JSONcolumns}
 				  options={JSONoptions}
