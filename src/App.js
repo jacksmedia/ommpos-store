@@ -35,7 +35,7 @@ class App extends Component {
           </div>
           <div className="coled">
             <h2>
-              Your Local Store
+              Your Green Store
             </h2>
             <h3>
               Open Settings Menu (⠇) & Add To Your Home Screen
